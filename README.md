@@ -1,3 +1,12 @@
+---
+title: Tiger Wildlife Health Diagnostics
+colorFrom: green
+colorTo: teal
+sdk: docker
+app_port: 8001
+pinned: false
+---
+
 # Wildlife Health Anomaly Detection
 
 A lightweight unsupervised machine learning project for detecting unusual animal health observation records using **Isolation Forest** and **Local Outlier Factor (LOF)**.
