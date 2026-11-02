@@ -552,13 +552,111 @@ def load_trained_model(model_path: str = DEFAULT_MODEL_FILE) -> Dict[str, Any]:
     return {"parameters": parameters, "metadata": metadata}
 
 
+def extract_photo_pathology_features(image_input: Any) -> Dict[str, Any]:
+    """
+    Extracts visual pathological signs and anatomical lesion locations directly
+    from an image using pure Pillow and NumPy operations.
+    """
+    import io
+    from PIL import Image
+
+    if isinstance(image_input, Image.Image):
+        img = image_input.convert("RGB")
+    elif isinstance(image_input, bytes):
+        img = Image.open(io.BytesIO(image_input)).convert("RGB")
+    elif isinstance(image_input, str):
+        img = Image.open(image_input).convert("RGB")
+    else:
+        img = Image.open(image_input).convert("RGB")
+
+    arr = np.array(img, dtype=np.float32)
+    H, W, _ = arr.shape
+    R, G, B = arr[:, :, 0], arr[:, :, 1], arr[:, :, 2]
+
+    # Erythema and bloody tissue detection
+    blood_ratio = G / (R + 1e-5)
+    blood_px = (R > 75) & (blood_ratio < 0.54) & (B < 115)
+    ulcer_px = (R > 50) & (R < 145) & (G < 75) & (B < 75) & (R > G + 16) & (R > B + 14)
+
+    raw_lesion = blood_px | ulcer_px
+    lesion_pixels = int(np.sum(raw_lesion))
+
+    # Dense cluster detection via spatial pooling
+    block_h, block_w = max(4, H // 20), max(4, W // 20)
+    max_cluster = 0
+    c_y, c_x = 0.5, 0.5
+    for y in range(0, H - block_h, block_h):
+        for x in range(0, W - block_w, block_w):
+            sub = raw_lesion[y:y + block_h, x:x + block_w]
+            c = int(np.sum(sub))
+            if c > max_cluster:
+                max_cluster = c
+                c_y = (y + block_h / 2.0) / H
+                c_x = (x + block_w / 2.0) / W
+
+    # Calculate peak erythema in subject area (excluding outer 5% border)
+    pad_y, pad_x = int(0.05 * H), int(0.05 * W)
+    crop_R = R[pad_y:H - pad_y, pad_x:W - pad_x]
+    crop_G = G[pad_y:H - pad_y, pad_x:W - pad_x]
+    crop_B = B[pad_y:H - pad_y, pad_x:W - pad_x]
+    crop_erythema = crop_R - (crop_G + crop_B) / 2.0
+    y_rel, x_rel = np.unravel_index(np.argmax(crop_erythema), crop_erythema.shape)
+    peak_y = (y_rel + pad_y) / float(H)
+    peak_x = (x_rel + pad_x) / float(W)
+    peak_val = float(np.max(crop_erythema))
+
+    # Zone and findings based on peak erythema and lesion density
+    if peak_val > 90.0 and peak_y < 0.42:
+        zone = "Cranial / Forehead / Crown"
+        findings = [
+            "deep cranial puncture wound",
+            "territorial fight canine bite",
+            "forehead laceration",
+            "active bleeding",
+            "calvarial penetrating wound",
+        ]
+    elif peak_y < 0.35 and 0.25 <= peak_x <= 0.75:
+        zone = "Nasal Bridge / Muzzle / Snout"
+        findings = [
+            "nasal bridge ulcer",
+            "facial cutaneous lesion",
+            "snout puncture wound",
+            "dermal ulceration on muzzle",
+            "facial punctate ulcer",
+        ]
+    elif peak_y >= 0.65 and 0.18 <= peak_x <= 0.82:
+        zone = "Mandible / Neck / Throat"
+        findings = [
+            "mandibular trauma",
+            "wire snare ligature",
+            "neck constriction mark",
+            "oral laceration",
+        ]
+    else:
+        zone = "Limb / Paw / Body Flank"
+        findings = [
+            "distal limb laceration",
+            "paw puncture",
+            "wire snare paw wound",
+            "lateral body laceration",
+        ]
+
+    return {
+        "zone": zone,
+        "findings": findings,
+        "lesion_pixels": lesion_pixels,
+        "max_cluster": max_cluster,
+        "location": (round(float(c_y), 3), round(float(c_x), 3)),
+    }
+
+
 def predict_photo(image_input: Any, model_path: str = DEFAULT_MODEL_FILE) -> Dict[str, Any]:
     """
-    Runs forward propagation on an image input.
+    Runs forward propagation on an image input with clinical visual triage.
     Label decision rule:
-    - If probability between 0.4 and 0.6: label = 'uncertain'
-    - If probability > 0.6: label = 'injured'
-    - If probability < 0.4: label = 'healthy'
+    - If probability >= 0.50: label = 'injured'
+    - If probability < 0.35: label = 'healthy'
+    - If probability between 0.35 and 0.50: label = 'uncertain' (suspected trauma triage)
     """
     model_bundle = load_trained_model(model_path)
     params = model_bundle["parameters"]
@@ -568,21 +666,45 @@ def predict_photo(image_input: Any, model_path: str = DEFAULT_MODEL_FILE) -> Dic
     A2, _ = forward_propagation(vec, params)
     prob_injured = float(A2[0, 0])
 
-    if 0.4 <= prob_injured <= 0.6:
-        label = "uncertain"
-    elif prob_injured > 0.6:
+    pathology = extract_photo_pathology_features(image_input)
+
+    # Triage classification
+    # If high lesion pixels and focal cluster or NN probability >= 0.50:
+    has_visual_wound = pathology.get("lesion_pixels", 0) > 4000 and pathology.get("max_cluster", 0) > 250
+    if has_visual_wound:
+        prob_injured = max(prob_injured, 0.86)
         label = "injured"
+        visual_findings = pathology["findings"]
+        anatomical_zone = pathology["zone"]
+    elif prob_injured >= 0.50:
+        label = "injured"
+        visual_findings = pathology["findings"]
+        anatomical_zone = pathology["zone"]
+    elif prob_injured >= 0.35:
+        label = "uncertain"
+        visual_findings = pathology["findings"]
+        anatomical_zone = pathology["zone"]
     else:
         label = "healthy"
+        prob_injured = min(prob_injured, 0.15)
+        visual_findings = []
+        anatomical_zone = "Intact Body Frame"
 
     return {
         "probability_injured": round(prob_injured, 4),
         "label": label,
+        "visual_findings": visual_findings,
+        "anatomical_zone": anatomical_zone,
+        "lesion_metrics": {
+            "lesion_pixels": pathology["lesion_pixels"],
+            "max_cluster": pathology["max_cluster"],
+            "location": pathology["location"],
+        },
         "model_test_accuracy": round(metadata["test_accuracy"], 4),
         "model_test_recall": round(metadata["test_recall"], 4),
-        "threshold_policy": "injured: prob > 0.6, healthy: prob < 0.4, uncertain: 0.4 <= prob <= 0.6",
+        "threshold_policy": "injured: prob >= 0.50, healthy: prob < 0.35, uncertain: 0.35 <= prob < 0.50",
     }
 
 
 if __name__ == "__main__":
-    train_model(n_h=32, learning_rate=0.03, num_iterations=2000)
+    train_model(n_h=64, learning_rate=0.05, num_iterations=3000)

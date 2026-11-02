@@ -1181,16 +1181,26 @@ async def check_photo(file: UploadFile = File(...)):
 
     try:
         pred = predict_photo(contents, model_path=DEFAULT_MODEL_FILE)
-        diagnosis = diagnose_tiger_health(None, photo_label=pred["label"], photo_prob=pred["probability_injured"])
+        visual_signs = pred.get("visual_findings", [])
+        photo_zone = pred.get("anatomical_zone")
+        diagnosis = diagnose_tiger_health(
+            symptoms_list=visual_signs,
+            photo_label=pred["label"],
+            photo_prob=pred["probability_injured"],
+            photo_zone=photo_zone,
+        )
         return {
             "filename": file.filename,
             "label": pred["label"],
             "probability_injured": pred["probability_injured"],
+            "anatomical_zone": photo_zone,
+            "visual_findings": visual_signs,
             "model_test_accuracy": pred["model_test_accuracy"],
             "model_test_recall": pred["model_test_recall"],
             "threshold_policy": pred["threshold_policy"],
             "status": diagnosis["status"],
             "urgency_level": diagnosis["urgency_level"],
+            "top_5_diagnoses": diagnosis.get("top_5_diagnoses", diagnosis["identified_conditions"]),
             "identified_conditions": diagnosis["identified_conditions"],
             "consolidated_next_steps": diagnosis["consolidated_next_steps"],
         }
@@ -1272,10 +1282,13 @@ async def assess_animal_multimodal(
                 pred = predict_photo(photo_bytes, model_path=DEFAULT_MODEL_FILE)
                 photo_label = pred["label"]
                 photo_prob = pred["probability_injured"]
+                photo_zone = pred.get("anatomical_zone")
                 photo_assessment = {
                     "filename": photo.filename,
                     "label": photo_label,
                     "probability_injured": photo_prob,
+                    "anatomical_zone": photo_zone,
+                    "visual_findings": pred.get("visual_findings", []),
                     "model_test_accuracy": pred["model_test_accuracy"],
                 }
 
@@ -1315,11 +1328,19 @@ async def assess_animal_multimodal(
                 selected_reserve = r
                 break
 
-    # 6. Clinical differential diagnosis and actionable next steps
+    # 6. Merge user symptoms with photographic visual evidence
+    effective_symptoms = list(symptoms_list or [])
+    if photo_assessment and "visual_findings" in photo_assessment:
+        effective_symptoms = effective_symptoms + photo_assessment["visual_findings"]
+
+    photo_zone = photo_assessment.get("anatomical_zone") if photo_assessment else None
+
+    # Clinical differential diagnosis and actionable next steps
     diagnosis = diagnose_tiger_health(
-        symptoms_list=symptoms_list,
+        symptoms_list=effective_symptoms,
         photo_label=photo_label,
         photo_prob=photo_prob,
+        photo_zone=photo_zone,
         reserve=selected_reserve,
     )
 

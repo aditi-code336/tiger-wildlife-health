@@ -380,6 +380,8 @@ def diagnose_tiger_health(
     symptoms_list: Optional[List[str]] = None,
     photo_label: Optional[str] = None,
     photo_prob: Optional[float] = None,
+    photo_zone: Optional[str] = None,
+    photo_location: Optional[str] = None,
     reserve: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """
@@ -522,15 +524,49 @@ def diagnose_tiger_health(
                     "scientific_citations": c.get("scientific_citations", []),
                 })
         
-        # If fewer than 5, backfill with top wildlife traumatic differentials
+        # If fewer than 5, backfill with top wildlife traumatic differentials tailored to anatomical zone
         if len(top_5_diagnoses) < 5:
-            trauma_differentials = [
-                ("Intra-Specific Fighting Trauma", "Physical Trauma & Territorial Conflict", 0.90, "High Priority Field Intervention", "Deep puncture wounds and canine tears from territorial combat with rival tigers."),
-                ("Deep Muscle Laceration / Soft Tissue Trauma", "Physical Trauma", 0.82, "High Priority Field Intervention", "Open macroscopic laceration through epidermis into underlying striated muscle tissue."),
-                ("Poaching Snare / Wire Ligature Trauma", "Anthropogenic & Poaching Trauma", 0.74, "Immediate Emergency Response", "Constriction injury caused by wire cable or nylon snare ligature around distal limb or neck."),
-                ("Porcupine Quill Penetrations", "Physical Trauma & Environmental Conflict", 0.65, "Immediate Emergency Response", "Deeply embedded barbed quills from Hystrix indica in facial structures, lips, or paws."),
-                ("Skeletal / Mandibular / Long Bone Fracture", "Traumatic & Skeletal Pathology", 0.55, "Immediate Emergency Response", "Structural fracture of long bone (femur/radius) or mandible causing acute lameness and crepitus.")
-            ]
+            pz = (photo_zone or photo_location or "").lower()
+            if "cranial" in pz or "forehead" in pz or "crown" in pz:
+                trauma_differentials = [
+                    ("Intra-Specific Fighting Trauma", "Physical Trauma & Territorial Conflict", 0.92, "High Priority Field Intervention", "Deep puncture wounds and canine tears to cranium from territorial combat with rival tigers."),
+                    ("Penetrating Head Trauma / Calvarial Contusion", "Physical Trauma", 0.84, "High Priority Field Intervention", "Open penetrating laceration and soft-tissue defect over the frontoparietal calvarium."),
+                    ("Deep Muscle Laceration / Soft Tissue Trauma", "Physical Trauma", 0.76, "High Priority Field Intervention", "Macroscopic tissue laceration into subcutaneous fascia with localized hemorrhage."),
+                    ("Secondary Bacterial Sepsis / Wound Infection", "Infectious Pathology", 0.68, "High Priority Field Intervention", "Bacterial colonization of open cranial puncture wound requiring systemic antimicrobial therapy."),
+                    ("Cutaneous Myiasis / Fly-Strike Threat", "Parasitic Pathology", 0.58, "Moderate Concern", "Dipteran larval infestation risk in moist necrotic wound bed.")
+                ]
+            elif "nasal" in pz or "muzzle" in pz or "snout" in pz:
+                trauma_differentials = [
+                    ("Ulcerative Facial Cutaneous Lesion / Nasal Planum Ulcer", "Dermatological & Traumatic", 0.90, "High Priority Field Intervention", "Focal ulcerative erosion and dermal loss over dorsal nasal bridge / planum."),
+                    ("Superficial Puncture / Contact Trauma on Snout", "Physical Trauma", 0.82, "High Priority Field Intervention", "Punctate bite or thorn abrasion to facial muzzle with localized inflammatory reaction."),
+                    ("Cutaneous Myiasis / Fly-Strike or Fungal Kerion Threat", "Parasitic & Mycotic", 0.72, "Moderate Concern", "Secondary dermal ulceration complicated by fungal or larval opportunistic pathogens."),
+                    ("Facial Dermatitis / Sarcoptic Dermal Erosion", "Parasitic Pathology", 0.62, "Moderate Concern", "Circumscribed pruritic or scabbed focus on facial dermis."),
+                    ("Secondary Bacterial Infection of Nasal Dermis", "Infectious Pathology", 0.52, "Moderate Concern", "Staphylococcal/Streptococcal colonization of exposed nasal dermal margins.")
+                ]
+            elif "mandib" in pz or "neck" in pz or "throat" in pz:
+                trauma_differentials = [
+                    ("Poaching Snare / Wire Ligature Trauma", "Anthropogenic & Poaching Trauma", 0.94, "Immediate Emergency Response", "Circumferential wire constriction mark or nylon ligature embedding into cervical tissues."),
+                    ("Cervical Bite Wound / Intra-Specific Fighting", "Physical Trauma", 0.84, "High Priority Field Intervention", "Deep canine puncture into neck musculature with vascular and soft tissue trauma."),
+                    ("Mandibular Fracture / Oral Trauma", "Traumatic & Skeletal Pathology", 0.74, "Immediate Emergency Response", "Crepitus or displacement along mandibular ramus secondary to blunt impact or bite force."),
+                    ("Tracheal / Laryngeal Soft-Tissue Contusion", "Respiratory Trauma", 0.64, "High Priority Field Intervention", "Compression trauma to ventral cervical airway structures."),
+                    ("Ascending Cervical Cellulitis / Abscessation", "Infectious Pathology", 0.54, "High Priority Field Intervention", "Deep fascial bacterial spread requiring surgical drainage and systemic antibiotics.")
+                ]
+            elif "limb" in pz or "paw" in pz or "flank" in pz:
+                trauma_differentials = [
+                    ("Poaching Snare / Wire Ligature Trauma", "Anthropogenic & Poaching Trauma", 0.92, "Immediate Emergency Response", "Constriction injury caused by wire cable around distal limb or paw pad."),
+                    ("Distal Extremity Laceration / Footpad Puncture", "Physical Trauma", 0.84, "High Priority Field Intervention", "Deep laceration of digital pad or interdigital web with acute lameness."),
+                    ("Ischemic Pressure Necrosis / Gangrene Risk", "Vascular Trauma", 0.76, "Immediate Emergency Response", "Impaired arterial perfusion distal to ligature site risking avascular necrosis."),
+                    ("Skeletal / Long Bone / Carpal Fracture", "Traumatic & Skeletal Pathology", 0.66, "Immediate Emergency Response", "Structural fracture causing weight-bearing failure and localized crepitus."),
+                    ("Ascending Limb Phlegmon / Bacterial Cellulitis", "Infectious Pathology", 0.56, "High Priority Field Intervention", "Suppurative bacterial inflammation extending proximally along tendon sheaths.")
+                ]
+            else:
+                trauma_differentials = [
+                    ("Intra-Specific Fighting Trauma", "Physical Trauma & Territorial Conflict", 0.90, "High Priority Field Intervention", "Deep puncture wounds and canine tears from territorial combat with rival tigers."),
+                    ("Deep Muscle Laceration / Soft Tissue Trauma", "Physical Trauma", 0.82, "High Priority Field Intervention", "Open macroscopic laceration through epidermis into underlying striated muscle tissue."),
+                    ("Poaching Snare / Wire Ligature Trauma", "Anthropogenic & Poaching Trauma", 0.74, "Immediate Emergency Response", "Constriction injury caused by wire cable or nylon snare ligature around distal limb or neck."),
+                    ("Porcupine Quill Penetrations", "Physical Trauma & Environmental Conflict", 0.65, "Immediate Emergency Response", "Deeply embedded barbed quills from Hystrix indica in facial structures, lips, or paws."),
+                    ("Skeletal / Mandibular / Long Bone Fracture", "Traumatic & Skeletal Pathology", 0.55, "Immediate Emergency Response", "Structural fracture of long bone (femur/radius) or mandible causing acute lameness and crepitus.")
+                ]
             existing_names = {d["name"].lower() for d in top_5_diagnoses}
             for name, cat, ratio, urg, desc in trauma_differentials:
                 if len(top_5_diagnoses) >= 5:
