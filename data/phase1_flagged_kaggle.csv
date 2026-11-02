@@ -1,0 +1,872 @@
+AnimalName,symptoms1,symptoms2,symptoms3,symptoms4,symptoms5,Dangerous,iso_pred,iso_score,lof_pred,lof_score,flag
+Dog,fever,diarrhea,vomiting,weight loss,dehydration,Yes,1,0.01335311988090565,1,-0.9789062121378972,Normal
+Dog,fever,diarrhea,coughing,tiredness,pain,Yes,1,0.001150107627404584,1,-0.9760190632530483,Normal
+Dog,fever,diarrhea,coughing,vomiting,anorexia,Yes,1,0.009365287433597325,1,-0.9915071227941039,Normal
+Dog,fever,difficulty in breathing,coughing,lethargy,sneezing,Yes,1,0.008093451880079705,1,-0.9895479119912167,Normal
+Dog,fever,diarrhea,coughing,lethargy,blue eye,Yes,1,0.011669877520701366,1,-0.983947764834227,Normal
+Dog,fever,respiratory distress,seizures,hyperesthesia,sudden death,Yes,1,0.005247906588388251,1,-1.0503080109014389,Normal
+Dog,ulcers,diarrhea,poor appetite,tarry stool,enlarged lymph nodes,Yes,1,0.0015080300189688756,1,-1.1516145674851028,Normal
+Dog,facial swelling,bloody drool,foul breath,anorexia,lossened teeth,Yes,1,0.00515492929418071,1,-1.131667534156935,Normal
+Dog,fever,difficulty in breathing,thrist and urination,weight loss,enlarged lymph nodes or swelling,Yes,1,0.01574787743916195,1,-1.0574866041041013,Normal
+Dog,swelling on leg,pain,nasal discharge,broken bones,nasal discharge,Yes,1,0.013485037669719646,1,-1.0642204713751775,Normal
+Dog,short term lethargy,loss of appetite,weakness in back legs,rapid heart rate,weak pulse,Yes,1,0.012677712113984163,1,-1.1294302330755281,Normal
+Dog,swollen lymph nodes,difficulty walking,back pain,lethargy,vaginal discharge,Yes,1,0.008033891196879972,1,-1.1264028827781574,Normal
+Dog,fever,diarrhea,abdominal pain,stiffness,weakness and depression,Yes,1,0.00787386989458666,1,-1.0691932485076772,Normal
+Dog,fever,loss of appetite,reduce energy,lameness,swelling of joints,Yes,1,0.006552970167495231,1,-1.0335936192884119,Normal
+Dog,fever,chronic eye inflamation,poor appetite,lethargy,neurologic abnormalities,Yes,1,0.004549804128279322,1,-1.0427988791844534,Normal
+Dog,fever,swelling of face or leg,poor appetite,depression,pain,Yes,1,0.0016298788562884026,1,-1.0209202715166146,Normal
+Dog,diarrhea with mucus,tensemus,watery stool,flatulence,pain,Yes,1,0.005973600343507801,-1,-1.4007052909530637,Unusual
+Dog,strong cough,runny nose,sneezing,lethargy,loss of appetite,Yes,1,0.007777547254694761,1,-1.0241353767107102,Normal
+Dog,fever,inflammed eye,coughing,depression,limping,Yes,1,0.0026255830227635,1,-1.029849428394248,Normal
+Dog,fever,difficulty in breathing,coughing,eye and skin change,unable to exercise,Yes,1,0.0014356947464399528,1,-0.9901947598167004,Normal
+Dog,fever,loss of appetite,coughing,lethargy,joint pain,Yes,1,0.00823084287528647,1,-0.9874298052456163,Normal
+Dog,lesions in the nasal cavity,lesions on nose,nose bleeds,loud breathing,lesions on nose,Yes,1,0.005040079881109161,1,-1.056468236076753,Normal
+Dog,hair loss,dandruff,darkened skin,crusting of the skin,ulcerated skin,Yes,1,0.0012256780115927346,1,-1.0368371337647448,Normal
+Dog,greenish-yellow nasal discharge,lack of pigmentation,sneezing,lethargy,facial pain,Yes,1,0.0012112155947878733,1,-1.0836450669966342,Normal
+Dog,fever,diarrhea,poor appetite,weight loss,vomitting,Yes,1,0.00778802059643896,1,-1.0249924745656187,Normal
+Dog,jaundice,pneumonia,lesions on skin,pain,vomitting,Yes,1,0.005585401002226653,-1,-1.3627954497502135,Unusual
+Dog,poor coat apperence,diarrhea,vomiting,weight loss,dehydration,Yes,1,0.014658682351062102,1,-0.977876235845865,Normal
+Dog,watering,poor appetite,vomiting,lethargy,dehydration,Yes,1,0.005559189329178649,1,-1.079051731231614,Normal
+Dog,straining,diarrhea,vomiting,weight loss,blindness,Yes,1,0.008219053780898933,1,-0.9867691739967505,Normal
+Dog,upset stomach,diarrhea,vomiting,pain,stiffness,Yes,1,0.008529520772905641,1,-1.0189009153876871,Normal
+Dog,upset stomach,diarrhea,coughing,weight loss,anemia,Yes,1,0.011162880662599628,1,-1.0485270788231609,Normal
+Dog,allergic reaction,poor appetite,coughing,weight loss,distended chest,Yes,1,0.0005152787173622886,1,-1.011198492145972,Normal
+Dog,fever,anorexia,weight loss,lethargy,pain,Yes,1,0.014662043542067238,1,-1.0100805556224413,Normal
+Dog,limping,willnot run to jump,swelling,weakness in legs,leg pain,Yes,1,0.004279131423580718,1,-1.1274077126157098,Normal
+cat,fever,eye ulcer,congestion,depression,pink eye,Yes,1,0.015719390767762353,1,-1.0521035433399484,Normal
+cat,pneumonia,loss of appetite,eye discharge,lameness,arthritis,Yes,1,0.004248782655851269,1,-1.0344387333864107,Normal
+cat,fever,seizures,hydrophobia,jaw is dropped,shyness or aggression,Yes,1,0.012112789937595903,1,-1.1205266065443333,Normal
+cat,bloody urine,difficulty in breathing,vomiting,weight loss,anorexia,Yes,1,0.0048067667890757115,1,-1.0601014528080923,Normal
+cat,loss of appetite,difficulty in breathing,swelling,lameness,neurologic abnormalities,Yes,1,0.008908587482050034,1,-1.0225245953017708,Normal
+cat,dark or black face,diarrhea,vomiting,blood in feces,pain,Yes,1,0.007895909176747096,1,-1.0232594610786188,Normal
+cat,jaundice,difficulty in breathing,seizures,lethargy,pale gums,Yes,1,0.005486317692884768,1,-1.0742205737825465,Normal
+cat,appetite varies,diarrhea,vomiting,weight loss,pain,Yes,-1,-7.338320407823673e-05,1,-0.9875379255554003,Unusual
+cat,loss of appetite,fell unwell,lethargy,weight loss,skin issue,Yes,1,0.014192478787426688,1,-1.018241036113849,Normal
+cat,sickness,loss of appetite,vomiting,weight loss,raised growth or bump,Yes,1,0.009946899063977055,1,-1.0252432925910162,Normal
+cat,nasal bleeding,diffulty chewing,swelling,weight loss,anorexia,Yes,1,0.013129940128714157,1,-1.028042286785436,Normal
+cat,ulcers,lesions,scabs,lumps,"bumps(black,grey or red)",Yes,1,0.013388454214145029,1,-1.0936612826191767,Normal
+cat,gasc,loss of appetite,blood in stool,stomach growling,black stool,Yes,1,0.006301653211816249,1,-1.1545767188998948,Normal
+cat,shaking head,scartching ear,black on ear,bad smell,red and inflammation ear,Yes,1,0.011512308116928383,1,-1.0926097679350577,Normal
+cat,attacks,loss of appetite,coughing,weight loss,vomiting,Yes,1,0.009350117368503108,1,-1.0221222414864184,Normal
+cat,blood stool,diarrhea,coughing,weight loss,anemia,Yes,1,0.004277931170757199,1,-1.0506651945771044,Normal
+cat,nasal discharge,nosebleeds,inflamed nostrils,sneezing,loud breathing,Yes,1,0.0027393968737208785,1,-1.0567546364180078,Normal
+cat,polyuria,loss of appetite,vomiting,weight loss,polydipsa,Yes,1,0.013838293887933006,1,-1.0329886254893175,Normal
+cat,exessive urination,change in gait,vomiting,weight loss,inability to jump,Yes,1,0.013635427484844753,1,-1.04830455981022,Normal
+cat,convulsion,loss of consciousness,chewing,twitching,salivating,Yes,1,0.008362186007394967,1,-1.0891092789958052,Normal
+cat,wheezing,rapid breathing,coughing,swallowing,difficulty in breathing,Yes,1,0.0056344985363987465,1,-1.0515415495302025,Normal
+cat,jaundice,weakness,lethargy,weight loss,anorexia,Yes,1,0.011433067273116215,1,-1.0059069977877342,Normal
+cat,lesions on skin,dandruff in cat coat,red patches,hair loss,skin issue,Yes,1,0.007767907697032395,1,-1.0309145079479198,Normal
+cat,lethargy,diarrhea,vomiting,discharge from eye,anorexia,Yes,1,0.009134737358105327,1,-1.0300852753524985,Normal
+cat,skin irritation,scratching,lethargy,hair loss,excessive grooming,Yes,1,0.005408042056402662,1,-1.1004408601536997,Normal
+cat,floopy muscle,speech delay,intellectual disability,walking problem,eye movements,Yes,1,0.006711919782215414,1,-1.1187123595621713,Normal
+cat,sensitivity to bright light,disharge from affected eye,inflammation,clouded cornea,rubbing eye,Yes,1,0.013160992632112178,1,-1.1187849573307995,Normal
+cat,fever,diarrhea,vomiting,cramps,dehydration,Yes,1,0.013950004695110763,1,-0.9945584525280827,Normal
+cat,tenderness,erythema,swelling,scratching,pain,Yes,1,0.0057642324527655275,1,-1.0399888798276875,Normal
+cat,fever,diarrhea,vomiting,salivation,poor appetite,Yes,1,0.003762870100208149,1,-0.9798050820295543,Normal
+cat,scaly patches of skin,sore,scabs,scratching,hair loss,Yes,1,0.001166702049775259,1,-1.0402080736253982,Normal
+cat,fatty stool,diarrhea,vomiting,weight loss,pain,Yes,1,0.005402636982145159,1,-0.9875379255554003,Normal
+cat,nausea,loss of appetite,vomiting,firm,distended stomach,Yes,1,0.000211491438066147,1,-1.0165987475024618,Normal
+cat,fever,swelling in the bite area,lethargy,limp,pain,Yes,1,0.011301889960579736,1,-1.0019860051203007,Normal
+cat,fever,loss of appetite,eyeproblem,liver disease,nuerological,Yes,1,0.012533476005096245,1,-1.054217634210385,Normal
+cat,fever,mild sneezing,coughing,nasal,ocular discharge,Yes,1,0.00906716972691024,1,-1.052903409472395,Normal
+Rabbit,most often none,sneezing,nasal discharge,dyspnea,pain,Yes,-1,-0.0002667298859380107,1,-1.035526888348933,Unusual
+Rabbit,fever,diarrhea,vomiting,blood from mouth,shock,Yes,1,0.0044480558502208445,1,-0.9977899536534901,Normal
+Rabbit,discomfort,diarrhea,dry or dull hair,grinding teeth,pain,Yes,1,0.010227472454680142,1,-1.065851236065793,Normal
+Rabbit,loss of appetite,swelling,nasal discharge,blindness,lethargy,Yes,1,0.015463293350810425,1,-1.012433805686628,Normal
+Rabbit,rhinitis,pneumonia,abscessess,torticollis,septicemia,Yes,1,0.010064238174886275,1,-1.1037332303696956,Normal
+Rabbit,fever,diarrhea,enteritis,weight loss,stomach cramps,Yes,1,0.009503161996740783,1,-0.9754450301792537,Normal
+Rabbit,immediate death,difficulty in breathing,blue colored lip,bloody discharge,neurologic abnormalities,Yes,1,0.005572999707280812,1,-1.0964345440808927,Normal
+Rabbit,fever,pox lession on skin,skin reashes,nasal discharge,mortality varies,Yes,1,0.013736079195443729,1,-1.0148203002049003,Normal
+Rabbit,red on affected area,horny growth,wart-like growth,red skin,lesions on ear,Yes,-1,-0.007027634843699004,1,-1.111772344520351,Unusual
+Rabbit,fever,chills,skin ulcer,exhaustion,swollen and painfull,Yes,1,0.005775463876661391,1,-1.088183674752862,Normal
+Rabbit,watery diarrhea,depression,emaciation,ruffled coat,lethargy,Yes,1,0.0066377909260292856,1,-1.1597433441171017,Normal
+cow,loss in weight,emaciation,loss of appetite,weakness,diarrhea,Yes,1,0.01562893656610953,1,-1.0048467318761891,Normal
+chicken,loss of appetite,diarrhea,swollen purple wattle,swollen comb,lameness,Yes,1,0.01178751328013955,1,-1.0050701653286958,Normal
+chicken,loss of appetite,diarrhea,ruffled feathers,weight loss,inability to absorb nutrients,Yes,1,0.013364485321463782,1,-1.0196113130746778,Normal
+chicken,egg production decreases,stunted growth,blindness,distinctive bumps,facial swelling,Yes,1,0.006290437734651377,1,-1.0726709616015158,Normal
+chicken,loss of appetite,thirst,ruffled feathers,closed eyes,diarrhea,Yes,1,0.006554682182176641,1,-1.0101417411867701,Normal
+cow,fever,weakened legs,los of the ability to walk,mammary glads,fluif filled blisters,Yes,1,0.0010235688825317446,1,-1.1237749704658806,Normal
+cow,fever,weakened legs,los of the ability to walk,weight loss,lameness,Yes,1,0.0015267575573327252,1,-1.0580437898637214,Normal
+cattle,abortion at the end of gestation,fatigue,weak calves,joint pain,swelling of internal organs,Yes,-1,-0.00265410791612658,1,-1.1134682228072368,Unusual
+mammal,swollen,red-colored,hot udder,milk getting out more watery,milk getting out more thick,Yes,1,0.011168551494746881,1,-1.0663389326671224,Normal
+Cattle,fever,distress,trembling,staggering,convulsion,Yes,1,0.007715614001077009,1,-1.0670310367526743,Normal
+Cattle,fever,animal become lame,prostrat,painful swelling,lameness,Yes,1,0.008472867212877044,1,-1.058378626330026,Normal
+Cattle,fever,difficulty in breathing,dribbling of saliva,inability of swalllon feeding,moist and painfull,Yes,1,0.00781307296334044,1,-1.0439883190508392,Normal
+Cattle,fluif faeces on blood and muscle,sudden death,bloody fluid,red diarrhea,faeces are streake with blood,Yes,1,0.009310502355666661,1,-1.0523725215471786,Normal
+Cattle,fever,pneumonia,stand with head droping,weight loss,abnormal behaviour,Yes,1,0.012973296134409285,1,-1.0589183726032414,Normal
+Cattle,fever,slightly swollen,lesions on skin,milky hard,papules appear on teats anad udder,Yes,1,0.00814488588586143,1,-1.1447988794561432,Normal
+Cattle,fever,dull,hind quarted soil,animal stop feed,decrease in milk production,Yes,1,0.01413622976128387,1,-1.1455101819231186,Normal
+Cattle,severe,diarrhea,blood in feces,appetite,milk reduce,Yes,1,0.01169109842626953,-1,-1.1835153756187315,Unusual
+Cattle,fever,depression,relunctance to move,salivation,nasal discharge,Yes,1,0.015658430242677324,1,-1.0203624454346403,Normal
+Cattle,normal appetite,diarrhea,swelling may occur under jaw,weight loss,drop in milk production,Yes,1,0.014614035396366132,1,-1.0513820550900994,Normal
+Cattle,swelling on leg,heat,hardness,redness,pain,Yes,1,0.00963757028098805,-1,-1.2777731313727518,Unusual
+Cattle,inability to stand,diarrhea,bottle jaw,pot belly,dry hair coat,Yes,-1,-0.005550390879757616,1,-1.1775277052797304,Unusual
+Cattle,excitability,nervousness,loss of appetite,hyper sensitivity,weakness,Yes,1,0.01588824508947506,1,-1.0252654112969655,Normal
+Cattle,fever,depression,attack,bite other animals,pain,Yes,1,0.010596228746049208,1,-1.0187052634112272,Normal
+Cattle,fever,difficulty in breathing,coughing,pain,eye become dull,Yes,1,0.00431565323775529,1,-0.9846398416009583,Normal
+Cattle,fever,ulcer on gum,red eye,yellowish discharge,bloody diarrhea,Yes,1,0.008136382753643645,1,-1.154524828512316,Normal
+Cattle,fever,diarrhea,coughing,consistency of milk,pain,Yes,1,0.004874138075419809,1,-0.9676916722541125,Normal
+Cattle,animal gets uneasy,difficulty in breathing,difficult in respiration,excessive production,stamping and pedding of hind eye,Yes,1,0.004472059543753182,1,-1.1396185939099035,Normal
+Horse,fever,chills,severe colic,weakness,anorexia,Yes,1,0.011243155487763279,1,-1.0501300445167947,Normal
+Horse,fever,body stiffness,lethargy,severe inflammation,pain,Yes,1,0.01292231296083357,1,-1.0019860051203007,Normal
+Horse,sickness,diarrhea,weight loss,nausea,dehydration,Yes,1,0.012517000671308065,1,-1.024258301192058,Normal
+Horse,sudden death,trouble walking,paralysis,depression,convulsion,Yes,1,0.008132716314808108,1,-1.1009168563514216,Normal
+Horse,fever,abortion,kidney failure,inflammation of eye,eye redness,Yes,1,0.006078842368576753,1,-1.1307777495694848,Normal
+Horse,small red bumps,pneumonia,septic arthritis,skin infection,pain,Yes,1,0.016816189024634942,-1,-1.4304043095933292,Unusual
+Horse,fever,ataxia,aggressiveness,depression,obscure lameness,Yes,1,0.008623385961342378,1,-1.025990250360086,Normal
+Horse,ring shaped lesion,round patches,dry skin,size of lesions vary,pain,Yes,1,0.0009811287125330304,-1,-1.4905853831029758,Unusual
+Horse,fever,diarrhea,loss of appetite,colic,weakness,Yes,1,0.012694445937616261,1,-1.0508642215489425,Normal
+Horse,fever,depression,loss of appetite,stumbling,ataxia,Yes,1,0.015419994097632006,1,-1.0001335987362876,Normal
+Turtle,bubbles in the mouth,wheezing,loss of appetite,lethargy,nasal discharge,Yes,1,0.01041244426961141,1,-1.0183069575768007,Normal
+Turtle,changes in outer layer skin,swelling of eye,loss of appetite,lethargy,respiratory infection,Yes,1,0.01103797658630673,1,-1.0473824796294942,Normal
+Turtle,red tinge,slim over the shell,bad smell,easily damage shell,flaking of the scutes,Yes,1,0.006519293305167928,1,-1.0998543916659045,Normal
+Turtle,passing of undigested food,diarrhea,vomiting,gas or bloating,dehydration,Yes,1,0.013197492320334736,1,-0.9993528850214964,Normal
+Hamster,smell,diarrhea,loss of appetite,excess sleeping,folded ears,Yes,1,0.01517349862840034,1,-1.006330831956328,Normal
+Hamster,loss of activity,rough coat,loss of appetite,weight loss,eventually death,Yes,1,0.01904383027161738,1,-1.0141854830276178,Normal
+Hamster,fever,diarrhea,vomiting,dehydration,pain,Yes,1,0.009829796892665665,1,-0.9820755528396228,Normal
+Hamster,bald patches,hair loss,crusty,flaky,red lesion from bald patches,Yes,1,0.014377803692193047,1,-1.0219383891030351,Normal
+Hamster,poor condition,enlarged lymph nodes,diarrhea,weight loss,pain,Yes,1,0.00941795352690128,1,-0.995901079122979,Normal
+Hamster,fever,chills,coughing,progressive weakness,joint pain,Yes,1,0.004670861051882191,1,-1.0494745062279809,Normal
+Hamster,heavy infection,diarrhea,vitamin and minerals defiency,weight loss,pain,Yes,1,0.010480128795071708,1,-1.0040043634707168,Normal
+Lion,fever,diarrhea,muscle weakness,pain,abdonormal discomfort,Yes,1,0.007657254223403354,1,-1.0068461508736077,Normal
+Lion,fever,chills,headache,nausea,pain,Yes,1,0.004788515710104302,1,-1.0282973092779155,Normal
+Lion,thicked skin,hair tining,hair loss,scabbing,itchiness,Yes,1,0.010267701988419586,1,-1.0391662855714263,Normal
+Lion,facial edema,loss of earing,vomiting,head ache,throat and ear pain,Yes,1,0.005520827218885416,1,-1.1361511853708186,Normal
+Lion,general malaise,hepatic failure,vomiting,weight loss,abdominal pain,Yes,1,0.009522136417772775,1,-1.0486883425860505,Normal
+Lion,upset stomach,loss of appetite,nause,weight loss,abdominal pain,Yes,1,0.0012060174204926444,1,-1.0200576280937221,Normal
+Lion,fever,muscle loss,skeleten pain,weight loss,wasting,Yes,1,0.013818418587891346,1,-1.068860304013548,Normal
+Lion,oedema,swelling of face or leg,swelling of neck,weight loss,pain,Yes,1,0.008993888978761189,1,-1.0484292527824164,Normal
+Lion,poor growth,short stature,enlargement of bones,lameness,weigth bearing long bones,Yes,1,0.016491898585401288,1,-1.1040437825996252,Normal
+Lion,fever,chills,sweat,head ache,fatique,Yes,1,0.011034491731777285,1,-1.0464080027311953,Normal
+Lion,fever,loss of appetite,weakness,weight loss,vomitting,Yes,1,0.014209467071903625,1,-0.9963888143683863,Normal
+Lion,dullness,lacrimation,coughing,diarrhea,seizures,Yes,1,0.002344787950586902,1,-1.043582313368559,Normal
+Lion,vomiting,bloody diarrhea,lethargy,dehydration,anorexia,Yes,1,0.01494623048132182,1,-1.0600441339402216,Normal
+Lion,fever,uncharacteristic hiding,depression,dehydration,stopped eat,Yes,1,0.014414761628043837,1,-1.057910446317655,Normal
+Lion,fever,poor coat condition,infection of the skin,weight loss,fatique,Yes,1,0.015972340497003634,1,-1.069657033306151,Normal
+Lion,weakness,stiffness,trembling,white mark on the muscle,loss of vitamin e,Yes,1,0.006248336456898151,1,-1.0522509276249365,Normal
+Fox,partial paralysis,staggering as drunk,self mutilation,acting aggressive,acting unnaturally tame,Yes,1,0.007504518730853227,1,-1.1187123595621713,Normal
+Fox,fever,tiredness,headache,skin rashes,pain,Yes,-1,-0.004292137493257242,1,-1.0306668454996257,Unusual
+Fox,thick crusting,itchiness,hair loss,watery eye,pain,Yes,1,0.006704822184334436,-1,-1.3458425785668904,Unusual
+Fox ,constant pacing,facial muscle twitching,abnormalalities,blindness,pain,Yes,1,0.011500871209501329,-1,-1.250494608892787,Unusual
+Fox,loss of appetite,wheezing,seizures,skin rashes,fatique,Yes,1,0.00672805447381164,1,-1.1107590302840382,Normal
+Fox,indigestion,abdominal pain,constipation,diarrhea,nausea,Yes,-1,-0.005152744752698057,1,-1.1152976405576966,Unusual
+Fox,blood in urine,diarrhea,vomiting,lethargy,bleeding in eye and skin,Yes,1,0.012381798974460956,1,-1.0652633658157258,Normal
+Goat,fever,malaise,weakness,weight loss,pain,Yes,1,0.007711161442864489,1,-1.0043495357115173,Normal
+Goat,fever,diarrhea,vomiting,stomach cramps,nausea,Yes,1,0.003864950399403433,1,-1.021763827538545,Normal
+Goat,fever,lack of coordination,depression,salivation,facial paralysis,Yes,1,0.013022066155398082,1,-1.0431777603460681,Normal
+Goat,sores on lip,infection,sores on lower leg and teats,lesion,pain,Yes,1,0.003541320665221226,-1,-1.4005501020215712,Unusual
+Goat,abortion on late pregancy,stillbirth,retained placenda,endomeritis,poor appetite,Yes,1,0.003278997721417709,1,-1.1438750145413807,Normal
+Goat,paresis,paralysis,weakness,stomach cramps,diarrhea,Yes,1,0.008665976890093074,1,-1.011321362557982,Normal
+Goat,fever,diarrhea,swelling,weight loss,pain,Yes,1,0.012674051466839642,1,-0.9863788720539741,Normal
+Goat,fever,hemolytic anemia,hemoglobinuria,pulmonary congestion,jaundice,Yes,1,0.014165449442356592,1,-1.1404926836251248,Normal
+Goat,abortion,mummification,stillbirth,weak kids,pain,Yes,-1,-0.0003258242184259741,-1,-1.3741617122529788,Unusual
+Goat,runny nose,difficulty in breathing,coughing,weakness,loss of appetite,Yes,1,0.003939018203405087,1,-1.0226211815761452,Normal
+Goat,fever,nasal discharge,respiratory distress,pox lesion,pain,Yes,1,0.005558659939249477,1,-1.0224482662299788,Normal
+Goat,fever,dark colored bloody,incoordination,difficulty in breathing,terminal convulsion,Yes,-1,-0.0006746659779756081,1,-1.0450219738270115,Unusual
+Goat,fever,dysentery,swelling,immediate death,pain,Yes,1,0.012545358139546603,1,-1.0173181991294005,Normal
+Goat,fever,respiratory distress,mucous discharge,reduce feed,weight gain,Yes,1,0.006696674630895905,1,-1.092475914834656,Normal
+Goat,decreased milk,holding limbs off the ground,weight loss,lameness,wool production,Yes,1,0.010761375227673453,1,-1.055415289720725,Normal
+Goat,swelling of udder,change in milk,swollen,tender to touch,pain,Yes,-1,-0.003236864928107319,-1,-1.3572834257255864,Unusual
+Goat,fever,respiratory distress,occular discharge,mouth lesion,nasal discharge,Yes,1,0.013730693502508107,1,-1.022837367982789,Normal
+Goat,fever,wound lesion,excess salivary,difficult in walking,pain,Yes,1,0.012915532025084886,1,-1.0380496976800675,Normal
+Goat,emaciation,edema in lower jaw,coughing,shivering,anemia,Yes,1,0.011601883285811354,1,-1.0625563390655024,Normal
+Goat,fever,reduce growth,kid moratality,weakness,dullness,Yes,1,0.0014899544702035028,1,-1.0189385255938246,Normal
+Goat,fever,reduce growth,edema in lower jaw,weight loss,anemia,Yes,1,0.008759343199017833,1,-1.0648932821496158,Normal
+Goat,emaciation,diarrhea,kid moratality,weakness,anemia,Yes,1,0.005418960154808694,1,-1.0085645543415178,Normal
+Goat,skinallergy,reduce growth,wound,head ache,dizziness,Yes,1,0.009001665188654973,1,-1.1124058560091397,Normal
+Goat,watering of eyes,redness of white of the eye,swelling of eyelid,cornea become cloudy,tear production,Yes,1,0.003894932576185728,1,-1.1170587056409294,Normal
+Goat,berberi,wasting,nervous,weight loss,anorexia,Yes,1,0.004341685203169743,1,-1.038549220863837,Normal
+Goat,gastritis,morbidity,bloody,mortality,anemia,Yes,1,0.00569718393964902,1,-1.0862488171408813,Normal
+Deer,fever,severe headache,vomiting,coughing,fatique,Yes,1,0.009693061269912151,1,-1.0427222892392338,Normal
+Deer,fever,tiredness,swollen kidney,hematuria,muscle aches,Yes,-1,-0.005534969757102881,1,-1.0733935209825431,Unusual
+Deer,fever,diarrhea,poor appetite,vomiting,bloody,Yes,1,0.005628022564902635,1,-0.9841450063164473,Normal
+Deer,gas,diarrhea,abdominal discomfort,vomiting,nausea,Yes,1,0.010108026197896913,1,-1.0387074606226885,Normal
+Deer,drooping ears,lack of coordination,drooling,wasting,listlessness,Yes,-1,-0.0012646901859585946,1,-0.9952594855866994,Unusual
+Chicken,edema,diarrhea,nasal discharge,decresed egg production,sneezing,Yes,1,0.011999135796698812,1,-1.0203755382891961,Normal
+Chicken,drooping wings,depression,nasal discharge,coughing,greenish diarrhea,No,1,0.01043154647220107,1,-1.0382666138741268,Normal
+Chicken,weakness,yellow or green dropping,purplish combs,wattles,drop on egg production,No,1,0.0045741927447459085,1,-1.0711302530637714,Normal
+Chicken,neck paralysis,diarrhea,ruffled feathers,labored breathing,weakness,No,1,0.011343664605723558,1,-0.9987583664355137,Normal
+Chicken,facial swelling,lacrimation,diarrhea,anorexia,nasal discharge,No,1,0.0010847024194794996,1,-1.026364135967229,Normal
+Chicken,loss of appetite,depression,paralyzed leg,weight loss,anemia,No,1,0.008031351209863702,1,-1.0339918048756864,Normal
+Chicken,dejection,loss of appetite,slow growth,diarrhea,lesion,No,1,0.0030603634368244204,1,-1.0029906749052244,Normal
+Chicken,severe swellimg,heavy breathing,diarrhea,weight loss,pain,No,1,0.01087853768646696,1,-1.0026116168676833,Normal
+Chicken,weakness,diarrhea,high moratality,dehydration,anorexia,No,1,0.010336846627201857,1,-1.0326462243114747,Normal
+Monkey,fever,hepatitis,skin rashes,weight loss,pain,No,1,0.0064064599425453506,1,-1.0081137486527723,Normal
+Monkey,sneezing,epistaxis,coughing,difficulty in breathing,nasal discharge,No,1,0.004205764894705921,1,-0.9938875211181346,Normal
+Monkey,sneezing,unilateral nasal discharge,gagging,retching,weight loss,Yes,1,0.010267358844228802,1,-1.1013196353334875,Normal
+Monkey,fever,depression,coughing,weight loss,anorexia,Yes,1,0.01314850309845289,1,-0.9947626608597833,Normal
+Monkey,shallow breathing,halitosis,coughing,lethargy,nasal discharge,Yes,1,0.010216969836287726,1,-1.0257331492087975,Normal
+Monkey,dyspnea,sneezing,coughing,difficulty in breathing,infection,Yes,1,0.0025281145488229573,1,-1.000199484291902,Normal
+Monkey,dyspnea,sneezing,coughing,difficulty in breathing,pain,Yes,1,0.00256040902456528,1,-0.9823893660040917,Normal
+Monkey,fever,rhinorrhea,coughing,sneezing,dehydration,Yes,1,0.006307984686813928,1,-0.9953175171470526,Normal
+Monkey,fever,rhinorrhea,coughing,facial edema,dyspnea,Yes,1,0.005225195168849617,1,-1.0371175069389067,Normal
+Monkey,fever,rhinorrhea,coughing,sneezing,nasal discharge,Yes,1,0.006100021655611909,1,-0.9878928140165328,Normal
+Monkey,mortality,pain,coughing,weight loss,nasal discharge,Yes,1,0.006629361185066518,1,-1.0220972136594115,Normal
+Monkey,skin rashes,diarrhea,death,facial edema,pain,Yes,1,0.003221386037141949,-1,-1.3439594183927173,Unusual
+Monkey,fever,dyspnea,coughing,lethargy,weightloss,Yes,1,0.010538932672658041,1,-0.9977098480954645,Normal
+Monkey,fever,dyspnea,coughing,weakness,anorexia,Yes,1,0.0064047142519477185,1,-0.9906196513820836,Normal
+Monkey,facial edema,dyspnea,conjuctivtis,weakness,pharyngitis,Yes,1,0.005173873172307664,1,-1.0843098760343646,Normal
+Monkey,fever,pneumonia,congestion,lethargy,nasal discharge,Yes,1,0.018411773630848116,1,-1.0335019855969594,Normal
+Monkey,fever,death,coughing,weight loss,nasal discharge,Yes,1,0.012872276702620644,1,-1.001257441752005,Normal
+Monkey,sneezing,convulsion,seizures,weight loss,nasal discharge,Yes,1,0.007289424862236105,1,-1.0342841571307129,Normal
+Monkey,fever,death,coughing,dyspnea,anorexia,Yes,1,0.010718426290750482,1,-0.9905722472595919,Normal
+Monkey,dyspnea,difficulty in breathing,coughing,lethargy,nasal discharge,Yes,1,0.01079277188145683,1,-1.013276868480137,Normal
+Monkey,air sacculitis,halitosis,coughing,enteritis,weight loss,Yes,1,0.0037963189079778803,1,-1.024010521828018,Normal
+Monkey,fever,convulsion,sudden death,urine retention,weight loss,Yes,1,0.005947776601045507,1,-1.0597222742131769,Normal
+Monkey,dyspnea,neurologic sign,coughing,depression,anorexia,Yes,1,0.007857560760414717,1,-1.0189687599657122,Normal
+Monkey,fever,dyspnea,coughing,lethargy,anorexia,Yes,1,0.011659166663431031,1,-0.9753656318123843,Normal
+Monkey,labored breathing,dyspnea,coughing,depression,anorexia,Yes,1,0.011377423670205444,1,-1.01604731884208,Normal
+Monkey,blood from mouth,diarrhea,coughing,lethargy,weight loss,Yes,1,0.012227704423752483,1,-1.0292392221645055,Normal
+Monkey,hemopytsis,diarrhea,asymptomatic,death,epistaxis,Yes,1,0.001749931511786318,-1,-1.373259301525178,Unusual
+Monkey,restlessness,weakness,blue straws,death,pain,Yes,1,0.005292112606729238,-1,-1.4544737484533112,Unusual
+Birds,stripped remiges,less feather growth,ruffled feathers,defienciency in vitamin,diarrhea,Yes,1,0.0018432843924803821,1,-1.1068371247332789,Normal
+Birds,apathy,depression,dilation of duodenum,cloacal pasting,congestion,Yes,1,0.013206905232607091,1,-1.1276491047003674,Normal
+Birds,lepatomegaly,splenomegaly,vomiting,swollen,shaking oh head,Yes,1,0.0008081049855153122,1,-1.1452623666615191,Normal
+Birds,balance problem,abdominal destention,neck paralysis,weight loss,pain,Yes,1,0.014857685029320722,1,-1.0464701203579634,Normal
+Birds,legness,paresis,coughing,weight loss,shortness of breath,Yes,1,0.008918668406913022,1,-1.0116244360292972,Normal
+Birds,fever,sour throat,mortality,muscle aches,abnormalities,Yes,1,0.0024726954038976623,1,-1.1179287263007989,Normal
+Birds,difficulty in feeding,preening,weakness,beak overgrowth,anemia,Yes,-1,-0.0075417715988103096,1,-1.0656555054096286,Unusual
+Birds,fever,loss of appetite,ear infection,depression,nasal discharge,Yes,1,0.014242568965096847,1,-1.00807816962763,Normal
+Birds,forthy eye,torticollis,weakness,swelling,emaciation,Yes,1,0.005400800857876309,1,-1.0578559747422558,Normal
+Birds,inappentence,diarrhea,tremors of the head,dehydration,weight loss,Yes,1,0.011718672718701417,1,-1.0242654104346136,Normal
+Birds,lack of walking,lack of flying,roughened,dehydration,pain,Yes,1,0.012813050150801752,-1,-1.2689705352396246,Unusual
+Birds,skin rashes,small and yellow bumps,swelling,dry scabs,lameness,Yes,1,0.01157185508143671,1,-1.0786187076517622,Normal
+Birds,scabs on feet,redness,trachea,thickening of skin,pain,Yes,1,0.011698217282396561,-1,-1.4431071167237683,Unusual
+Birds,enlarged thymus,obstructed lungs,lethargy,skin rashes,weight loss,Yes,1,0.012675813463280672,1,-1.068650105923174,Normal
+Birds,fluffed feather,loss of appetite,coughing,vomiting,snoring,Yes,1,0.01089884458350271,1,-1.01935830794326,Normal
+Birds,fever,difficulty in breathing,yellow eye,sneezing,diphtherictic,Yes,1,0.007951931850609106,1,-0.9917779527253139,Normal
+Birds,heavy breathing,yellow in beak,tail_bobbing,weakness,sleeping excessively,Yes,1,0.008176875996137478,1,-1.0837631382745465,Normal
+Birds,puffed_up feather,less eat,headache,half-closed eye,seizures,Yes,-1,-0.002939000324888419,1,-1.083571111845012,Unusual
+Birds,fever,diarrhea,swollen abdomen,vomiting,difficulty in breathing,Yes,1,0.0026243622140760814,1,-0.9960921313674385,Normal
+Birds,tail wagging,straining,lethargy,weakness,diarrhea,Yes,1,0.008373256298358112,1,-1.0037888438397813,Normal
+Birds,overweight,loss of appetite,ruffled feathers,depression,diarrhea,Yes,1,0.009087981254425503,1,-1.0257197619350173,Normal
+Birds,dejection,loss of appetite,stress,coughing,pain,Yes,1,0.007371555884818026,1,-1.0377567361141578,Normal
+Birds,skin infection,secondary infection,coughing,depression,shaking oh head,Yes,1,0.01284708909046367,1,-1.0792114297611899,Normal
+Birds,discharge from eyes,lethargy,coughing,sneezing,fatique,Yes,1,0.008340479126200118,1,-1.0316376867004649,Normal
+Birds,fever,chills,retarded growth,chest pain,chest pain,Yes,1,0.007050054500136238,1,-1.0356512289073516,Normal
+Birds,pale comb,lame,death,swolling of joint,eye closed,Yes,1,0.00373080770805706,-1,-1.8137109394250548,Unusual
+Birds,lethargy,loss of appetite,difficulty in swallowing,weakness,vision problem,Yes,1,0.006902452199229747,1,-1.030357984387738,Normal
+Birds,emaciation,difficulty in breathing,vomiting,weakness,diarrhea,Yes,1,0.007904190595935778,1,-1.0319151687183337,Normal
+Birds,liquid dropping,exhaustion,ataxia,lethargy,seizures,Yes,1,0.010205062644324747,1,-1.116981157392916,Normal
+Birds,undigested in their feces,loss of appetite,loss of pigment,weakness,bloody in feather,Yes,1,0.008277547331610957,1,-1.0252654112969655,Normal
+Birds,sharp feather,clubbed feather,eye discharge,loss of powder down,diarrhea,Yes,1,0.005814315191038422,-1,-1.1941830712296657,Unusual
+Birds,ruffled appearance,loss of appetite,vomiting,green dropping,nasal discharge,Yes,1,0.006420393326658613,1,-1.0068504730787724,Normal
+Birds,sinuses,swollen eyelids,skin rashes,sneezing,misshapen beak,Yes,1,0.0024332169280361082,1,-1.1324367644573992,Normal
+Birds,feather loss,feather plucking,coughing,itching,nasal discharge,Yes,1,0.006762336530461155,1,-1.0435920842576083,Normal
+Birds,watery eyes,eye closed,weight loss,sneezing,nervous issue,Yes,1,0.012770315837606294,1,-1.0956272018923947,Normal
+Birds,bony lesion,skin rashes,ataxia,anorexia,weakness,Yes,1,0.010125216650643087,1,-1.058864479220412,Normal
+Birds,tremor of head and neck,blindness,kicking at the belly,exercise in tolerance,pain,Yes,1,0.002940201328079761,-1,-1.204668061562455,Unusual
+Sheep,swollen belly,dullness,discharge,urination,lying down,Yes,1,0.009809694958476667,1,-1.0789490165681557,Normal
+Sheep,fever,dullness,depression,weight loss,anorexia,Yes,1,0.014661358568290317,1,-0.9570458762854612,Normal
+Sheep,fever,succumb,spread of infection,weight loss,anorexia,Yes,1,0.013641708128768415,1,-1.0043306942470698,Normal
+Sheep,signs in rams,signs in ewe,underdeveloped muscles,semen examination,reduce lamp marking,Yes,-1,-0.0019825733570666415,1,-1.102495968227505,Unusual
+Sheep,spines,unusally thin,weakness,enlarged skulls,weakness,Yes,1,0.009558489532882464,1,-1.0516924917214876,Normal
+Sheep,discharge,sudden abortion,hemoglobinuria,death of lamb,weight loss,Yes,1,0.01621576633936389,1,-1.1692319201440082,Normal
+Sheep,fever,hemolytic anemia,sweats,congestion,jaundice,Yes,1,0.010704512075606076,1,-1.0962546469770058,Normal
+Sheep,fever,tiredness,loss of appetite,muscle aches,chest pain,Yes,-1,-0.005815345168050767,1,-1.0609044130144802,Unusual
+Sheep,excess salivation,diarrhea,depression,nasal discharge,weakness,Yes,1,0.009779907305713376,1,-1.016111089303977,Normal
+Sheep,fever,diarrhea,incoordination,abortion,blood poisioning,Yes,-1,-0.0033128555822426464,1,-1.088160788753357,Unusual
+Sheep,fever,wasting,dehydration,deability,weakness,Yes,1,0.004541436937017751,1,-1.0723470150282135,Normal
+Sheep,fever,diarrhea,muscle twiching,lameness,weight loss,Yes,1,0.009193984324209814,1,-0.9821327574178109,Normal
+Sheep,teeth griding,apathy,dehydration,ruminal stasis,watery faeces,,1,0.011706066331327813,-1,-1.1799290893039696,Unusual
+Sheep,fever,depression,lying down,weak pulse,colic,Yes,1,0.011590386815677478,1,-1.0527640060110337,Normal
+Sheep,swelling,lameness,hyperaestesia,hock joint,weight loss,Yes,1,0.011209805095182546,1,-1.03378827157847,Normal
+Sheep,head tilt,circling,muscles ache,blindness,seizures,Yes,1,0.010101184451523915,1,-1.0659723167095518,Normal
+Sheep,decreased growth of bone,depression,grunting,lameness,weight loss,Yes,1,0.01306256579016607,1,-1.0635118224843312,Normal
+Sheep,swollen left abdomen,lying down,staggering,urination,extension of neck,Yes,1,0.011287080488059764,1,-1.0622154568185325,Normal
+Sheep,cessation of eructation,difficulty in breathing,depression,anorexia,colic,Yes,1,0.010065019748769333,1,-1.0625098352733793,Normal
+Sheep,fever,excession salivation,abnormal conformation,ulcerated muscle,ulcerated ear,Yes,-1,-0.0009664434826157642,1,-1.1455101819231186,Unusual
+Sheep,barren ewes,abortion,poor conformation,hairy fleeces,weight loss,Yes,1,0.005953541825751474,1,-1.1694350168632301,Normal
+Sheep,tremor,viability,coughing,anorexia,weight loss,Yes,1,0.007997035598608981,1,-1.0082361599365504,Normal
+Sheep,fever,tachypea,swelling of head and neck,anorexia,nasal discharge,Yes,1,0.011374094735835283,1,-1.0317833762706203,Normal
+Sheep,lllthrift,skin lesion,lameness,swelling on thebody,weight loss,Yes,1,0.007211846284078116,1,-1.0554152897207247,Normal
+Sheep,swelling,heat,flank,pain,nasal discharge,Yes,1,0.010057981231465174,1,-1.0216486777965303,Normal
+Sheep,fever,loss of appetite,lameness,rump,weight loss,Yes,1,0.015854365562843475,1,-1.0032737288639901,Normal
+Sheep,fever,swelling,loss of appetite,anorexia,weight loss,Yes,1,0.015119149060831727,1,-0.9836330556374833,Normal
+Sheep,fever,diarrhea,bloody droping,abdominal discomfort,lethargy,Yes,1,0.009770358518222277,1,-1.043050852499329,Normal
+Sheep,fever,depression,small intestines,death,flock moratality,Yes,1,0.005850048862852841,1,-1.0430369879481136,Normal
+Sheep,haemorrhage,straw colored,abdominal pain,death,carcass decomposes,Yes,1,0.0007339212389736449,-1,-1.8137109394250548,Unusual
+Sheep,bloody diarhhea,depression,dullness,death,weakness,Yes,1,0.011014660466015569,1,-1.033191550441306,Normal
+Sheep,reluctant move,loss of appetite,lameness,death,weakness,Yes,1,0.0062262211663619005,1,-1.027377434546679,Normal
+Sheep,fever,depression,loss of appetite,loss of appetite,pain,Yes,1,0.01521228719226142,1,-1.001833534193437,Normal
+Sheep,fever,difficulty in breathing,lethargy,death,pain,Yes,1,0.011251678029335355,1,-1.083431945382657,Normal
+Sheep,poor wool,loss of appetite,lameness,small size,poor body condition,Yes,1,0.0066013488217459,1,-1.0407538856415512,Normal
+Sheep,poor immune function,achomotrica,dehydration,death,pain,Yes,1,0.010526230390461466,-1,-1.5617251305465338,Unusual
+Sheep,abdominal pain,diarrhea,malpresentation,shock,anorexia,Yes,-1,-0.0003288885646281492,-1,-1.1808811092640719,Unusual
+Sheep,fetopelvic disproportion,uterine inertia,despression,death,pain,Yes,-1,-0.0003358192111562186,1,-1.0,Unusual
+Sheep,watery diarrhea dispropotion,sick,corneal ulceration,loss of appetite,death,Yes,1,0.0005063493573468358,1,-1.1091210118454735,Normal
+Sheep,severe kerititis,conjunctive,discharge,iris prolapse,loss of eye,Yes,1,0.003958488535650284,1,-1.0897615311606654,Normal
+Sheep,swollen,testical pain,itches,bloody discharge,tenderness,Yes,1,0.009669409435222653,1,-1.0397577821119015,Normal
+Sheep,fever,diarrhea,depression,scratches,weight loss,Yes,1,0.013815590794921728,1,-0.9721436334890395,Normal
+Sheep,foul smelling,dullness,dirty,stained wool,tail shaking,Yes,1,0.012047941457861477,1,-1.0832693720030198,Normal
+Sheep,sheep often bites,fleece become thin,loss of wool,death,pain,Yes,1,0.005029734318285073,-1,-1.6584619439895711,Unusual
+Sheep,fever,dullness,dullness,skin rashes,pain,Yes,1,0.011344972326884362,1,-1.0133574730154096,Normal
+Sheep,fever,difficulty in breathing,rub,coughing,sneezing,Yes,1,0.008485327537675336,1,-1.009394163226648,Normal
+Sheep,restlessness,kick,lethargy,nible at their wool,scratching,Yes,1,0.002363373345328046,1,-1.1254824462995257,Normal
+Sheep,jaundice,loss of appetite,rough hair coat,coughing,death,Yes,1,0.009779064625839995,1,-1.0162601181198965,Normal
+Sheep,fever,reduce reproductive potential,agalactia,loss of milk production,sloughing of the tail,Yes,1,0.01310644199215083,1,-1.1455101819231186,Normal
+Sheep,pyrexia,oral lesion,swelling,lameness,death,Yes,1,0.011248647151148039,-1,-1.22571629074714,Unusual
+Sheep,red skin,loss of appetite,moist,lameness,pain,Yes,1,0.005041916845242078,1,-1.024203429905945,Normal
+Sheep,limping,skin colour change,flabby,raw,sensitive to touch,Yes,-1,-0.0006251984804425681,1,-1.1181450027894937,Unusual
+Sheep,groosly enlarged,skin may thicken,convulsion,edematous,pain,Yes,-1,-0.010438392437962019,-1,-1.404699999589973,Unusual
+Sheep,hyperexcitability,muscular spasms,gums,death,pain,Yes,1,0.0046033587617086424,-1,-1.6218594036137155,Unusual
+Sheep,decreased eyelid,very cold skin,lethargy,lip,fever,Yes,1,0.014122873565039162,1,-1.041184644443913,Normal
+Sheep,fever,diarrhea,muscus,weight loss,death,Yes,1,0.012531552654608091,1,-1.0057782176215615,Normal
+Sheep,foul smelling,diarrhea,colic,bloody discharge,blood clots,Yes,1,0.008139376219917172,1,-1.1699375511512717,Normal
+Sheep,inability to digest,diarrhea,dehydration,weight loss,anemia,Yes,1,0.01597188853242315,1,-1.019578076006328,Normal
+Sheep,fever,diarrhea,pot belly,death,loss of appetite,Yes,-1,-0.001541833524547509,1,-1.0399681080570606,Unusual
+Sheep,emaciation,diarrhea,coughing,weight loss,death,Yes,1,0.01068020411020254,1,-1.0140720213676815,Normal
+Sheep,respiratory distress,diarrhea,death,reduce milk,weight loss,Yes,1,0.0032514960393314474,1,-1.0379734641153888,Normal
+Sheep,lllthrift,bottle jaw,strange behaviour,anemia,jaundice,Yes,1,0.003878155061278865,1,-1.0736367505260862,Normal
+Sheep,fever,lameness,wasting,blindness,staggering,Yes,1,0.008947398474497381,1,-1.0647479270157727,Normal
+Sheep,fever,diarrhea,clearly unthrifty,weight loss,good appetite,Yes,1,0.014277198384867518,1,-0.9920433726146799,Normal
+Sheep,fever,dullness,relunctance to walk,infected navels,pain,Yes,1,0.008816688705311992,1,-1.0336874624523174,Normal
+Sheep,tenderness,foot hot,facial paralysis,weight loss,pain,Yes,1,0.01036125103881752,1,-1.0413811077583937,Normal
+Sheep,fever,lack of coordination,painfull to touch,circling,depression,Yes,1,0.015033533220630613,1,-1.052865636126357,Normal
+Sheep,swollen,warm,constipation,depression,bloody,Yes,1,0.005110856617726478,1,-1.1725818883975958,Normal
+Sheep,fever,loss of appetite,stumbling,restlessness,pain,Yes,1,0.011868095824872638,1,-1.012895892368261,Normal
+Sheep,unsteady gait,twitching,blindness,swelling on joints,pain,Yes,1,0.003372972569457955,-1,-1.250494608892787,Unusual
+Sheep,fever,ulcer,scabs,discharge from eye,pain,Yes,1,0.0046185857118486995,1,-1.0335283968082034,Normal
+Sheep,smell of ammonia,ulcer,depression,swelling,pain,Yes,1,0.012022716289995683,1,-1.0281450662673433,Normal
+Sheep,fever,lethargy,blindness,inappentence,increased in breathing,Yes,1,0.011496616975911478,1,-1.0311758029556468,Normal
+Sheep,wandering,circling,blindness,head pressing,recumbency,Yes,1,0.010143926008487736,1,-1.0760375001494784,Normal
+Sheep,tremors,lying on the side,difficulty in swallowing,death,not eating,Yes,1,0.014773075480793207,-1,-1.863710939421519,Unusual
+Sheep,fever,difficulty in breathing,coughing,sneezing,seizures,Yes,1,0.005150211825004636,1,-1.0053313805051536,Normal
+Sheep,swelling,loss of appetite,wool loss,tears,death,Yes,1,0.013404721921825291,1,-1.010174534477158,Normal
+Sheep,wool is clumped,feels stiff,staggering,skin rashes,pain,Yes,1,0.010253325472429242,-1,-1.2249053762346347,Unusual
+Sheep,swaying,behaviour change,tremor,jerky limb movements,pain,Yes,1,0.0033182701270901838,-1,-1.4521165734543593,Unusual
+Sheep,cell damage,behaviour change,weight loss,pruritis,death,Yes,1,0.009621725490232214,-1,-1.2220767220774207,Unusual
+Sheep,swelling,discomfort,difficulty in rising,death,pain,Yes,1,0.00842337639892593,-1,-1.4879971538098176,Unusual
+Sheep,swollen,hot joints,pustulses,difficulty in walk,pain,Yes,1,0.008455114445242606,-1,-1.3572834257255864,Unusual
+Sheep,formation of vesicles,nostrils,abnormally long leg,scabs on lip,pain,Yes,1,0.0069348957702530245,-1,-1.4521165734543593,Unusual
+Sheep,skeleten abnormalities,facial defects,hair loss,flat ribs,underdeveloped muscles,Yes,1,0.005777059839204457,1,-1.0187107157135902,Normal
+Sheep,wether restless,kicking,normal appetite,attempt to urinate,pain,Yes,-1,-0.0011256921967079947,-1,-1.4521165734543593,Unusual
+Sheep,inability to stand,pains to walk,depression,weakness,stiffness,Yes,1,0.012289994228827372,1,-1.0911239448941483,Normal
+Sheep,fever,succumb,sluggish,anorexia,pain,Yes,1,0.011373208766956855,1,-1.0113729230244406,Normal
+Sheep,listless,bottle jaw,malpresentation,death,oxygen defiency,Yes,1,0.0006571811440723718,-1,-1.6829611540824978,Unusual
+Sheep,fever,swelling,bloody,death,anemia,Yes,1,0.013557107257165857,1,-1.0466876337517896,Normal
+Sheep,thivk skin,crusty,scaly skin,lesion,pain,Yes,1,0.006041196182655584,-1,-1.3535441262438082,Unusual
+Sheep,fever,abortion,vomiting,weight loss,anorexia,Yes,1,0.008974205659161627,1,-0.9663594679740779,Normal
+Sheep,dizzines,anemia,vomiting,head ache,nausea,Yes,-1,-0.0006491291523370579,1,-1.066840170654313,Unusual
+Sheep,fever,wool loss,swelling,weight loss,pain,Yes,1,0.01279140303042342,1,-0.9828996902499811,Normal
+Sheep,tear production,anversion to light,bluish white opacity,blindness,pain,Yes,1,0.0052603229994512835,-1,-1.20210295259524,Unusual
+Sheep,fever,swelling,lameness,heat,pain,Yes,1,0.007397635799578639,1,-1.0046171599505311,Normal
+Sheep,skin color change,crusty,scaly skin,irritation,blister,Yes,1,0.011077394610647329,1,-1.1039028438887062,Normal
+Sheep,radip onset,stiff,muscle trembling,weakness,death,Yes,1,0.005318852271077923,-1,-1.4845612712402814,Unusual
+Sheep,head shking,discharge from ear,scartching ear,odor to ear,redness on ear,Yes,1,0.011911940352067885,1,-1.1028874002547884,Normal
+Sheep,discharge from eyes,redness of eye,blindness,scartches,pain,Yes,1,0.014584451885876093,-1,-1.20286848560064,Unusual
+Sheep,fever,loss of appetite,scartches,death,pain,Yes,1,0.014340145567161067,1,-1.0233546623169103,Normal
+Sheep,discomfort,loss of appetite,bloody diarrhea,profuse,pain,Yes,1,0.014769826858961055,1,-1.0196658420585716,Normal
+Sheep,swelling,larynx,swelling on jaw,hoarseness,neck vein swelling,Yes,1,0.014798420691931824,1,-1.1280594322776991,Normal
+Sheep,inflammation,discomfort,kicking at the belly,urine infection,pain,Yes,1,0.004007856497051043,-1,-1.2729404838241067,Unusual
+Sheep,isolation from flock,stealing,nesting behaviour,pawing at bedding,pain,Yes,1,0.01169317044854229,-1,-1.4570696290332203,Unusual
+Sheep,listless,difficulty in walking,grinding of teeth,blindness,ataxia,Yes,1,0.012321549236816054,1,-1.094443616343744,Normal
+Sheep,bluish white opacity,aversion to light,tear produce,blindness,weakness,Yes,1,0.007462464518152634,1,-1.0733829073369014,Normal
+Sheep,head tossing,wool loss,rapid breathing,bleeding wounds,skin issue,Yes,1,0.01904383027161738,1,-1.1731840357439733,Normal
+Pigs,coughing,panting,"facial swelling,",production of mucus,fatigue,Yes,-1,-0.001453027841869181,1,-1.1468913492893646,Unusual
+Fowl,cough,sneeze,droopy wings,twisted neck,droopy wings,Yes,-1,-0.004417819602527628,1,-1.0409331486111721,Unusual
+Duck,shortness of breath.,fatigue,chirping,loss of appetite,swollen abdomen,Yes,1,0.007454841758929409,1,-1.1403999761610069,Normal
+Other Birds,gasping,coughing,mild weakness,droopy wings,twisted neck,Yes,-1,-0.007215925927204325,1,-1.131462941099254,Unusual
+Pigs,excessive blood loss,dizziness and fainting,blurry vision,watery eyes,slow growth,Yes,1,0.013709033391524073,1,-1.1035751886499554,Normal
+Fowl,nosebleed,trauma,mild weakness,nose picking,dry air,Yes,1,0.00849702681493475,1,-1.0995626067140312,Normal
+Duck,bleeding from other parts of the body,confusion,nasal discharge,loss of alertness,dizziness and fainting,Yes,1,0.01128195651593944,1,-1.1265020018394487,Normal
+Other Birds,bad breath,pawing at the face or nose,cough,sneezing,bleeding from the nose,Yes,1,0.0037691200295176253,1,-1.1008065563186749,Normal
+Fowl,extending its neck,gasping for air,gasping for breath,difficulty swallowing,gasping for breath,Yes,-1,-0.0015659887001894246,1,-1.0575916754477537,Unusual
+Duck,difficulty swallowing,cough,difficulty swallowing,gasping for air,extending its neck,Yes,-1,-0.0002788022795351952,1,-1.0415605598153417,Unusual
+Other Birds,cough,gasping for air,weight loss,gasping for breath,extending its neck,Yes,-1,-0.0033385695131167292,1,-1.0904319236468456,Unusual
+Pigs,weakness,decreased stool production,distended stomach,heavy breathing,restless movement,Yes,-1,-0.008736860028917215,1,-1.0837631382745465,Unusual
+Fowl,eye redness,frequent eye infections,crusty eye lashes and matting of eyelashes,foul smelling stools,increased passing gas,Yes,1,0.0018532210817730488,1,-1.094029138181022,Normal
+Duck,excessive eye watering,eye redness,weakness,mucus discharge from the eye,frequent eye infections,Yes,1,0.004127235899531567,1,-1.0640610598414497,Normal
+Other Birds,sudden death,loss of appetite,rapid heartbeats,fluffed feathers,lack of vocalizations,Yes,1,0.010031877941480027,1,-1.1226377759978203,Normal
+Fowl,unable to urinate,lightheadedness,droopiness,rectal bleeding,swollen abdomen,Yes,-1,-0.0009980323138819025,1,-1.1184912649455343,Unusual
+Duck,extreme thirst,bloody discharge,loss of appetite,inability to fly,loss of wariness,Yes,1,0.01498582538040727,1,-1.1518671405280632,Normal
+Other Birds,egg production stops,broody behavior,loss of appetite,weight loss,constipation,Yes,1,0.005249017445726811,1,-1.0141854830276178,Normal
+Fowl,nausea,vomiting,loss of appetite,experiencing changes in weight,pain and bloating,Yes,1,0.0052731873987721944,1,-1.0165987475024614,Normal
+Duck,burning ache or pain,vomiting,loss of appetite,experiencing changes in weight,pain and bloating,Yes,1,0.010500102025849722,1,-1.0207565913726115,Normal
+Other Birds,continuous loss of weight,regurgitation of food,wheezing,excessive food intake,undigested seeds,Yes,1,0.014104500333281755,1,-1.114274233027941,Normal
+snake,loss of appetite,lathargy,abortion,gurgling sound,depression,Yes,1,0.009256288044302896,1,-1.0674743234087702,Normal
+horse,fever,mild colic,loss of tail tone,loss of appetite,depression,Yes,1,0.009252090648616151,1,-0.988846780061575,Normal
+horse,head tilt,lathargy,lathargy,urine dribbling,inability to rise,Yes,1,0.0,1,-1.054834255438975,Normal
+horse,fever,loss of appetite,respiratory noise,weight loss,depression,Yes,1,0.01745196824136319,1,-0.9648100283887866,Normal
+horse,fever,nasal discharge,muscular stiffness,swollen lymph nodes,depression,Yes,1,0.014399610191945578,1,-1.035867631405267,Normal
+horse,sweating,muscular spasms,thirst,weight loss,difficulty moving and eating,Yes,1,0.005038765231567821,1,-1.158133486058542,Normal
+duck,loss of appetite,high body temperaure,lack of appetite,diarrhea,sudden death,Yes,1,0.008569003260917973,1,-1.0053687083525769,Normal
+donkey,sweating,dry or tacky gums,poor appetite,lying down,dullness,Yes,1,0.006533638330514624,1,-1.0917751890998675,Normal
+donkey,outstretched neck,dullness,loss of appetite,loud breathing,coughing,Yes,1,0.010101305644804215,1,-1.0027006958455635,Normal
+Donkey,weight loss,dullness,loss of appetite,self-isolation,recumbency,Yes,1,0.014131421357782836,1,-1.040216441864885,Normal
+mules,weight loss,dullness,muscles problem,self-isolation,recumbency,Yes,1,0.012073261946360547,1,-1.12130927136776,Normal
+Elephant,changed gait,dullness,muscles problem,pain,pain,Yes,1,0.013491680648474058,-1,-1.1995618396561603,Unusual
+Elephant,changed gait,dullness,diffuse,difficulty diagnosis,anemia,Yes,1,0.004764622088263393,1,-1.0772351912162237,Normal
+Elephant,difficulty in breathing,swelling,bleeding from wounds,frequent yawning,anorexia,Yes,-1,-0.00030461535044506993,1,-1.06920074337781,Unusual
+Elephant,undernutrition,drinking polluted water,listlessness,staggering,anorexia,Yes,1,0.004866815110674549,-1,-1.2995631960240805,Unusual
+Deer,wasting,stumbling,listlessness,drooling,drooping ears,Yes,1,4.920466701097137e-05,1,-1.0120415633824964,Normal
+Elk,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Wapiti,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Mule deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Black-tailed deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Sika deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+White-tailed deer,wasting,stumbling,listlessness,drooling,drooping ears,Yes,1,4.920466701097137e-05,1,-1.0120415633824964,Normal
+Reindeer,wasting,stumbling,listlessness,drooling,drooping ears,Yes,1,4.920466701097137e-05,1,-1.0120415633824964,Normal
+Moos,wasting,stumbling,fever,drooling,drooping ears,Yes,1,0.006215186128663508,1,-0.9952594855866994,Normal
+Tiger,feline infections,lymphosarcoma,difficulty in breathing,stomatitis,anemia,Yes,1,0.007953004542600173,1,-1.1173419955088135,Normal
+Deer,sudden death,high temperature,difficulty in breathing,weight loss,trembling,Yes,1,0.001893919232435426,1,-1.0366832042615162,Normal
+Cattle,sudden death,high temperature,difficulty in breathing,anemia,trembling,Yes,1,0.0005808846567439407,1,-1.0820904270688398,Normal
+Goats,sudden death,high temperature,difficulty in breathing,staggering,trembling,Yes,1,0.0025259151645912192,1,-1.0773284325992618,Normal
+Sheep,sudden death,high temperature,rapid pulse and heart rates,depression,trembling,Yes,1,0.0038483814870997612,1,-1.0804833950114041,Normal
+Buffaloes,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes,1,0.00866161415983896,1,-0.9864092859911573,Normal
+Sheep,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes,1,0.00866161415983896,1,-0.9864092859911573,Normal
+Goats,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes,1,0.00866161415983896,1,-0.9864092859911573,Normal
+Cattle,fever,loss of appetite,swollen teats,lameness in affected leg,depression,Yes,1,0.005355044359395378,1,-0.988846780061575,Normal
+Cattle,swelling,nasal discharge,drooling,tiredness,fever,Yes,1,0.003567918093413114,1,-1.0569248056243563,Normal
+Sheep,eye discharges,nasal discharge,change their normal behaviour,high body temperature,lameness,Yes,1,0.006810872025396597,1,-1.1098965186815264,Normal
+Dogs,stop eating,stop drinking,change their normal behaviour,lameness,pain,Yes,1,0.0004965267466012224,1,-1.0819167576124027,Normal
+Fox,stop eating,stop drinking,change their normal behaviour,weight loss,pain,Yes,1,0.0036677080965631936,1,-1.05304181782745,Normal
+Wolves,stop eating,stop drinking,change their normal behaviour,depression,pain,Yes,1,0.0026599582809395117,1,-1.0315187819784355,Normal
+Hyaenas,stop eating,stop drinking,change their normal behaviour,diarrhea,pain,Yes,1,0.00042461108899455313,1,-1.0726133472665942,Normal
+Duck,fever,diffulty swallowing,excessive drooling,staggering,seizures,Yes,1,0.015185169758034578,1,-1.0754948227334524,Normal
+Duck,fever,diarrhea,vomiting,weight loss,dehydration,Yes,1,0.01335311988090565,1,-0.9789062121378972,Normal
+Duck,fever,diarrhea,coughing,tiredness,pain,Yes,1,0.001150107627404584,1,-0.9760190632530483,Normal
+Duck,fever,diarrhea,coughing,vomiting,anorexia,Yes,1,0.009365287433597325,1,-0.9915071227941039,Normal
+Duck,fever,difficulty in breathing,coughing,lethargy,sneezing,Yes,1,0.008093451880079705,1,-0.9895479119912167,Normal
+Duck,fever,diarrhea,coughing,lethargy,blue eye,Yes,1,0.011669877520701366,1,-0.983947764834227,Normal
+Duck,fever,respiratory distress,seizures,hyperesthesia,sudden death,Yes,1,0.005247906588388251,1,-1.0503080109014389,Normal
+Duck,ulcers,diarrhea,poor appetite,tarry stool,enlarged lymph nodes,Yes,1,0.0015080300189688756,1,-1.1516145674851028,Normal
+Duck,facial swelling,bloody drool,foul breath,anorexia,lossened teeth,Yes,1,0.00515492929418071,1,-1.131667534156935,Normal
+Duck,fever,difficulty in breathing,thrist and urination,weight loss,enlarged lymph nodes or swelling,Yes,1,0.01574787743916195,1,-1.0574866041041013,Normal
+Duck,swelling on leg,pain,nasal discharge,broken bones,nasal discharge,Yes,1,0.013485037669719646,1,-1.0642204713751775,Normal
+Duck,short term lethargy,loss of appetite,weakness in back legs,rapid heart rate,weak pulse,Yes,1,0.012677712113984163,1,-1.1294302330755281,Normal
+Duck,swollen lymph nodes,difficulty walking,back pain,lethargy,vaginal discharge,Yes,1,0.008033891196879972,1,-1.1264028827781574,Normal
+Duck,fever,diarrhea,abdominal pain,stiffness,weakness and depression,Yes,1,0.00787386989458666,1,-1.0691932485076772,Normal
+Duck,fever,loss of appetite,reduce energy,lameness,swelling of joints,Yes,1,0.006552970167495231,1,-1.0335936192884119,Normal
+Duck,fever,chronic eye inflamation,poor appetite,lethargy,neurologic abnormalities,Yes,1,0.004549804128279322,1,-1.0427988791844534,Normal
+Duck,fever,swelling of face or leg,poor appetite,depression,pain,Yes,1,0.0016298788562884026,1,-1.0209202715166146,Normal
+Duck,diarrhea with mucus,tensemus,watery stool,flatulence,pain,Yes,1,0.005973600343507801,-1,-1.4007052909530637,Unusual
+Duck,strong cough,runny nose,sneezing,lethargy,loss of appetite,Yes,1,0.007777547254694761,1,-1.0241353767107102,Normal
+Duck,fever,inflammed eye,coughing,depression,limping,Yes,1,0.0026255830227635,1,-1.029849428394248,Normal
+Duck,fever,difficulty in breathing,coughing,eye and skin change,unable to exercise,Yes,1,0.0014356947464399528,1,-0.9901947598167004,Normal
+Duck,fever,loss of appetite,coughing,lethargy,joint pain,Yes,1,0.00823084287528647,1,-0.9874298052456163,Normal
+Duck,lesions in the nasal cavity,lesions on nose,nose bleeds,loud breathing,lesions on nose,Yes,1,0.005040079881109161,1,-1.056468236076753,Normal
+Duck,hair loss,dandruff,darkened skin,crusting of the skin,ulcerated skin,Yes,1,0.0012256780115927346,1,-1.0368371337647448,Normal
+Duck,greenish-yellow nasal discharge,lack of pigmentation,sneezing,lethargy,facial pain,Yes,1,0.0012112155947878733,1,-1.0836450669966342,Normal
+Duck,fever,diarrhea,poor appetite,weight loss,vomitting,Yes,1,0.00778802059643896,1,-1.0249924745656187,Normal
+Duck,jaundice,pneumonia,lesions on skin,pain,vomitting,Yes,1,0.005585401002226653,-1,-1.3627954497502135,Unusual
+Duck,poor coat apperence,diarrhea,vomiting,weight loss,dehydration,Yes,1,0.014658682351062102,1,-0.977876235845865,Normal
+Duck,watering,poor appetite,vomiting,lethargy,dehydration,Yes,1,0.005559189329178649,1,-1.079051731231614,Normal
+Duck,straining,diarrhea,vomiting,weight loss,blindness,Yes,1,0.008219053780898933,1,-0.9867691739967505,Normal
+Duck,upset stomach,diarrhea,vomiting,pain,stiffness,Yes,1,0.008529520772905641,1,-1.0189009153876871,Normal
+Duck,upset stomach,diarrhea,coughing,weight loss,anemia,Yes,1,0.011162880662599628,1,-1.0485270788231609,Normal
+Duck,allergic reaction,poor appetite,coughing,weight loss,distended chest,Yes,1,0.0005152787173622886,1,-1.011198492145972,Normal
+Duck,fever,anorexia,weight loss,lethargy,pain,Yes,1,0.014662043542067238,1,-1.0100805556224413,Normal
+Duck,limping,willnot run to jump,swelling,weakness in legs,leg pain,Yes,1,0.004279131423580718,1,-1.1274077126157098,Normal
+Duck,fever,eye ulcer,congestion,depression,pink eye,Yes,1,0.015719390767762353,1,-1.0521035433399484,Normal
+Duck,pneumonia,loss of appetite,eye discharge,lameness,arthritis,Yes,1,0.004248782655851269,1,-1.0344387333864107,Normal
+Duck,fever,seizures,hydrophobia,jaw is dropped,shyness or aggression,Yes,1,0.012112789937595903,1,-1.1205266065443333,Normal
+Duck,bloody urine,difficulty in breathing,vomiting,weight loss,anorexia,Yes,1,0.0048067667890757115,1,-1.0601014528080923,Normal
+Duck,loss of appetite,difficulty in breathing,swelling,lameness,neurologic abnormalities,Yes,1,0.008908587482050034,1,-1.0225245953017708,Normal
+Duck,dark or black face,diarrhea,vomiting,blood in feces,pain,Yes,1,0.007895909176747096,1,-1.0232594610786188,Normal
+Duck,jaundice,difficulty in breathing,seizures,lethargy,pale gums,Yes,1,0.005486317692884768,1,-1.0742205737825465,Normal
+Duck,appetite varies,diarrhea,vomiting,weight loss,pain,Yes,-1,-7.338320407823673e-05,1,-0.9875379255554003,Unusual
+Duck,loss of appetite,fell unwell,lethargy,weight loss,skin issue,Yes,1,0.014192478787426688,1,-1.018241036113849,Normal
+Duck,sickness,loss of appetite,vomiting,weight loss,raised growth or bump,Yes,1,0.009946899063977055,1,-1.0252432925910162,Normal
+Duck,nasal bleeding,diffulty chewing,swelling,weight loss,anorexia,Yes,1,0.013129940128714157,1,-1.028042286785436,Normal
+Duck,ulcers,lesions,scabs,lumps,"bumps(black,grey or red)",Yes,1,0.013388454214145029,1,-1.0936612826191767,Normal
+Duck,gasc,loss of appetite,blood in stool,stomach growling,black stool,Yes,1,0.006301653211816249,1,-1.1545767188998948,Normal
+Duck,shaking head,scartching ear,black on ear,bad smell,red and inflammation ear,Yes,1,0.011512308116928383,1,-1.0926097679350577,Normal
+Duck,attacks,loss of appetite,coughing,weight loss,vomiting,Yes,1,0.009350117368503108,1,-1.0221222414864184,Normal
+Elephant,blood stool,diarrhea,coughing,weight loss,anemia,Yes,1,0.004277931170757199,1,-1.0506651945771044,Normal
+Elephant,nasal discharge,nosebleeds,inflamed nostrils,sneezing,loud breathing,Yes,1,0.0027393968737208785,1,-1.0567546364180078,Normal
+Elephant,polyuria,loss of appetite,vomiting,weight loss,polydipsa,Yes,1,0.013838293887933006,1,-1.0329886254893175,Normal
+Elephant,exessive urination,change in gait,vomiting,weight loss,inability to jump,Yes,1,0.013635427484844753,1,-1.04830455981022,Normal
+Elephant,convulsion,loss of consciousness,chewing,twitching,salivating,Yes,1,0.008362186007394967,1,-1.0891092789958052,Normal
+Elephant,wheezing,rapid breathing,coughing,swallowing,difficulty in breathing,Yes,1,0.0056344985363987465,1,-1.0515415495302025,Normal
+Elephant,jaundice,weakness,lethargy,weight loss,anorexia,Yes,1,0.011433067273116215,1,-1.0059069977877342,Normal
+Elephant,lesions on skin,dandruff in cat coat,red patches,hair loss,skin issue,Yes,1,0.007767907697032395,1,-1.0309145079479198,Normal
+Elephant,lethargy,diarrhea,vomiting,discharge from eye,anorexia,Yes,1,0.009134737358105327,1,-1.0300852753524985,Normal
+Elephant,skin irritation,scratching,lethargy,hair loss,excessive grooming,Yes,1,0.005408042056402662,1,-1.1004408601536997,Normal
+Elephant,floopy muscle,speech delay,intellectual disability,walking problem,eye movements,Yes,1,0.006711919782215414,1,-1.1187123595621713,Normal
+Elephant,sensitivity to bright light,disharge from affected eye,inflammation,clouded cornea,rubbing eye,Yes,1,0.013160992632112178,1,-1.1187849573307995,Normal
+Elephant,fever,diarrhea,vomiting,cramps,dehydration,Yes,1,0.013950004695110763,1,-0.9945584525280827,Normal
+Elephant,tenderness,erythema,swelling,scratching,pain,Yes,1,0.0057642324527655275,1,-1.0399888798276875,Normal
+Elephant,fever,diarrhea,vomiting,salivation,poor appetite,Yes,1,0.003762870100208149,1,-0.9798050820295543,Normal
+Elephant,scaly patches of skin,sore,scabs,scratching,hair loss,Yes,1,0.001166702049775259,1,-1.0402080736253982,Normal
+Elephant,fatty stool,diarrhea,vomiting,weight loss,pain,Yes,1,0.005402636982145159,1,-0.9875379255554003,Normal
+Elephant,nausea,loss of appetite,vomiting,firm,distended stomach,Yes,1,0.000211491438066147,1,-1.0165987475024618,Normal
+Elephant,fever,swelling in the bite area,lethargy,limp,pain,Yes,1,0.011301889960579736,1,-1.0019860051203007,Normal
+Elephant,fever,loss of appetite,eyeproblem,liver disease,nuerological,Yes,1,0.012533476005096245,1,-1.054217634210385,Normal
+Elephant,fever,mild sneezing,coughing,nasal,ocular discharge,Yes,1,0.00906716972691024,1,-1.052903409472395,Normal
+Elephant,most often none,sneezing,nasal discharge,dyspnea,pain,Yes,-1,-0.0002667298859380107,1,-1.035526888348933,Unusual
+Elephant,fever,diarrhea,vomiting,blood from mouth,shock,Yes,1,0.0044480558502208445,1,-0.9977899536534901,Normal
+Elephant,discomfort,diarrhea,dry or dull hair,grinding teeth,pain,Yes,1,0.010227472454680142,1,-1.065851236065793,Normal
+Elephant,loss of appetite,swelling,nasal discharge,blindness,lethargy,Yes,1,0.015463293350810425,1,-1.012433805686628,Normal
+Elephant,rhinitis,pneumonia,abscessess,torticollis,septicemia,Yes,1,0.010064238174886275,1,-1.1037332303696956,Normal
+Elephant,fever,diarrhea,enteritis,weight loss,stomach cramps,Yes,1,0.009503161996740783,1,-0.9754450301792537,Normal
+Elephant,immediate death,difficulty in breathing,blue colored lip,bloody discharge,neurologic abnormalities,Yes,1,0.005572999707280812,1,-1.0964345440808927,Normal
+Elephant,fever,pox lession on skin,skin reashes,nasal discharge,mortality varies,Yes,1,0.013736079195443729,1,-1.0148203002049003,Normal
+Elephant,red on affected area,horny growth,wart-like growth,red skin,lesions on ear,Yes,-1,-0.007027634843699004,1,-1.111772344520351,Unusual
+Elephant,fever,chills,skin ulcer,exhaustion,swollen and painfull,Yes,1,0.005775463876661391,1,-1.088183674752862,Normal
+Elephant,watery diarrhea,depression,emaciation,ruffled coat,lethargy,Yes,1,0.0066377909260292856,1,-1.1597433441171017,Normal
+Elephant,loss in weight,emaciation,loss of appetite,weakness,diarrhea,Yes,1,0.01562893656610953,1,-1.0048467318761891,Normal
+Elephant,loss of appetite,diarrhea,swollen purple wattle,swollen comb,lameness,Yes,1,0.01178751328013955,1,-1.0050701653286958,Normal
+Elephant,loss of appetite,diarrhea,ruffled feathers,weight loss,inability to absorb nutrients,Yes,1,0.013364485321463782,1,-1.0196113130746778,Normal
+Elephant,egg production decreases,stunted growth,blindness,distinctive bumps,facial swelling,Yes,1,0.006290437734651377,1,-1.0726709616015158,Normal
+Elephant,loss of appetite,thirst,ruffled feathers,closed eyes,diarrhea,Yes,1,0.006554682182176641,1,-1.0101417411867701,Normal
+Elephant,fever,weakened legs,los of the ability to walk,mammary glads,fluif filled blisters,Yes,1,0.0010235688825317446,1,-1.1237749704658806,Normal
+Elephant,fever,weakened legs,los of the ability to walk,weight loss,lameness,Yes,1,0.0015267575573327252,1,-1.0580437898637214,Normal
+Elephant,abortion at the end of gestation,fatigue,weak calves,joint pain,swelling of internal organs,Yes,-1,-0.00265410791612658,1,-1.1134682228072368,Unusual
+Elephant,swollen,red-colored,hot udder,milk getting out more watery,milk getting out more thick,Yes,1,0.011168551494746881,1,-1.0663389326671224,Normal
+Elephant,fever,distress,trembling,staggering,convulsion,Yes,1,0.007715614001077009,1,-1.0670310367526743,Normal
+Elephant,fever,animal become lame,prostrat,painful swelling,lameness,Yes,1,0.008472867212877044,1,-1.058378626330026,Normal
+Elephant,fever,difficulty in breathing,dribbling of saliva,inability of swalllon feeding,moist and painfull,Yes,1,0.00781307296334044,1,-1.0439883190508392,Normal
+Elephant,fluif faeces on blood and muscle,sudden death,bloody fluid,red diarrhea,faeces are streake with blood,Yes,1,0.009310502355666661,1,-1.0523725215471786,Normal
+Elephant,fever,pneumonia,stand with head droping,weight loss,abnormal behaviour,Yes,1,0.012973296134409285,1,-1.0589183726032414,Normal
+Elephant,fever,slightly swollen,lesions on skin,milky hard,papules appear on teats anad udder,Yes,1,0.00814488588586143,1,-1.1447988794561432,Normal
+Elephant,fever,dull,hind quarted soil,animal stop feed,decrease in milk production,Yes,1,0.01413622976128387,1,-1.1455101819231186,Normal
+Elephant,severe,diarrhea,blood in feces,appetite,milk reduce,Yes,1,0.01169109842626953,-1,-1.1835153756187315,Unusual
+Elephant,fever,depression,relunctance to move,salivation,nasal discharge,Yes,1,0.015658430242677324,1,-1.0203624454346403,Normal
+Elephant,normal appetite,diarrhea,swelling may occur under jaw,weight loss,drop in milk production,Yes,1,0.014614035396366132,1,-1.0513820550900994,Normal
+Elephant,swelling on leg,heat,hardness,redness,pain,Yes,1,0.00963757028098805,-1,-1.2777731313727518,Unusual
+Elephant,inability to stand,diarrhea,bottle jaw,pot belly,dry hair coat,Yes,-1,-0.005550390879757616,1,-1.1775277052797304,Unusual
+Elephant,excitability,nervousness,loss of appetite,hyper sensitivity,weakness,Yes,1,0.01588824508947506,1,-1.0252654112969655,Normal
+Elephant,fever,depression,attack,bite other animals,pain,Yes,1,0.010596228746049208,1,-1.0187052634112272,Normal
+Hamster,fever,difficulty in breathing,coughing,pain,eye become dull,Yes,1,0.00431565323775529,1,-0.9846398416009583,Normal
+Hamster,fever,ulcer on gum,red eye,yellowish discharge,bloody diarrhea,Yes,1,0.008136382753643645,1,-1.154524828512316,Normal
+Hamster,fever,diarrhea,coughing,consistency of milk,pain,Yes,1,0.004874138075419809,1,-0.9676916722541125,Normal
+Hamster,animal gets uneasy,difficulty in breathing,difficult in respiration,excessive production,stamping and pedding of hind eye,Yes,1,0.004472059543753182,1,-1.1396185939099035,Normal
+Hamster,fever,chills,severe colic,weakness,anorexia,Yes,1,0.011243155487763279,1,-1.0501300445167947,Normal
+Hamster,fever,body stiffness,lethargy,severe inflammation,pain,Yes,1,0.01292231296083357,1,-1.0019860051203007,Normal
+Hamster,sickness,diarrhea,weight loss,nausea,dehydration,Yes,1,0.012517000671308065,1,-1.024258301192058,Normal
+Hamster,sudden death,trouble walking,paralysis,depression,convulsion,Yes,1,0.008132716314808108,1,-1.1009168563514216,Normal
+Hamster,fever,abortion,kidney failure,inflammation of eye,eye redness,Yes,1,0.006078842368576753,1,-1.1307777495694848,Normal
+Hamster,small red bumps,pneumonia,septic arthritis,skin infection,pain,Yes,1,0.016816189024634942,-1,-1.4304043095933292,Unusual
+Hamster,fever,ataxia,aggressiveness,depression,obscure lameness,Yes,1,0.008623385961342378,1,-1.025990250360086,Normal
+Fowl,ring shaped lesion,round patches,dry skin,size of lesions vary,pain,Yes,1,0.0009811287125330304,-1,-1.4905853831029758,Unusual
+Fowl,fever,diarrhea,loss of appetite,colic,weakness,Yes,1,0.012694445937616261,1,-1.0508642215489425,Normal
+Fowl,fever,depression,loss of appetite,stumbling,ataxia,Yes,1,0.015419994097632006,1,-1.0001335987362876,Normal
+Fowl,bubbles in the mouth,wheezing,loss of appetite,lethargy,nasal discharge,Yes,1,0.01041244426961141,1,-1.0183069575768007,Normal
+Fowl,changes in outer layer skin,swelling of eye,loss of appetite,lethargy,respiratory infection,Yes,1,0.01103797658630673,1,-1.0473824796294942,Normal
+Fowl,red tinge,slim over the shell,bad smell,easily damage shell,flaking of the scutes,Yes,1,0.006519293305167928,1,-1.0998543916659045,Normal
+Fowl,passing of undigested food,diarrhea,vomiting,gas or bloating,dehydration,Yes,1,0.013197492320334736,1,-0.9993528850214964,Normal
+Fowl,smell,diarrhea,loss of appetite,excess sleeping,folded ears,Yes,1,0.01517349862840034,1,-1.006330831956328,Normal
+Fowl,loss of activity,rough coat,loss of appetite,weight loss,eventually death,Yes,1,0.01904383027161738,1,-1.0141854830276178,Normal
+Fowl,fever,diarrhea,vomiting,dehydration,pain,Yes,1,0.009829796892665665,1,-0.9820755528396228,Normal
+Fowl,bald patches,hair loss,crusty,flaky,red lesion from bald patches,Yes,1,0.014377803692193047,1,-1.0219383891030351,Normal
+Fowl,poor condition,enlarged lymph nodes,diarrhea,weight loss,pain,Yes,1,0.00941795352690128,1,-0.995901079122979,Normal
+Fowl,fever,chills,coughing,progressive weakness,joint pain,Yes,1,0.004670861051882191,1,-1.0494745062279809,Normal
+Fowl,heavy infection,diarrhea,vitamin and minerals defiency,weight loss,pain,Yes,1,0.010480128795071708,1,-1.0040043634707168,Normal
+Fowl,fever,diarrhea,muscle weakness,pain,abdonormal discomfort,Yes,1,0.007657254223403354,1,-1.0068461508736077,Normal
+Fowl,fever,chills,headache,nausea,pain,Yes,1,0.004788515710104302,1,-1.0282973092779155,Normal
+Fowl,thicked skin,hair tining,hair loss,scabbing,itchiness,Yes,1,0.010267701988419586,1,-1.0391662855714263,Normal
+Fowl,facial edema,loss of earing,vomiting,head ache,throat and ear pain,Yes,1,0.005520827218885416,1,-1.1361511853708186,Normal
+Fowl,general malaise,hepatic failure,vomiting,weight loss,abdominal pain,Yes,1,0.009522136417772775,1,-1.0486883425860505,Normal
+Fowl,upset stomach,loss of appetite,nause,weight loss,abdominal pain,Yes,1,0.0012060174204926444,1,-1.0200576280937221,Normal
+Fowl,fever,muscle loss,skeleten pain,weight loss,wasting,Yes,1,0.013818418587891346,1,-1.068860304013548,Normal
+Fowl,oedema,swelling of face or leg,swelling of neck,weight loss,pain,Yes,1,0.008993888978761189,1,-1.0484292527824164,Normal
+Fowl,poor growth,short stature,enlargement of bones,lameness,weigth bearing long bones,Yes,1,0.016491898585401288,1,-1.1040437825996252,Normal
+Fowl,fever,chills,sweat,head ache,fatique,Yes,1,0.011034491731777285,1,-1.0464080027311953,Normal
+Fowl,fever,loss of appetite,weakness,weight loss,vomitting,Yes,1,0.014209467071903625,1,-0.9963888143683863,Normal
+Fowl,dullness,lacrimation,coughing,diarrhea,seizures,Yes,1,0.002344787950586902,1,-1.043582313368559,Normal
+Fowl,vomiting,bloody diarrhea,lethargy,dehydration,anorexia,Yes,1,0.01494623048132182,1,-1.0600441339402216,Normal
+Fowl,fever,uncharacteristic hiding,depression,dehydration,stopped eat,Yes,1,0.014414761628043837,1,-1.057910446317655,Normal
+Fowl,fever,poor coat condition,infection of the skin,weight loss,fatique,Yes,1,0.015972340497003634,1,-1.069657033306151,Normal
+Fowl,weakness,stiffness,trembling,white mark on the muscle,loss of vitamin e,Yes,1,0.006248336456898151,1,-1.0522509276249365,Normal
+Fowl,partial paralysis,staggering as drunk,self mutilation,acting aggressive,acting unnaturally tame,Yes,1,0.007504518730853227,1,-1.1187123595621713,Normal
+Fowl,fever,tiredness,headache,skin rashes,pain,Yes,-1,-0.004292137493257242,1,-1.0306668454996257,Unusual
+Fowl,thick crusting,itchiness,hair loss,watery eye,pain,Yes,1,0.006704822184334436,-1,-1.3458425785668904,Unusual
+Fowl,constant pacing,facial muscle twitching,abnormalalities,blindness,pain,Yes,1,0.011500871209501329,-1,-1.250494608892787,Unusual
+Fowl,loss of appetite,wheezing,seizures,skin rashes,fatique,Yes,1,0.00672805447381164,1,-1.1107590302840382,Normal
+Fowl,indigestion,abdominal pain,constipation,diarrhea,nausea,Yes,-1,-0.005152744752698057,1,-1.1152976405576966,Unusual
+Fowl,blood in urine,diarrhea,vomiting,lethargy,bleeding in eye and skin,Yes,1,0.012381798974460956,1,-1.0652633658157258,Normal
+Fowl,fever,malaise,weakness,weight loss,pain,Yes,1,0.007711161442864489,1,-1.0043495357115173,Normal
+Fowl,fever,diarrhea,vomiting,stomach cramps,nausea,Yes,1,0.003864950399403433,1,-1.021763827538545,Normal
+Fowl,fever,lack of coordination,depression,salivation,facial paralysis,Yes,1,0.013022066155398082,1,-1.0431777603460681,Normal
+Fowl,sores on lip,infection,sores on lower leg and teats,lesion,pain,Yes,1,0.003541320665221226,-1,-1.4005501020215712,Unusual
+Fowl,abortion on late pregancy,stillbirth,retained placenda,endomeritis,poor appetite,Yes,1,0.003278997721417709,1,-1.1438750145413807,Normal
+Fowl,paresis,paralysis,weakness,stomach cramps,diarrhea,Yes,1,0.008665976890093074,1,-1.011321362557982,Normal
+Fowl,fever,diarrhea,swelling,weight loss,pain,Yes,1,0.012674051466839642,1,-0.9863788720539741,Normal
+Fowl,fever,hemolytic anemia,hemoglobinuria,pulmonary congestion,jaundice,Yes,1,0.014165449442356592,1,-1.1404926836251248,Normal
+Fowl,abortion,mummification,stillbirth,weak kids,pain,Yes,-1,-0.0003258242184259741,-1,-1.3741617122529788,Unusual
+Fowl,runny nose,difficulty in breathing,coughing,weakness,loss of appetite,Yes,1,0.003939018203405087,1,-1.0226211815761452,Normal
+Fowl,fever,nasal discharge,respiratory distress,pox lesion,pain,Yes,1,0.005558659939249477,1,-1.0224482662299788,Normal
+Fowl,fever,dark colored bloody,incoordination,difficulty in breathing,terminal convulsion,Yes,-1,-0.0006746659779756081,1,-1.0450219738270115,Unusual
+Fowl,fever,dysentery,swelling,immediate death,pain,Yes,1,0.012545358139546603,1,-1.0173181991294005,Normal
+Fowl,fever,respiratory distress,mucous discharge,reduce feed,weight gain,Yes,1,0.006696674630895905,1,-1.092475914834656,Normal
+Fowl,decreased milk,holding limbs off the ground,weight loss,lameness,wool production,Yes,1,0.010761375227673453,1,-1.055415289720725,Normal
+Fowl,swelling of udder,change in milk,swollen,tender to touch,pain,Yes,-1,-0.003236864928107319,-1,-1.3572834257255864,Unusual
+Fowl,fever,respiratory distress,occular discharge,mouth lesion,nasal discharge,Yes,1,0.013730693502508107,1,-1.022837367982789,Normal
+Fowl,fever,wound lesion,excess salivary,difficult in walking,pain,Yes,1,0.012915532025084886,1,-1.0380496976800675,Normal
+Fowl,emaciation,edema in lower jaw,coughing,shivering,anemia,Yes,1,0.011601883285811354,1,-1.0625563390655024,Normal
+Buffaloes,fever,reduce growth,kid moratality,weakness,dullness,Yes,1,0.0014899544702035028,1,-1.0189385255938246,Normal
+Buffaloes,fever,reduce growth,edema in lower jaw,weight loss,anemia,Yes,1,0.008759343199017833,1,-1.0648932821496158,Normal
+Buffaloes,emaciation,diarrhea,kid moratality,weakness,anemia,Yes,1,0.005418960154808694,1,-1.0085645543415178,Normal
+Buffaloes,skinallergy,reduce growth,wound,head ache,dizziness,Yes,1,0.009001665188654973,1,-1.1124058560091397,Normal
+Buffaloes,watering of eyes,redness of white of the eye,swelling of eyelid,cornea become cloudy,tear production,Yes,1,0.003894932576185728,1,-1.1170587056409294,Normal
+Buffaloes,berberi,wasting,nervous,weight loss,anorexia,Yes,1,0.004341685203169743,1,-1.038549220863837,Normal
+Buffaloes,gastritis,morbidity,bloody,mortality,anemia,Yes,1,0.00569718393964902,1,-1.0862488171408813,Normal
+Buffaloes,fever,severe headache,vomiting,coughing,fatique,Yes,1,0.009693061269912151,1,-1.0427222892392338,Normal
+Buffaloes,fever,tiredness,swollen kidney,hematuria,muscle aches,Yes,-1,-0.005534969757102881,1,-1.0733935209825431,Unusual
+Buffaloes,fever,diarrhea,poor appetite,vomiting,bloody,Yes,1,0.005628022564902635,1,-0.9841450063164473,Normal
+Buffaloes,gas,diarrhea,abdominal discomfort,vomiting,nausea,Yes,1,0.010108026197896913,1,-1.0387074606226885,Normal
+Buffaloes,drooping ears,lack of coordination,drooling,wasting,listlessness,Yes,-1,-0.0012646901859585946,1,-0.9952594855866994,Unusual
+Buffaloes,edema,diarrhea,nasal discharge,decresed egg production,sneezing,Yes,1,0.011999135796698812,1,-1.0203755382891961,Normal
+Buffaloes,drooping wings,depression,nasal discharge,coughing,greenish diarrhea,No,1,0.01043154647220107,1,-1.0382666138741268,Normal
+Buffaloes,weakness,yellow or green dropping,purplish combs,wattles,drop on egg production,No,1,0.0045741927447459085,1,-1.0711302530637714,Normal
+Buffaloes,neck paralysis,diarrhea,ruffled feathers,labored breathing,weakness,No,1,0.011343664605723558,1,-0.9987583664355137,Normal
+Buffaloes,facial swelling,lacrimation,diarrhea,anorexia,nasal discharge,No,1,0.0010847024194794996,1,-1.026364135967229,Normal
+Buffaloes,loss of appetite,depression,paralyzed leg,weight loss,anemia,No,1,0.008031351209863702,1,-1.0339918048756864,Normal
+Buffaloes,dejection,loss of appetite,slow growth,diarrhea,lesion,No,1,0.0030603634368244204,1,-1.0029906749052244,Normal
+Buffaloes,severe swellimg,heavy breathing,diarrhea,weight loss,pain,No,1,0.01087853768646696,1,-1.0026116168676833,Normal
+Buffaloes,weakness,diarrhea,high moratality,dehydration,anorexia,No,1,0.010336846627201857,1,-1.0326462243114747,Normal
+Buffaloes,fever,hepatitis,skin rashes,weight loss,pain,No,1,0.0064064599425453506,1,-1.0081137486527723,Normal
+Buffaloes,sneezing,epistaxis,coughing,difficulty in breathing,nasal discharge,No,1,0.004205764894705921,1,-0.9938875211181346,Normal
+Buffaloes,sneezing,unilateral nasal discharge,gagging,retching,weight loss,Yes,1,0.010267358844228802,1,-1.1013196353334875,Normal
+Buffaloes,fever,depression,coughing,weight loss,anorexia,Yes,1,0.01314850309845289,1,-0.9947626608597833,Normal
+Buffaloes,shallow breathing,halitosis,coughing,lethargy,nasal discharge,Yes,1,0.010216969836287726,1,-1.0257331492087975,Normal
+Buffaloes,dyspnea,sneezing,coughing,difficulty in breathing,infection,Yes,1,0.0025281145488229573,1,-1.000199484291902,Normal
+Buffaloes,dyspnea,sneezing,coughing,difficulty in breathing,pain,Yes,1,0.00256040902456528,1,-0.9823893660040917,Normal
+Buffaloes,fever,rhinorrhea,coughing,sneezing,dehydration,Yes,1,0.006307984686813928,1,-0.9953175171470526,Normal
+Buffaloes,fever,rhinorrhea,coughing,facial edema,dyspnea,Yes,1,0.005225195168849617,1,-1.0371175069389067,Normal
+Buffaloes,fever,rhinorrhea,coughing,sneezing,nasal discharge,Yes,1,0.006100021655611909,1,-0.9878928140165328,Normal
+Buffaloes,mortality,pain,coughing,weight loss,nasal discharge,Yes,1,0.006629361185066518,1,-1.0220972136594115,Normal
+Buffaloes,skin rashes,diarrhea,death,facial edema,pain,Yes,1,0.003221386037141949,-1,-1.3439594183927173,Unusual
+Buffaloes,fever,dyspnea,coughing,lethargy,weightloss,Yes,1,0.010538932672658041,1,-0.9977098480954645,Normal
+Buffaloes,fever,dyspnea,coughing,weakness,anorexia,Yes,1,0.0064047142519477185,1,-0.9906196513820836,Normal
+Buffaloes,facial edema,dyspnea,conjuctivtis,weakness,pharyngitis,Yes,1,0.005173873172307664,1,-1.0843098760343646,Normal
+Buffaloes,fever,pneumonia,congestion,lethargy,nasal discharge,Yes,1,0.018411773630848116,1,-1.0335019855969594,Normal
+Buffaloes,fever,death,coughing,weight loss,nasal discharge,Yes,1,0.012872276702620644,1,-1.001257441752005,Normal
+Buffaloes,sneezing,convulsion,seizures,weight loss,nasal discharge,Yes,1,0.007289424862236105,1,-1.0342841571307129,Normal
+Buffaloes,fever,death,coughing,dyspnea,anorexia,Yes,1,0.010718426290750482,1,-0.9905722472595919,Normal
+Buffaloes,dyspnea,difficulty in breathing,coughing,lethargy,nasal discharge,Yes,1,0.01079277188145683,1,-1.013276868480137,Normal
+Buffaloes,air sacculitis,halitosis,coughing,enteritis,weight loss,Yes,1,0.0037963189079778803,1,-1.024010521828018,Normal
+Buffaloes,fever,convulsion,sudden death,urine retention,weight loss,Yes,1,0.005947776601045507,1,-1.0597222742131769,Normal
+Buffaloes,dyspnea,neurologic sign,coughing,depression,anorexia,Yes,1,0.007857560760414717,1,-1.0189687599657122,Normal
+Buffaloes,fever,dyspnea,coughing,lethargy,anorexia,Yes,1,0.011659166663431031,1,-0.9753656318123843,Normal
+Buffaloes,labored breathing,dyspnea,coughing,depression,anorexia,Yes,1,0.011377423670205444,1,-1.01604731884208,Normal
+Buffaloes,blood from mouth,diarrhea,coughing,lethargy,weight loss,Yes,1,0.012227704423752483,1,-1.0292392221645055,Normal
+Buffaloes,hemopytsis,diarrhea,asymptomatic,death,epistaxis,Yes,1,0.001749931511786318,-1,-1.373259301525178,Unusual
+Buffaloes,restlessness,weakness,blue straws,death,pain,Yes,1,0.005292112606729238,-1,-1.4544737484533112,Unusual
+Buffaloes,stripped remiges,less feather growth,ruffled feathers,defienciency in vitamin,diarrhea,Yes,1,0.0018432843924803821,1,-1.1068371247332789,Normal
+Buffaloes,apathy,depression,dilation of duodenum,cloacal pasting,congestion,Yes,1,0.013206905232607091,1,-1.1276491047003674,Normal
+Buffaloes,lepatomegaly,splenomegaly,vomiting,swollen,shaking oh head,Yes,1,0.0008081049855153122,1,-1.1452623666615191,Normal
+Buffaloes,balance problem,abdominal destention,neck paralysis,weight loss,pain,Yes,1,0.014857685029320722,1,-1.0464701203579634,Normal
+Buffaloes,legness,paresis,coughing,weight loss,shortness of breath,Yes,1,0.008918668406913022,1,-1.0116244360292972,Normal
+Buffaloes,fever,sour throat,mortality,muscle aches,abnormalities,Yes,1,0.0024726954038976623,1,-1.1179287263007989,Normal
+Buffaloes,difficulty in feeding,preening,weakness,beak overgrowth,anemia,Yes,-1,-0.0075417715988103096,1,-1.0656555054096286,Unusual
+Buffaloes,fever,loss of appetite,ear infection,depression,nasal discharge,Yes,1,0.014242568965096847,1,-1.00807816962763,Normal
+Buffaloes,forthy eye,torticollis,weakness,swelling,emaciation,Yes,1,0.005400800857876309,1,-1.0578559747422558,Normal
+Buffaloes,inappentence,diarrhea,tremors of the head,dehydration,weight loss,Yes,1,0.011718672718701417,1,-1.0242654104346136,Normal
+Buffaloes,lack of walking,lack of flying,roughened,dehydration,pain,Yes,1,0.012813050150801752,-1,-1.2689705352396246,Unusual
+Buffaloes,skin rashes,small and yellow bumps,swelling,dry scabs,lameness,Yes,1,0.01157185508143671,1,-1.0786187076517622,Normal
+Buffaloes,scabs on feet,redness,trachea,thickening of skin,pain,Yes,1,0.011698217282396561,-1,-1.4431071167237683,Unusual
+Buffaloes,enlarged thymus,obstructed lungs,lethargy,skin rashes,weight loss,Yes,1,0.012675813463280672,1,-1.068650105923174,Normal
+Buffaloes,fluffed feather,loss of appetite,coughing,vomiting,snoring,Yes,1,0.01089884458350271,1,-1.01935830794326,Normal
+Buffaloes,fever,difficulty in breathing,yellow eye,sneezing,diphtherictic,Yes,1,0.007951931850609106,1,-0.9917779527253139,Normal
+Buffaloes,heavy breathing,yellow in beak,tail_bobbing,weakness,sleeping excessively,Yes,1,0.008176875996137478,1,-1.0837631382745465,Normal
+Buffaloes,puffed_up feather,less eat,headache,half-closed eye,seizures,Yes,-1,-0.002939000324888419,1,-1.083571111845012,Unusual
+Buffaloes,fever,diarrhea,swollen abdomen,vomiting,difficulty in breathing,Yes,1,0.0026243622140760814,1,-0.9960921313674385,Normal
+Buffaloes,tail wagging,straining,lethargy,weakness,diarrhea,Yes,1,0.008373256298358112,1,-1.0037888438397813,Normal
+Buffaloes,overweight,loss of appetite,ruffled feathers,depression,diarrhea,Yes,1,0.009087981254425503,1,-1.0257197619350173,Normal
+Buffaloes,dejection,loss of appetite,stress,coughing,pain,Yes,1,0.007371555884818026,1,-1.0377567361141578,Normal
+Buffaloes,skin infection,secondary infection,coughing,depression,shaking oh head,Yes,1,0.01284708909046367,1,-1.0792114297611899,Normal
+Buffaloes,discharge from eyes,lethargy,coughing,sneezing,fatique,Yes,1,0.008340479126200118,1,-1.0316376867004649,Normal
+Buffaloes,fever,chills,retarded growth,chest pain,chest pain,Yes,1,0.007050054500136238,1,-1.0356512289073516,Normal
+Buffaloes,pale comb,lame,death,swolling of joint,eye closed,Yes,1,0.00373080770805706,-1,-1.8137109394250548,Unusual
+Buffaloes,lethargy,loss of appetite,difficulty in swallowing,weakness,vision problem,Yes,1,0.006902452199229747,1,-1.030357984387738,Normal
+Buffaloes,emaciation,difficulty in breathing,vomiting,weakness,diarrhea,Yes,1,0.007904190595935778,1,-1.0319151687183337,Normal
+Buffaloes,liquid dropping,exhaustion,ataxia,lethargy,seizures,Yes,1,0.010205062644324747,1,-1.116981157392916,Normal
+Buffaloes,undigested in their feces,loss of appetite,loss of pigment,weakness,bloody in feather,Yes,1,0.008277547331610957,1,-1.0252654112969655,Normal
+Buffaloes,sharp feather,clubbed feather,eye discharge,loss of powder down,diarrhea,Yes,1,0.005814315191038422,-1,-1.1941830712296657,Unusual
+Buffaloes,ruffled appearance,loss of appetite,vomiting,green dropping,nasal discharge,Yes,1,0.006420393326658613,1,-1.0068504730787724,Normal
+Buffaloes,sinuses,swollen eyelids,skin rashes,sneezing,misshapen beak,Yes,1,0.0024332169280361082,1,-1.1324367644573992,Normal
+Buffaloes,feather loss,feather plucking,coughing,itching,nasal discharge,Yes,1,0.006762336530461155,1,-1.0435920842576083,Normal
+Buffaloes,watery eyes,eye closed,weight loss,sneezing,nervous issue,Yes,1,0.012770315837606294,1,-1.0956272018923947,Normal
+Buffaloes,bony lesion,skin rashes,ataxia,anorexia,weakness,Yes,1,0.010125216650643087,1,-1.058864479220412,Normal
+Buffaloes,tremor of head and neck,blindness,kicking at the belly,exercise in tolerance,pain,Yes,1,0.002940201328079761,-1,-1.204668061562455,Unusual
+Buffaloes,swollen belly,dullness,discharge,urination,lying down,Yes,1,0.009809694958476667,1,-1.0789490165681557,Normal
+Buffaloes,fever,dullness,depression,weight loss,anorexia,Yes,1,0.014661358568290317,1,-0.9570458762854612,Normal
+Buffaloes,fever,succumb,spread of infection,weight loss,anorexia,Yes,1,0.013641708128768415,1,-1.0043306942470698,Normal
+Buffaloes,signs in rams,signs in ewe,underdeveloped muscles,semen examination,reduce lamp marking,Yes,-1,-0.0019825733570666415,1,-1.102495968227505,Unusual
+Buffaloes,spines,unusally thin,weakness,enlarged skulls,weakness,Yes,1,0.009558489532882464,1,-1.0516924917214876,Normal
+Buffaloes,discharge,sudden abortion,hemoglobinuria,death of lamb,weight loss,Yes,1,0.01621576633936389,1,-1.1692319201440082,Normal
+Buffaloes,fever,hemolytic anemia,sweats,congestion,jaundice,Yes,1,0.010704512075606076,1,-1.0962546469770058,Normal
+Buffaloes,fever,tiredness,loss of appetite,muscle aches,chest pain,Yes,-1,-0.005815345168050767,1,-1.0609044130144802,Unusual
+Buffaloes,excess salivation,diarrhea,depression,nasal discharge,weakness,Yes,1,0.009779907305713376,1,-1.016111089303977,Normal
+Buffaloes,fever,diarrhea,incoordination,abortion,blood poisioning,Yes,-1,-0.0033128555822426464,1,-1.088160788753357,Unusual
+Buffaloes,fever,wasting,dehydration,deability,weakness,Yes,1,0.004541436937017751,1,-1.0723470150282135,Normal
+Buffaloes,fever,diarrhea,muscle twiching,lameness,weight loss,Yes,1,0.009193984324209814,1,-0.9821327574178109,Normal
+Buffaloes,teeth griding,apathy,dehydration,ruminal stasis,watery faeces,,1,0.011706066331327813,-1,-1.1799290893039696,Unusual
+Buffaloes,fever,depression,lying down,weak pulse,colic,Yes,1,0.011590386815677478,1,-1.0527640060110337,Normal
+Buffaloes,swelling,lameness,hyperaestesia,hock joint,weight loss,Yes,1,0.011209805095182546,1,-1.03378827157847,Normal
+Buffaloes,head tilt,circling,muscles ache,blindness,seizures,Yes,1,0.010101184451523915,1,-1.0659723167095518,Normal
+Buffaloes,decreased growth of bone,depression,grunting,lameness,weight loss,Yes,1,0.01306256579016607,1,-1.0635118224843312,Normal
+Buffaloes,swollen left abdomen,lying down,staggering,urination,extension of neck,Yes,1,0.011287080488059764,1,-1.0622154568185325,Normal
+Buffaloes,cessation of eructation,difficulty in breathing,depression,anorexia,colic,Yes,1,0.010065019748769333,1,-1.0625098352733793,Normal
+Buffaloes,fever,excession salivation,abnormal conformation,ulcerated muscle,ulcerated ear,Yes,-1,-0.0009664434826157642,1,-1.1455101819231186,Unusual
+Buffaloes,barren ewes,abortion,poor conformation,hairy fleeces,weight loss,Yes,1,0.005953541825751474,1,-1.1694350168632301,Normal
+Pig,tremor,viability,coughing,anorexia,weight loss,Yes,1,0.007997035598608981,1,-1.0082361599365504,Normal
+Pig,fever,tachypea,swelling of head and neck,anorexia,nasal discharge,Yes,1,0.011374094735835283,1,-1.0317833762706203,Normal
+Pig,lllthrift,skin lesion,lameness,swelling on thebody,weight loss,Yes,1,0.007211846284078116,1,-1.0554152897207247,Normal
+Pig,swelling,heat,flank,pain,nasal discharge,Yes,1,0.010057981231465174,1,-1.0216486777965303,Normal
+Pig,fever,loss of appetite,lameness,rump,weight loss,Yes,1,0.015854365562843475,1,-1.0032737288639901,Normal
+Pig,fever,swelling,loss of appetite,anorexia,weight loss,Yes,1,0.015119149060831727,1,-0.9836330556374833,Normal
+Pig,fever,diarrhea,bloody droping,abdominal discomfort,lethargy,Yes,1,0.009770358518222277,1,-1.043050852499329,Normal
+Pig,fever,depression,small intestines,death,flock moratality,Yes,1,0.005850048862852841,1,-1.0430369879481136,Normal
+Pig,haemorrhage,straw colored,abdominal pain,death,carcass decomposes,Yes,1,0.0007339212389736449,-1,-1.8137109394250548,Unusual
+Pig,bloody diarhhea,depression,dullness,death,weakness,Yes,1,0.011014660466015569,1,-1.033191550441306,Normal
+Pig,reluctant move,loss of appetite,lameness,death,weakness,Yes,1,0.0062262211663619005,1,-1.027377434546679,Normal
+Pig,fever,depression,loss of appetite,loss of appetite,pain,Yes,1,0.01521228719226142,1,-1.001833534193437,Normal
+Pig,fever,difficulty in breathing,lethargy,death,pain,Yes,1,0.011251678029335355,1,-1.083431945382657,Normal
+Pig,poor wool,loss of appetite,lameness,small size,poor body condition,Yes,1,0.0066013488217459,1,-1.0407538856415512,Normal
+Pig,poor immune function,achomotrica,dehydration,death,pain,Yes,1,0.010526230390461466,-1,-1.5617251305465338,Unusual
+Pig,abdominal pain,diarrhea,malpresentation,shock,anorexia,Yes,-1,-0.0003288885646281492,-1,-1.1808811092640719,Unusual
+Pig,fetopelvic disproportion,uterine inertia,despression,death,pain,Yes,-1,-0.0003358192111562186,1,-1.0,Unusual
+Pig,watery diarrhea dispropotion,sick,corneal ulceration,loss of appetite,death,Yes,1,0.0005063493573468358,1,-1.1091210118454735,Normal
+Pig,severe kerititis,conjunctive,discharge,iris prolapse,loss of eye,Yes,1,0.003958488535650284,1,-1.0897615311606654,Normal
+Pig,swollen,testical pain,itches,bloody discharge,tenderness,Yes,1,0.009669409435222653,1,-1.0397577821119015,Normal
+Pig,fever,diarrhea,depression,scratches,weight loss,Yes,1,0.013815590794921728,1,-0.9721436334890395,Normal
+Pig,foul smelling,dullness,dirty,stained wool,tail shaking,Yes,1,0.012047941457861477,1,-1.0832693720030198,Normal
+Pig,sheep often bites,fleece become thin,loss of wool,death,pain,Yes,1,0.005029734318285073,-1,-1.6584619439895711,Unusual
+Pig,fever,dullness,dullness,skin rashes,pain,Yes,1,0.011344972326884362,1,-1.0133574730154096,Normal
+Pig,fever,difficulty in breathing,rub,coughing,sneezing,Yes,1,0.008485327537675336,1,-1.009394163226648,Normal
+Pig,restlessness,kick,lethargy,nible at their wool,scratching,Yes,1,0.002363373345328046,1,-1.1254824462995257,Normal
+Pig,jaundice,loss of appetite,rough hair coat,coughing,death,Yes,1,0.009779064625839995,1,-1.0162601181198965,Normal
+Pig,fever,reduce reproductive potential,agalactia,loss of milk production,sloughing of the tail,Yes,1,0.01310644199215083,1,-1.1455101819231186,Normal
+Pig,pyrexia,oral lesion,swelling,lameness,death,Yes,1,0.011248647151148039,-1,-1.22571629074714,Unusual
+Pig,red skin,loss of appetite,moist,lameness,pain,Yes,1,0.005041916845242078,1,-1.024203429905945,Normal
+Pig,limping,skin colour change,flabby,raw,sensitive to touch,Yes,-1,-0.0006251984804425681,1,-1.1181450027894937,Unusual
+Pig,groosly enlarged,skin may thicken,convulsion,edematous,pain,Yes,-1,-0.010438392437962019,-1,-1.404699999589973,Unusual
+Pig,hyperexcitability,muscular spasms,gums,death,pain,Yes,1,0.0046033587617086424,-1,-1.6218594036137155,Unusual
+Pig,decreased eyelid,very cold skin,lethargy,lip,fever,Yes,1,0.014122873565039162,1,-1.041184644443913,Normal
+Pig,fever,diarrhea,muscus,weight loss,death,Yes,1,0.012531552654608091,1,-1.0057782176215615,Normal
+Pig,foul smelling,diarrhea,colic,bloody discharge,blood clots,Yes,1,0.008139376219917172,1,-1.1699375511512717,Normal
+Pig,inability to digest,diarrhea,dehydration,weight loss,anemia,Yes,1,0.01597188853242315,1,-1.019578076006328,Normal
+Pig,fever,diarrhea,pot belly,death,loss of appetite,Yes,-1,-0.001541833524547509,1,-1.0399681080570606,Unusual
+Pig,emaciation,diarrhea,coughing,weight loss,death,Yes,1,0.01068020411020254,1,-1.0140720213676815,Normal
+Pig,respiratory distress,diarrhea,death,reduce milk,weight loss,Yes,1,0.0032514960393314474,1,-1.0379734641153888,Normal
+Pig,lllthrift,bottle jaw,strange behaviour,anemia,jaundice,Yes,1,0.003878155061278865,1,-1.0736367505260862,Normal
+Pig,fever,lameness,wasting,blindness,staggering,Yes,1,0.008947398474497381,1,-1.0647479270157727,Normal
+Pig,fever,diarrhea,clearly unthrifty,weight loss,good appetite,Yes,1,0.014277198384867518,1,-0.9920433726146799,Normal
+Pig,fever,dullness,relunctance to walk,infected navels,pain,Yes,1,0.008816688705311992,1,-1.0336874624523174,Normal
+Pig,tenderness,foot hot,facial paralysis,weight loss,pain,Yes,1,0.01036125103881752,1,-1.0413811077583937,Normal
+Pig,fever,lack of coordination,painfull to touch,circling,depression,Yes,1,0.015033533220630613,1,-1.052865636126357,Normal
+Pig,swollen,warm,constipation,depression,bloody,Yes,1,0.005110856617726478,1,-1.1725818883975958,Normal
+Pig,fever,loss of appetite,stumbling,restlessness,pain,Yes,1,0.011868095824872638,1,-1.012895892368261,Normal
+Pig,unsteady gait,twitching,blindness,swelling on joints,pain,Yes,1,0.003372972569457955,-1,-1.250494608892787,Unusual
+Pig,fever,ulcer,scabs,discharge from eye,pain,Yes,1,0.0046185857118486995,1,-1.0335283968082034,Normal
+Pig,smell of ammonia,ulcer,depression,swelling,pain,Yes,1,0.012022716289995683,1,-1.0281450662673433,Normal
+Pig,fever,lethargy,blindness,inappentence,increased in breathing,Yes,1,0.011496616975911478,1,-1.0311758029556468,Normal
+Pig,wandering,circling,blindness,head pressing,recumbency,Yes,1,0.010143926008487736,1,-1.0760375001494784,Normal
+Pig,tremors,lying on the side,difficulty in swallowing,death,not eating,Yes,1,0.014773075480793207,-1,-1.863710939421519,Unusual
+Pig,fever,difficulty in breathing,coughing,sneezing,seizures,Yes,1,0.005150211825004636,1,-1.0053313805051536,Normal
+Pig,swelling,loss of appetite,wool loss,tears,death,Yes,1,0.013404721921825291,1,-1.010174534477158,Normal
+Pig,wool is clumped,feels stiff,staggering,skin rashes,pain,Yes,1,0.010253325472429242,-1,-1.2249053762346347,Unusual
+Pig,swaying,behaviour change,tremor,jerky limb movements,pain,Yes,1,0.0033182701270901838,-1,-1.4521165734543593,Unusual
+Pig,cell damage,behaviour change,weight loss,pruritis,death,Yes,1,0.009621725490232214,-1,-1.2220767220774207,Unusual
+Pig,swelling,discomfort,difficulty in rising,death,pain,Yes,1,0.00842337639892593,-1,-1.4879971538098176,Unusual
+Pig,swollen,hot joints,pustulses,difficulty in walk,pain,Yes,1,0.008455114445242606,-1,-1.3572834257255864,Unusual
+Pig,formation of vesicles,nostrils,abnormally long leg,scabs on lip,pain,Yes,1,0.0069348957702530245,-1,-1.4521165734543593,Unusual
+Pig,skeleten abnormalities,facial defects,hair loss,flat ribs,underdeveloped muscles,Yes,1,0.005777059839204457,1,-1.0187107157135902,Normal
+Tiger,wether restless,kicking,normal appetite,attempt to urinate,pain,Yes,-1,-0.0011256921967079947,-1,-1.4521165734543593,Unusual
+Tiger,inability to stand,pains to walk,depression,weakness,stiffness,Yes,1,0.012289994228827372,1,-1.0911239448941483,Normal
+Tiger,fever,succumb,sluggish,anorexia,pain,Yes,1,0.011373208766956855,1,-1.0113729230244406,Normal
+Tiger,listless,bottle jaw,malpresentation,death,oxygen defiency,Yes,1,0.0006571811440723718,-1,-1.6829611540824978,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Tiger,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Donkey,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Donkey,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Donkey,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Donkey,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Donkey,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Donkey,fetopelvic disproportion,uterine inertia,malpresentation,death,pain,Yes,-1,-0.0005814909244776234,1,-1.0,Unusual
+Donkey,fetopelvic disproportion,uterine inertia,rapid breathing,death,pain,Yes,-1,-0.0007293347711953557,1,-1.0,Unusual
+Donkey,coughing,panting,"facial swelling,",production of mucus,fatigue,Yes,-1,-0.001453027841869181,1,-1.1468913492893646,Unusual
+Donkey,cough,sneeze,droopy wings,twisted neck,droopy wings,Yes,-1,-0.004417819602527628,1,-1.0409331486111721,Unusual
+Donkey,shortness of breath.,fatigue,chirping,loss of appetite,swollen abdomen,Yes,1,0.007454841758929409,1,-1.1403999761610069,Normal
+Donkey,gasping,coughing,mild weakness,droopy wings,twisted neck,Yes,-1,-0.007215925927204325,1,-1.131462941099254,Unusual
+Donkey,excessive blood loss,dizziness and fainting,blurry vision,watery eyes,slow growth,Yes,1,0.013709033391524073,1,-1.1035751886499554,Normal
+Donkey,nosebleed,trauma,mild weakness,nose picking,dry air,Yes,1,0.00849702681493475,1,-1.0995626067140312,Normal
+Donkey,bleeding from other parts of the body,confusion,nasal discharge,loss of alertness,dizziness and fainting,Yes,1,0.01128195651593944,1,-1.1265020018394487,Normal
+Donkey,bad breath,pawing at the face or nose,cough,sneezing,bleeding from the nose,Yes,1,0.0037691200295176253,1,-1.1008065563186749,Normal
+Donkey,extending its neck,gasping for air,gasping for breath,difficulty swallowing,gasping for breath,Yes,-1,-0.0015659887001894246,1,-1.0575916754477537,Unusual
+Donkey,difficulty swallowing,cough,difficulty swallowing,gasping for air,extending its neck,Yes,-1,-0.0002788022795351952,1,-1.0415605598153417,Unusual
+Donkey,cough,gasping for air,weight loss,gasping for breath,extending its neck,Yes,-1,-0.0033385695131167292,1,-1.0904319236468456,Unusual
+Donkey,weakness,decreased stool production,distended stomach,heavy breathing,restless movement,Yes,-1,-0.008736860028917215,1,-1.0837631382745465,Unusual
+Donkey,eye redness,frequent eye infections,crusty eye lashes and matting of eyelashes,foul smelling stools,increased passing gas,Yes,1,0.0018532210817730488,1,-1.094029138181022,Normal
+Donkey,excessive eye watering,eye redness,weakness,mucus discharge from the eye,frequent eye infections,Yes,1,0.004127235899531567,1,-1.0640610598414497,Normal
+Donkey,sudden death,loss of appetite,rapid heartbeats,fluffed feathers,lack of vocalizations,Yes,1,0.010031877941480027,1,-1.1226377759978203,Normal
+Donkey,unable to urinate,lightheadedness,droopiness,rectal bleeding,swollen abdomen,Yes,-1,-0.0009980323138819025,1,-1.1184912649455343,Unusual
+Donkey,extreme thirst,bloody discharge,loss of appetite,inability to fly,loss of wariness,Yes,1,0.01498582538040727,1,-1.1518671405280632,Normal
+Donkey,egg production stops,broody behavior,loss of appetite,weight loss,constipation,Yes,1,0.005249017445726811,1,-1.0141854830276178,Normal
+Donkey,nausea,vomiting,loss of appetite,experiencing changes in weight,pain and bloating,Yes,1,0.0052731873987721944,1,-1.0165987475024614,Normal
+Donkey,burning ache or pain,vomiting,loss of appetite,experiencing changes in weight,pain and bloating,Yes,1,0.010500102025849722,1,-1.0207565913726115,Normal
+Donkey,continuous loss of weight,regurgitation of food,wheezing,excessive food intake,undigested seeds,Yes,1,0.014104500333281755,1,-1.114274233027941,Normal
+Donkey,loss of appetite,lathargy,abortion,gurgling sound,depression,Yes,1,0.009256288044302896,1,-1.0674743234087702,Normal
+Donkey,fever,mild colic,loss of tail tone,loss of appetite,depression,Yes,1,0.009252090648616151,1,-0.988846780061575,Normal
+Donkey,head tilt,lathargy,lathargy,urine dribbling,inability to rise,Yes,1,0.0,1,-1.054834255438975,Normal
+Donkey,fever,loss of appetite,respiratory noise,weight loss,depression,Yes,1,0.01745196824136319,1,-0.9648100283887866,Normal
+Donkey,fever,nasal discharge,muscular stiffness,swollen lymph nodes,depression,Yes,1,0.014399610191945578,1,-1.035867631405267,Normal
+Donkey,sweating,muscular spasms,thirst,weight loss,difficulty moving and eating,Yes,1,0.005038765231567821,1,-1.158133486058542,Normal
+Donkey,loss of appetite,high body temperaure,lack of appetite,diarrhea,sudden death,Yes,1,0.008569003260917973,1,-1.0053687083525769,Normal
+Donkey,sweating,dry or tacky gums,poor appetite,lying down,dullness,Yes,1,0.006533638330514624,1,-1.0917751890998675,Normal
+Donkey,outstretched neck,dullness,loss of appetite,loud breathing,coughing,Yes,1,0.010101305644804215,1,-1.0027006958455635,Normal
+Deer,weight loss,dullness,loss of appetite,self-isolation,recumbency,Yes,1,0.014131421357782836,1,-1.040216441864885,Normal
+Deer,weight loss,dullness,muscles problem,self-isolation,recumbency,Yes,1,0.012073261946360547,1,-1.12130927136776,Normal
+Deer,changed gait,dullness,muscles problem,pain,pain,Yes,1,0.013491680648474058,-1,-1.1995618396561603,Unusual
+Deer,changed gait,dullness,diffuse,difficulty diagnosis,anemia,Yes,1,0.004764622088263393,1,-1.0772351912162237,Normal
+Deer,difficulty in breathing,swelling,bleeding from wounds,frequent yawning,anorexia,Yes,-1,-0.00030461535044506993,1,-1.06920074337781,Unusual
+Deer,undernutrition,drinking polluted water,listlessness,staggering,anorexia,Yes,1,0.004866815110674549,-1,-1.2995631960240805,Unusual
+Deer,wasting,stumbling,listlessness,drooling,drooping ears,Yes,1,4.920466701097137e-05,1,-1.0120415633824964,Normal
+Deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Deer,wasting,stumbling,listlessness,drooling,urination problem,Yes,1,0.0019805178699620063,1,-0.9952594855866994,Normal
+Deer,wasting,stumbling,listlessness,drooling,drooping ears,Yes,1,4.920466701097137e-05,1,-1.0120415633824964,Normal
+Deer,wasting,stumbling,listlessness,drooling,drooping ears,Yes,1,4.920466701097137e-05,1,-1.0120415633824964,Normal
+Deer,wasting,stumbling,fever,drooling,drooping ears,Yes,1,0.006215186128663508,1,-0.9952594855866994,Normal
+Deer,feline infections,lymphosarcoma,difficulty in breathing,stomatitis,anemia,Yes,1,0.007953004542600173,1,-1.1173419955088135,Normal
+Deer,sudden death,high temperature,difficulty in breathing,weight loss,trembling,Yes,1,0.001893919232435426,1,-1.0366832042615162,Normal
+Deer,sudden death,high temperature,difficulty in breathing,anemia,trembling,Yes,1,0.0005808846567439407,1,-1.0820904270688398,Normal
+Deer,sudden death,high temperature,difficulty in breathing,staggering,trembling,Yes,1,0.0025259151645912192,1,-1.0773284325992618,Normal
+Deer,sudden death,high temperature,rapid pulse and heart rates,depression,trembling,Yes,1,0.0038483814870997612,1,-1.0804833950114041,Normal
+Deer,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes,1,0.00866161415983896,1,-0.9864092859911573,Normal
+Deer,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes,1,0.00866161415983896,1,-0.9864092859911573,Normal
+Deer,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes,1,0.00866161415983896,1,-0.9864092859911573,Normal
+Deer,fever,loss of appetite,swollen teats,lameness in affected leg,depression,Yes,1,0.005355044359395378,1,-0.988846780061575,Normal
+Deer,swelling,nasal discharge,drooling,tiredness,fever,Yes,1,0.003567918093413114,1,-1.0569248056243563,Normal
+Deer,eye discharges,nasal discharge,change their normal behaviour,high body temperature,lameness,Yes,1,0.006810872025396597,1,-1.1098965186815264,Normal
+Deer,stop eating,stop drinking,change their normal behaviour,lameness,pain,Yes,1,0.0004965267466012224,1,-1.0819167576124027,Normal
+Deer,stop eating,stop drinking,change their normal behaviour,weight loss,pain,Yes,1,0.0036677080965631936,1,-1.05304181782745,Normal
+Deer,stop eating,stop drinking,change their normal behaviour,depression,pain,Yes,1,0.0026599582809395117,1,-1.0315187819784355,Normal
+Buffaloes,fever,difficulty in breathing,thrist and urination,lethargy,sneezing,Yes,1,0.01244933592114239,1,-0.9890241179482413,Normal
+Buffaloes,fever,diarrhea,nasal discharge,lethargy,blue eye,Yes,1,0.014476271888886505,1,-1.0293982002176219,Normal
+Buffaloes,fever,respiratory distress,weakness in back legs,hyperesthesia,sudden death,Yes,1,0.0089943950675348,1,-1.072232922904108,Normal
+Buffaloes,ulcers,diarrhea,back pain,tarry stool,enlarged lymph nodes,Yes,1,0.009833553736819045,-1,-1.184875244519789,Unusual
+Buffaloes,facial swelling,bloody drool,abdominal pain,anorexia,lossened teeth,Yes,1,0.0006445023672593808,1,-1.1300866656804778,Normal
+Buffaloes,fever,difficulty in breathing,reduce energy,weight loss,enlarged lymph nodes or swelling,Yes,1,0.011617962791779346,1,-1.056948267131751,Normal
+Buffaloes,swelling on leg,pain,poor appetite,broken bones,nasal discharge,Yes,1,0.005259600759804972,1,-1.0351019710300746,Normal
+Buffaloes,short term lethargy,loss of appetite,poor appetite,rapid heart rate,weak pulse,Yes,1,0.004011536917441716,1,-1.1375124874170084,Normal
+Buffaloes,swollen lymph nodes,difficulty walking,watery stool,lethargy,vaginal discharge,Yes,1,0.0056297234219232495,1,-1.1264028827781574,Normal
+Buffaloes,fever,diarrhea,sneezing,stiffness,weakness and depression,Yes,1,0.011558395758387852,1,-1.062154545676923,Normal
+Buffaloes,fever,loss of appetite,coughing,lameness,swelling of joints,Yes,1,0.00791082241901947,1,-1.0353078401581626,Normal
+Buffaloes,fever,chronic eye inflamation,coughing,lethargy,neurologic abnormalities,Yes,1,0.009002088377956907,1,-0.9955795842312727,Normal
+Buffaloes,fever,swelling of face or leg,coughing,depression,pain,Yes,1,0.007212074716271832,1,-0.9770899069360468,Normal
+Buffaloes,diarrhea with mucus,tensemus,nose bleeds,flatulence,pain,Yes,1,0.0050360964986296275,-1,-1.3385039794862412,Unusual
+Buffaloes,strong cough,runny nose,darkened skin,lethargy,loss of appetite,Yes,1,0.005475346702899564,1,-1.0244732545193294,Normal
+Buffaloes,fever,inflammed eye,sneezing,depression,limping,Yes,1,0.004301363018446691,1,-1.0540397075798467,Normal
+Buffaloes,fever,difficulty in breathing,poor appetite,eye and skin change,unable to exercise,Yes,-1,-0.004251751707450568,1,-1.0652811850186277,Unusual
+Buffaloes,fever,loss of appetite,lesions on skin,lethargy,joint pain,Yes,1,0.008171486485237633,1,-1.0469096713525015,Normal
+Buffaloes,lesions in the nasal cavity,lesions on nose,vomiting,loud breathing,lesions on nose,Yes,1,0.0059369384018923554,1,-1.1001702839925993,Normal
+Buffaloes,hair loss,dandruff,vomiting,crusting of the skin,ulcerated skin,Yes,1,0.006573207786127688,1,-1.158668661820235,Normal
+Buffaloes,greenish-yellow nasal discharge,lack of pigmentation,vomiting,lethargy,facial pain,Yes,1,0.002244435626163388,1,-1.0920172322897845,Normal

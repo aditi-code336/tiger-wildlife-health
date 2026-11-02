@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  tiger-diagnostic-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tiger_health_diagnostics
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+      - HOST=0.0.0.0
+      - MPLCONFIGDIR=/tmp/matplotlib
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

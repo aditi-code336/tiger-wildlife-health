@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiger Injury &amp; Health Diagnostics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-page: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --border-color: #E2E8F0;
+      --border-subtle: #CBD5E1;
+      --text-main: #0F172A;
+      --text-muted: #334155;
+      --text-sub: #64748B;
+      --brand-green: #059669;
+      --brand-green-dark: #065F46;
+      --brand-green-light: #ECFDF5;
+      --brand-teal: #0D9488;
+      --brand-teal-dark: #115E59;
+      --brand-teal-light: #F0FDFA;
+      --coral-red: #DC2626;
+      --coral-red-light: #FEF2F2;
+      --amber-gold: #D97706;
+      --amber-light: #FFFBEB;
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+      --radius-pill: 9999px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 28px 20px;
+    }
+
+    /* TOP HEADER */
+    .top-header {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 24px 30px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .brand-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--brand-teal-dark);
+      margin-bottom: 4px;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--brand-green);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .main-title {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text-main);
+      letter-spacing: -0.02em;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      font-size: 13px;
+      color: var(--text-sub);
+      max-width: 600px;
+      line-height: 1.45;
+    }
+
+    .header-badges {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .stat-badge-card {
+      background: var(--bg-page);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 10px 16px;
+      text-align: right;
+    }
+
+    .stat-badge-label {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--text-sub);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .stat-badge-val {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--brand-green-dark);
+      margin-top: 1px;
+    }
+
+    /* TAB NAVIGATION */
+    .tab-bar {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 22px;
+      padding-bottom: 2px;
+      scrollbar-width: thin;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-sub);
+      cursor: pointer;
+      border-radius: var(--radius-md) var(--radius-md) 0 0;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: #F1F5F9;
+    }
+
+    .tab-btn.active {
+      color: var(--brand-teal-dark);
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-bottom-color: #FFFFFF;
+      margin-bottom: -1px;
+      font-weight: 700;
+    }
+
+    .tab-pane {
+      display: none;
+    }
+
+    .input-mode-selector {
+      display: inline-flex;
+      background: #F1F5F9;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 4px;
+      gap: 4px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .mode-pill {
+      background: transparent;
+      border: none;
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-sub);
+      cursor: pointer;
+      border-radius: var(--radius-sm);
+      transition: all 0.15s ease;
+    }
+
+    .mode-pill:hover {
+      color: var(--text-main);
+    }
+
+    .mode-pill.active {
+      background: #FFFFFF;
+      color: var(--brand-teal-dark);
+      font-weight: 700;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+
+    .tab-pane.active {
+      display: block;
+    }
+
+    /* CARDS */
+    .card-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 26px 30px;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .card-subtitle {
+      font-size: 13px;
+      color: var(--text-sub);
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    /* FORMS & INPUTS */
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 6px;
+    }
+
+    .text-input {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      background: #FFFFFF;
+      color: var(--text-main);
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+
+    .text-input:focus {
+      border-color: var(--brand-teal);
+      box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.12);
+    }
+
+    /* DROPZONE */
+    .dropzone-container {
+      border: 2px dashed var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 32px 20px;
+      text-align: center;
+      cursor: pointer;
+      background: #FAFBF9;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 180px;
+    }
+
+    .dropzone-container:hover, .dropzone-container.dragover {
+      border-color: var(--brand-teal);
+      background: var(--brand-teal-light);
+    }
+
+    .dropzone-text {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .dropzone-hint {
+      font-size: 12px;
+      color: var(--text-sub);
+    }
+
+    .image-preview-box {
+      display: none;
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 14px 18px;
+      margin-top: 14px;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .image-preview-thumb {
+      width: 76px;
+      height: 76px;
+      object-fit: cover;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-color);
+    }
+
+    /* BUTTONS */
+    .btn-action-primary {
+      background: var(--brand-teal-dark);
+      color: #FFFFFF;
+      border: none;
+      border-radius: var(--radius-md);
+      padding: 10px 22px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.15s ease;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-action-primary:hover {
+      background: #0F4C47;
+    }
+
+    .btn-action-primary:disabled {
+      background: #94A3B8;
+      cursor: not-allowed;
+    }
+
+    .btn-action-secondary {
+      background: #FFFFFF;
+      color: var(--text-sub);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 10px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .btn-action-secondary:hover {
+      background: #F1F5F9;
+      color: var(--text-main);
+    }
+
+    /* SYMPTOM TAGS */
+    .tag-category-header {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-sub);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin: 12px 0 6px 0;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .symptom-tag {
+      background: #F1F5F9;
+      border: 1px solid #E2E8F0;
+      border-radius: var(--radius-pill);
+      padding: 4px 11px;
+      font-size: 12px;
+      color: var(--text-muted);
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s ease;
+    }
+
+    .symptom-tag:hover {
+      background: #E2E8F0;
+      color: var(--text-main);
+    }
+
+    .symptom-tag.selected {
+      background: var(--brand-teal-light);
+      border-color: var(--brand-teal);
+      color: var(--brand-teal-dark);
+      font-weight: 600;
+    }
+
+    /* CHECKLIST GRID */
+    .checklist-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .checklist-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+    }
+
+    .checklist-card-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+
+    .checklist-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      cursor: pointer;
+    }
+
+    .checklist-item input {
+      accent-color: var(--brand-teal);
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+    }
+
+    /* PATHOLOGY GRID */
+    .pathology-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .pathology-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .pathology-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      gap: 8px;
+    }
+
+    .pathology-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .pathology-badge {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: var(--radius-pill);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+
+    .badge-viral { background: #EEF2FF; color: #4338CA; border: 1px solid #C7D2FE; }
+    .badge-trauma { background: #FEF2F2; color: #B91C1C; border: 1px solid #B91C1C; }
+    .badge-bacterial { background: #FEF3C7; color: #B45309; border: 1px solid #FDE68A; }
+    .badge-protozoan { background: #ECFDF5; color: #047857; border: 1px solid #A7F3D0; }
+    .badge-parasitic { background: #F0FDF4; color: #15803D; border: 1px solid #BBF7D0; }
+    .badge-metabolic { background: #FFFBEB; color: #B45309; border: 1px solid #FDE68A; }
+    .badge-dental { background: #F5F3FF; color: #6D28D9; border: 1px solid #DDD6FE; }
+    .badge-ocular { background: #F0F9FF; color: #0369A1; border: 1px solid #BAE6FD; }
+    .badge-environmental { background: #FFF7ED; color: #C2410C; border: 1px solid #FFEDD5; }
+    .badge-chronic { background: #F3F4F6; color: #4B5563; border: 1px solid #E5E7EB; }
+
+    .pathology-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.45;
+      margin-bottom: 12px;
+    }
+
+    .pathology-signs-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-sub);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .pathology-signs {
+      font-size: 12px;
+      color: var(--text-main);
+      background: #F8FAFC;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 8px 12px;
+      margin-bottom: 14px;
+      line-height: 1.4;
+    }
+
+    /* RESULTS SECTION & DIAGNOSIS */
+    .diagnostic-result-panel {
+      display: none;
+      margin-top: 24px;
+    }
+
+    .status-banner {
+      border-radius: var(--radius-lg);
+      padding: 20px 24px;
+      margin-bottom: 20px;
+      border: 1px solid transparent;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .banner-danger { background: #FEF2F2; border-color: #FECACA; }
+    .banner-warning { background: #FFFBEB; border-color: #FDE68A; }
+    .banner-success { background: #ECFDF5; border-color: #A7F3D0; }
+    .banner-info { background: #F0FDFA; border-color: #CCFBF1; }
+
+    .banner-status-title {
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 4px;
+    }
+
+    .banner-danger .banner-status-title { color: #991B1B; }
+    .banner-warning .banner-status-title { color: #92400E; }
+    .banner-success .banner-status-title { color: #065F46; }
+    .banner-info .banner-status-title { color: #115E59; }
+
+    .banner-summary-text {
+      font-size: 13px;
+      color: var(--text-muted);
+      max-width: 650px;
+      line-height: 1.5;
+    }
+
+    .urgency-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 5px 12px;
+      border-radius: var(--radius-pill);
+      white-space: nowrap;
+    }
+
+    .urgency-emergency { background: #DC2626; color: #FFFFFF; }
+    .urgency-priority { background: #D97706; color: #FFFFFF; }
+    .urgency-moderate { background: #E0E7FF; color: #3730A3; }
+    .urgency-routine { background: #059669; color: #FFFFFF; }
+
+    .prob-bar-container {
+      background: #E2E8F0;
+      border-radius: var(--radius-pill);
+      height: 8px;
+      overflow: hidden;
+      margin: 8px 0 6px 0;
+    }
+
+    .prob-bar-fill {
+      height: 100%;
+      border-radius: var(--radius-pill);
+      background: var(--coral-red);
+      width: 0%;
+      transition: width 0.4s ease;
+    }
+
+    .condition-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 18px;
+      margin-bottom: 12px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .condition-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .condition-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .condition-pill {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: var(--radius-pill);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .pill-high { background: #FEE2E2; color: #991B1B; }
+    .pill-mod { background: #FEF3C7; color: #92400E; }
+    .pill-obs { background: #F1F5F9; color: #475569; }
+
+    .whats-wrong-box {
+      background: #F8FAFC;
+      border-left: 3px solid var(--brand-teal);
+      padding: 10px 14px;
+      margin-bottom: 12px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+
+    .whats-wrong-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--brand-teal-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 3px;
+    }
+
+    .whats-wrong-text {
+      font-size: 13px;
+      color: var(--text-main);
+      line-height: 1.45;
+    }
+
+    .next-steps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .protocol-step-card {
+      background: #FAFBF9;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 12px 14px;
+    }
+
+    .protocol-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-sub);
+      margin-bottom: 5px;
+    }
+
+    .protocol-desc {
+      font-size: 12px;
+      color: var(--text-main);
+      line-height: 1.45;
+    }
+
+    /* TABLE */
+    .custom-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .custom-table th {
+      text-align: left;
+      padding: 10px 14px;
+      border-bottom: 2px solid var(--border-color);
+      color: var(--text-sub);
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .custom-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-main);
+    }
+
+    .custom-table tr:hover {
+      background: #FAFBF9;
+    }
+
+    /* MODAL */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(17, 24, 39, 0.45);
+      backdrop-filter: blur(4px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 16px;
+    }
+
+    .modal-card {
+      background: #FFFFFF;
+      border-radius: var(--radius-lg);
+      width: 100%;
+      max-width: 600px;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 26px;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+    }
+
+    .modal-close-btn {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: transparent;
+      border: none;
+      font-size: 20px;
+      color: var(--text-sub);
+      cursor: pointer;
+    }
+
+    /* GALLERY GRID */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .gallery-item {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .gallery-img {
+      width: 100%;
+      height: 95px;
+      object-fit: cover;
+      background: #E2E8F0;
+    }
+
+    .gallery-info {
+      padding: 6px 8px;
+      font-size: 11px;
+    }
+
+    .badge-pill {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: var(--radius-pill);
+      text-transform: uppercase;
+    }
+
+    .badge-healthy { background: var(--brand-green-light); color: var(--brand-green-dark); }
+    .badge-injured { background: var(--coral-red-light); color: var(--coral-red); }
+    .badge-uncertain { background: var(--amber-light); color: var(--amber-gold); }
+
+    .folder-path-code {
+      font-family: monospace;
+      font-size: 11px;
+      background: #E2E8F0;
+      padding: 2px 6px;
+      border-radius: var(--radius-sm);
+      color: #0F172A;
+    }
+
+    .voice-record-box {
+      background: #F8FAFC;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 18px;
+      margin-bottom: 14px;
+    }
+
+    .voice-btn-bar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .btn-record {
+      background: var(--coral-red);
+      color: #FFFFFF;
+      border: none;
+      padding: 9px 18px;
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-record.recording {
+      background: #991B1B;
+      animation: pulse-red 1.5s infinite;
+    }
+
+    @keyframes pulse-red {
+      0% { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0.6); }
+      70% { box-shadow: 0 0 0 10px rgba(225, 29, 72, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0); }
+    }
+
+    .preset-pill-container {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+      margin-bottom: 14px;
+    }
+
+    .preset-pill {
+      background: #EFF6FF;
+      border: 1px solid #BFDBFE;
+      color: #1E40AF;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 5px 11px;
+      border-radius: var(--radius-pill);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .preset-pill:hover {
+      background: #DBEAFE;
+      color: #1E3A8A;
+    }
+
+    .pathology-detail-drawer {
+      display: none;
+      background: #FAFBF9;
+      border-top: 1px solid var(--border-color);
+      padding: 14px;
+      margin-top: 12px;
+      border-radius: var(--radius-sm);
+      font-size: 12px;
+    }
+
+    .pathology-detail-drawer.open {
+      display: block;
+    }
+
+    .page-footer {
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-sub);
+      margin-top: 36px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- TOP HEADER -->
+    <header class="top-header">
+      <div>
+        <div class="brand-eyebrow">
+          <span class="status-dot"></span>
+          Wildlife Clinical Diagnostics
+        </div>
+        <h1 class="main-title">Tiger Health and Injury Monitoring</h1>
+        <p class="subtitle">
+          Rapid multi-source diagnostic evaluation: photo trauma analysis, clinical signs, voice audio dispatch, and WhatsApp field reports for wild and captive tigers.
+        </p>
+      </div>
+
+      <div class="header-badges">
+        <div class="stat-badge-card">
+          <div class="stat-badge-label">Diagnostic System</div>
+          <div class="stat-badge-val" style="color: var(--brand-teal-dark);">Panthera tigris Health</div>
+        </div>
+        <div class="stat-badge-card">
+          <div class="stat-badge-label">Input Channels</div>
+          <div class="stat-badge-val">Photo &bull; Voice &bull; WhatsApp</div>
+        </div>
+        <div class="stat-badge-card">
+          <div class="stat-badge-label">Clinical Scope</div>
+          <div class="stat-badge-val">13 Disease &amp; Trauma Categories</div>
+        </div>
+        <div class="stat-badge-card">
+          <div class="stat-badge-label">Scientific Evidence Base</div>
+          <div class="stat-badge-val" style="color: var(--brand-green-dark);">67 Vetted Citations</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- NAVIGATION TABS -->
+    <nav class="tab-bar">
+      <button class="tab-btn active" onclick="switchTab('checker')">
+        Tiger Injury Checker
+      </button>
+      <button class="tab-btn" onclick="switchTab('pathology')">
+        Clinical Reference &amp; Pathology Guide
+      </button>
+    </nav>
+
+    <!-- TAB 1: TIGER HEALTH & INJURY CHECKER (MULTI-SOURCE MODES) -->
+    <div id="tab-checker" class="tab-pane active">
+      <div class="card-box">
+        <div class="card-title">Tiger Health &amp; Injury Assessment</div>
+        <p class="card-subtitle">
+          Input field observations through any format: photograph, observed symptoms, spoken voice dispatch, or WhatsApp field message. The system analyzes the indicators, identifies what is wrong, and generates veterinary next steps.
+        </p>
+
+        <!-- Segmented Mode Selector -->
+        <div class="input-mode-selector">
+          <button type="button" class="mode-pill active" id="pill-photo" onclick="setInputMode('photo')">
+            Mode 1: Photograph
+          </button>
+          <button type="button" class="mode-pill" id="pill-symptoms" onclick="setInputMode('symptoms')">
+            Mode 2: Clinical Signs
+          </button>
+          <button type="button" class="mode-pill" id="pill-voice" onclick="setInputMode('voice')">
+            Mode 3: Voice Dispatch
+          </button>
+          <button type="button" class="mode-pill" id="pill-whatsapp" onclick="setInputMode('whatsapp')">
+            Mode 4: WhatsApp / Radio Message
+          </button>
+          <button type="button" class="mode-pill" id="pill-combined" onclick="setInputMode('combined')">
+            Mode 5: Combined (Photo + Text/Audio)
+          </button>
+        </div>
+
+        <form id="checker-form" onsubmit="event.preventDefault(); submitTigerAssessment();">
+
+          <!-- MODE 1 & 5: PHOTO CONTAINER -->
+          <div id="section-photo">
+            <label class="form-label">Tiger Photograph (Field or Camera Trap Image)</label>
+            <div class="dropzone-container" id="check-dropzone" onclick="document.getElementById('check-file-input').click()">
+              <div class="dropzone-text">Click or drag a tiger photograph here</div>
+              <div class="dropzone-hint">Supported formats: JPG, PNG, WEBP (maximum 5 MB)</div>
+              <input type="file" id="check-file-input" accept="image/png, image/jpeg, image/webp" style="display: none;" onclick="this.value = null;" onchange="handlePhotoSelect(this.files)">
+            </div>
+
+            <div class="image-preview-box" id="photo-preview-box" style="display: none;">
+              <img id="photo-preview-img" src="" alt="Selected Photo" class="image-preview-thumb">
+              <div style="flex: 1; min-width: 140px;">
+                <div id="photo-preview-filename" style="font-weight: 600; font-size: 13px; word-break: break-all;"></div>
+                <div id="photo-preview-filesize" style="font-size: 12px; color: var(--text-sub); margin-top: 2px;"></div>
+              </div>
+              <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+                <button type="button" class="btn-action-secondary" onclick="document.getElementById('check-file-input').click()">
+                  Change Photo
+                </button>
+                <button type="button" class="btn-action-secondary" onclick="resetPhotoSelect()" style="color: #B91C1C;">
+                  Remove
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- MODE 2 & 5: SYMPTOMS CONTAINER -->
+          <div id="section-symptoms" style="display: none; margin-top: 16px;">
+            <div class="form-group">
+              <label class="form-label" for="symptoms-input">Observed Symptoms &amp; Clinical Notes</label>
+              <input type="text" id="symptoms-input" class="text-input" placeholder="e.g. limping on left foreleg, deep puncture wounds, swelling" value="limping, swelling on leg">
+            </div>
+
+            <div class="tag-category-header">Physical Trauma &amp; Wounds</div>
+            <div class="tag-container">
+              <span class="symptom-tag selected" onclick="toggleSymptomTag(this, 'limping')">limping</span>
+              <span class="symptom-tag selected" onclick="toggleSymptomTag(this, 'swelling on leg')">swelling on leg</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'cuts or bleeding')">cuts or bleeding</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'deep puncture wounds')">deep puncture wounds</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'snare or wire injury')">snare or wire injury</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'porcupine quills embedded')">porcupine quills embedded</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'broken canine or jaw damage')">broken canine or jaw damage</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'paw swelling or cracked claw')">paw swelling or cracked claw</span>
+            </div>
+
+            <div class="tag-category-header">Skin, Fur &amp; Parasites</div>
+            <div class="tag-container">
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'patchy hair loss')">patchy hair loss</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'crusty or scaly skin')">crusty or scaly skin</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'frequent scratching')">frequent scratching</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'ticks or external parasites')">ticks or external parasites</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'pale gums or anemia')">pale gums or anemia</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'jaundice')">jaundice</span>
+            </div>
+
+            <div class="tag-category-header">Systemic, Viral &amp; Bacterial Signs</div>
+            <div class="tag-container">
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'fever')">fever</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'extreme lethargy')">extreme lethargy</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'muscle twitches or spasms')">muscle twitches or spasms</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'hindlimb paralysis')">hindlimb paralysis</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'loss of fear or disorientation')">loss of fear or disorientation</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'progressive wasting or prominent ribs')">progressive wasting or prominent ribs</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'labored breathing')">labored breathing</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'chronic cough')">chronic cough</span>
+              <span class="symptom-tag" onclick="toggleSymptomTag(this, 'severe diarrhea or vomiting')">severe diarrhea or vomiting</span>
+            </div>
+          </div>
+
+          <!-- MODE 3: VOICE DISPATCH CONTAINER -->
+          <div id="section-voice" style="display: none; margin-top: 16px;">
+            <div class="voice-record-box">
+              <div style="font-weight: 700; font-size: 14px; margin-bottom: 4px; color: var(--text-main);">
+                Voice Audio Dispatch &amp; Spoken Field Reports
+              </div>
+              <p style="font-size: 12px; color: var(--text-sub); margin-bottom: 12px;">
+                Record a voice dispatch directly via microphone, or choose a pre-recorded ranger dispatch sample below.
+              </p>
+
+              <div class="voice-btn-bar">
+                <button type="button" class="btn-record" id="btn-voice-record" onclick="toggleVoiceRecording()">
+                  Start Voice Recording
+                </button>
+                <span id="voice-status-text" style="font-size: 12px; font-weight: 600; color: var(--text-sub);">
+                  Click to speak field observations
+                </span>
+              </div>
+
+              <div style="font-size: 11px; font-weight: 700; color: var(--text-sub); text-transform: uppercase; margin-top: 8px;">
+                Quick Spoken Dispatch Samples:
+              </div>
+              <div class="preset-pill-container">
+                <span class="preset-pill" onclick="insertVoiceSample('Field dispatch: Adult male tiger sighted near eastern nullah, limping heavily on left shoulder with deep puncture wounds and fresh bleeding from territorial fight')">
+                  Spoken Combat Trauma Dispatch
+                </span>
+                <span class="preset-pill" onclick="insertVoiceSample('Urgent ranger audio report: Tiger dragging hind paw with embedded metal wire snare, extreme swelling on leg and bloody pugmarks')">
+                  Spoken Wire Snare Alert
+                </span>
+                <span class="preset-pill" onclick="insertVoiceSample('Camera patrol dispatch: Tiger unable to eat, face swollen, numerous porcupine quills embedded in muzzle and left forepaw')">
+                  Spoken Porcupine Quill Sighting
+                </span>
+                <span class="preset-pill" onclick="insertVoiceSample('Radio check: Tiger disoriented, no fear of patrol vehicle, stumbling with severe muscle twitches and clear nasal discharge')">
+                  Spoken Distemper / Neurological Alert
+                </span>
+              </div>
+
+              <div class="form-group" style="margin-top: 12px; margin-bottom: 0;">
+                <label class="form-label" for="voice-transcript">Spoken Dispatch Transcript (Editable)</label>
+                <textarea id="voice-transcript" class="text-input" rows="3" placeholder="Voice transcription will appear here. You can also edit or type spoken field notes directly..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- MODE 4: WHATSAPP & RADIO MESSAGES CONTAINER -->
+          <div id="section-whatsapp" style="display: none; margin-top: 16px;">
+            <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: var(--radius-md); padding: 18px; margin-bottom: 14px;">
+              <div style="font-weight: 700; font-size: 14px; margin-bottom: 4px; color: #166534;">
+                WhatsApp &amp; Field Patrol Radio Messages
+              </div>
+              <p style="font-size: 12px; color: #15803D; margin-bottom: 12px;">
+                Paste unedited field text from WhatsApp chats, SMS alerts, or patrol log notes. The natural language engine extracts clinical markers and formulates veterinary recommendations.
+              </p>
+
+              <div style="font-size: 11px; font-weight: 700; color: #166534; text-transform: uppercase;">
+                Click Preset Field Messages to Test:
+              </div>
+              <div class="preset-pill-container">
+                <span class="preset-pill" style="background: #DCFCE7; border-color: #86EFAC; color: #14532D;" onclick="insertWhatsAppPreset('combat')">
+                  WhatsApp: Combat Trauma
+                </span>
+                <span class="preset-pill" style="background: #DCFCE7; border-color: #86EFAC; color: #14532D;" onclick="insertWhatsAppPreset('snare')">
+                  WhatsApp: Wire Snare Injury
+                </span>
+                <span class="preset-pill" style="background: #DCFCE7; border-color: #86EFAC; color: #14532D;" onclick="insertWhatsAppPreset('quills')">
+                  WhatsApp: Porcupine Quills
+                </span>
+                <span class="preset-pill" style="background: #DCFCE7; border-color: #86EFAC; color: #14532D;" onclick="insertWhatsAppPreset('distemper')">
+                  WhatsApp: Distemper Symptoms
+                </span>
+                <span class="preset-pill" style="background: #DCFCE7; border-color: #86EFAC; color: #14532D;" onclick="insertWhatsAppPreset('mange')">
+                  WhatsApp: Mange / Skin Lesions
+                </span>
+                <span class="preset-pill" style="background: #DCFCE7; border-color: #86EFAC; color: #14532D;" onclick="insertWhatsAppPreset('dental')">
+                  WhatsApp: Broken Canine / Jaw
+                </span>
+              </div>
+
+              <div class="form-group" style="margin-top: 10px; margin-bottom: 0;">
+                <label class="form-label" for="whatsapp-input" style="color: #166534;">WhatsApp / SMS Message Text</label>
+                <textarea id="whatsapp-input" class="text-input" rows="3" placeholder="e.g. Ranger Amit: Spotted male tiger near nullah, limping on left foreleg with bleeding neck cuts from territorial fight..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 20px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+            <button type="submit" class="btn-action-primary" id="btn-submit-assessment">
+              Assess Photograph
+            </button>
+            <button type="button" class="btn-action-secondary" id="btn-renew-assessment" onclick="renewAnalysis()">
+              Renew Analysis
+            </button>
+          </div>
+        </form>
+
+        <!-- UNIFIED DIAGNOSTIC RESULTS PANEL -->
+        <div class="diagnostic-result-panel" id="diagnostic-results-panel">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 6: CLINICAL PATHOLOGY REFERENCE -->
+    <div id="tab-pathology" class="tab-pane">
+      <div class="card-box">
+        <div class="card-title">Tiger Clinical Pathology Reference Guide</div>
+        <p class="card-subtitle">Comprehensive diagnostic reference covering major viral pathogens, bacterial infections, parasitic threats, and physical trauma in wild and captive tigers.</p>
+        <div style="margin-bottom: 18px;">
+          <input type="text" id="pathology-search-input" class="text-input" placeholder="Search conditions by name, category, or symptoms (e.g. canine distemper, quills, limping)..." oninput="filterPathologies()">
+        </div>
+
+        <div id="pathology-cards-container">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      Tiger Injury and Clinical Anomaly Detection System &bull; Conservation Field Diagnostics
+    </footer>
+  </div>
+
+  <script>
+    let currentInputMode = "photo";
+    let selectedPhoto = null;
+
+    // PATHOLOGY KNOWLEDGE BASE
+    const PATHOLOGY_LIBRARY = [
+      {
+        id: "fighting_trauma",
+        name: "Intra-Specific Fighting Trauma",
+        category: "Physical Trauma",
+        desc: "Deep puncture wounds, muscular tears, facial lacerations, and bone fractures resulting from territorial disputes or mating combat with rival tigers. Puncture wounds frequently seal over superficially, creating closed anaerobic pockets prone to severe abscessation.",
+        signs: "deep puncture wounds, cuts or bleeding, swelling on leg, limping"
+      },
+      {
+        id: "porcupine_quills",
+        name: "Porcupine Quill Penetrations",
+        category: "Trauma & Wounds",
+        desc: "Embedded barbed quills from crested porcupines (Hystrix indica) in muzzle, lips, or paws. Microscopic backwards barbs cause continuous inward migration, severe fistulas, cellulitis, and starvation.",
+        signs: "porcupine quills embedded, mouth trauma, paw swelling, limping"
+      },
+      {
+        id: "poaching_snare",
+        name: "Poaching Snare / Wire Ligature Trauma",
+        category: "Human Conflict",
+        desc: "Wire or cable poaching snare constriction around distal limb or neck. Causes circumferential pressure necrosis, severed tendons, gangrenous ischemia, massive edema, and auto-amputation.",
+        signs: "snare or wire injury, limb strangulation, severe swelling, cuts or bleeding"
+      },
+      {
+        id: "dental_damage",
+        name: "Tooth and Jaw Damage / Dental Fracture",
+        category: "Dental Trauma",
+        desc: "Broken canines, missing incisors, or fractured mandibular bone. Exposed dental pulp causes severe constant pain, chronic osteitis, and loss of predatory gripping capability.",
+        signs: "broken canine or jaw damage, oral bleeding, excessive drooling"
+      },
+      {
+        id: "canine_distemper",
+        name: "Canine Distemper Virus (CDV)",
+        category: "Infectious Viral",
+        desc: "Severe morbillivirus attacking the central nervous system, respiratory, and digestive tracts. Characterized by loss of natural fear of humans, rhythmic muscle twitches, ataxia, and paralysis.",
+        signs: "muscle twitches or spasms, hindlimb paralysis, loss of fear or disorientation, fever"
+      },
+      {
+        id: "feline_parvovirus",
+        name: "Feline Parvovirus (FPV / Distemper)",
+        category: "Infectious Viral",
+        desc: "Parvovirus targeting rapidly dividing mucosal crypt cells and bone marrow myeloid progenitors. Causes severe leukopenia (depleted white blood cells), bloody diarrhea, and rapid dehydration.",
+        signs: "severe diarrhea or vomiting, bloody diarrhea, extreme lethargy, dehydration"
+      },
+      {
+        id: "rabies",
+        name: "Rabies Virus",
+        category: "Fatal Viral",
+        desc: "Fatal neurotropic lyssavirus transmitted through bite wounds. Progresses through unprovoked aggression, profuse salivation, inability to swallow, ascending paralysis, and death.",
+        signs: "unprovoked aggression, excessive drooling, loss of coordination, paralysis"
+      },
+      {
+        id: "bovine_tb",
+        name: "Bovine Tuberculosis (M. bovis)",
+        category: "Chronic Bacterial",
+        desc: "Chronic granulomatous mycobacterial infection contracted by consuming infected ungulate prey. Causes pulmonary granulomas, persistent productive coughing, and progressive emaciation.",
+        signs: "progressive wasting or prominent ribs, chronic cough, labored breathing, sunken flanks"
+      },
+      {
+        id: "leptospirosis",
+        name: "Leptospirosis",
+        category: "Bacterial Infection",
+        desc: "Spirochetal infection contracted via water or soil contaminated with rodent urine. Induces acute tubulointerstitial nephritis, marked icterus (jaundice), dark chromaturia, and acute renal failure.",
+        signs: "jaundice, fever, extreme lethargy, dark urine, dehydration"
+      },
+      {
+        id: "dermatophytosis",
+        name: "Dermatophytosis (Ringworm) / Mange",
+        category: "Skin & Parasites",
+        desc: "Fungal infection or sarcoptic mite infestation causing circular patchy hair loss, crusty scaly plaques, and intense pruritus leading to excoriation and secondary staphylococcal dermatitis.",
+        signs: "patchy hair loss, crusty or scaly skin, frequent scratching"
+      },
+      {
+        id: "trypanosomiasis",
+        name: "Trypanosomiasis (Surra / T. evansi)",
+        category: "Blood Protozoan",
+        desc: "Hemoflagellate protozoan parasite transmitted mechanically by biting horseflies (Tabanus). Causes intermittent paroxysmal fever, severe hemolytic anemia, dependent limb edema, and weakness.",
+        signs: "pale gums or anemia, fever, extreme lethargy, loss of coordination"
+      },
+      {
+        id: "babesiosis",
+        name: "Cytauxzoonosis & Babesiosis",
+        category: "Tick-Borne Protozoan",
+        desc: "Intra-erythrocytic protozoa from ticks causing red blood cell destruction, acute jaundice, pale mucous membranes, and spiking fever.",
+        signs: "pale gums or anemia, jaundice, ticks or external parasites, fever"
+      },
+      {
+        id: "chronic_kidney_disease",
+        name: "Chronic Kidney Disease (CKD)",
+        category: "Geriatric Condition",
+        desc: "Progressive age-related loss of functional renal nephrons in senior tigers. Results in azotemia, chronic dehydration, severe muscle wasting, and poor appetite.",
+        signs: "progressive wasting or prominent ribs, sunken flanks, dehydration, extreme lethargy"
+      }
+    ];
+
+    // INITIALIZATION
+    window.addEventListener("DOMContentLoaded", () => {
+      initDropzone();
+      fetch("/api/pathologies")
+        .then(res => res.json())
+        .then(data => {
+          if (Array.isArray(data) && data.length > 0) {
+            PATHOLOGY_LIBRARY = data;
+          }
+          renderPathologyLibrary();
+        })
+        .catch(() => {
+          renderPathologyLibrary();
+        });
+    });
+
+    function switchTab(tabId) {
+      document.querySelectorAll(".tab-bar .tab-btn").forEach(btn => btn.classList.remove("active"));
+      document.querySelectorAll(".tab-pane").forEach(pane => pane.classList.remove("active"));
+
+      const targetBtn = Array.from(document.querySelectorAll(".tab-bar .tab-btn")).find(b => b.getAttribute("onclick") && b.getAttribute("onclick").includes(tabId));
+      if (targetBtn) targetBtn.classList.add("active");
+
+      const targetPane = document.getElementById("tab-" + tabId);
+      if (targetPane) targetPane.classList.add("active");
+    }
+
+    async function fetchHealthMetrics() {
+      try {
+        const res = await fetch("/health");
+        if (!res.ok) return;
+        const data = await res.json();
+        if (data.photo_model) {
+          const pm = data.photo_model;
+          document.getElementById("header-photos-count").textContent = pm.gallery_counts ? pm.gallery_counts.total : 100;
+          document.getElementById("gallery-count-healthy").textContent = `${pm.gallery_counts.healthy} loaded`;
+          document.getElementById("gallery-count-injured").textContent = `${pm.gallery_counts.injured} loaded`;
+        }
+      } catch (e) {
+        console.warn("Could not fetch health metrics", e);
+      }
+    }
+
+    // SHARED REUSABLE DIAGNOSTIC RENDERER
+    function renderDiagnosticCard(containerId, data) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+      container.style.display = "block";
+
+      const status = data.status || "Assessment Completed";
+      const urgency = data.urgency_level || "Routine Monitoring";
+      const summary = data.summary || "Clinical assessment completed.";
+
+      let bannerClass = "banner-success";
+      let badgeClass = "urgency-routine";
+
+      if (urgency === "Immediate Emergency Response") {
+        bannerClass = "banner-danger";
+        badgeClass = "urgency-emergency";
+      } else if (urgency === "High Priority Field Intervention") {
+        bannerClass = "banner-danger";
+        badgeClass = "urgency-priority";
+      } else if (urgency === "Moderate Concern") {
+        bannerClass = "banner-warning";
+        badgeClass = "urgency-moderate";
+      }
+
+      // Photographic details if present
+      let photoSectionHtml = "";
+      if (data.photo_assessment && data.photo_assessment.label) {
+        const pa = data.photo_assessment;
+        const probPct = (pa.probability_injured * 100).toFixed(1);
+        const probColor = pa.label === "injured" ? "var(--coral-red)" : (pa.label === "uncertain" ? "var(--amber-gold)" : "var(--brand-green)");
+        photoSectionHtml = `
+          <div style="background: #F8FAFC; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 12px; margin-bottom: 14px;">
+            <div style="display: flex; justify-content: space-between; font-size: 13px; font-weight: 600;">
+              <span>Visual Trauma Probability: ${probPct}%</span>
+              <span class="badge-pill badge-${pa.label}">${pa.label}</span>
+            </div>
+            <div class="prob-bar-container">
+              <div class="prob-bar-fill" style="width: ${probPct}%; background: ${probColor};"></div>
+            </div>
+            <div style="font-size: 11px; color: var(--text-sub);">Neural network test reliability: ${(pa.model_test_accuracy * 100).toFixed(0)}% accuracy on reference dataset.</div>
+          </div>
+        `;
+      }
+
+      // Symptoms details if present
+      let symSectionHtml = "";
+      if (data.symptom_assessment) {
+        const sa = data.symptom_assessment;
+        const symColor = sa.flag === "Unusual" ? "var(--coral-red)" : "var(--brand-green-dark)";
+        symSectionHtml = `
+          <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">
+            Clinical Observation Flag: <strong style="color: ${symColor};">${sa.flag}</strong> (Score: ${sa.score})
+          </div>
+        `;
+      }
+
+      // Top 5 Differential Diagnoses with Probabilities
+      const conditions = (data.top_5_diagnoses && data.top_5_diagnoses.length > 0) ? data.top_5_diagnoses : (data.identified_conditions || []);
+      let conditionsHtml = "";
+      if (conditions.length === 0) {
+        conditionsHtml = `
+          <div style="background: #FAFBF9; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px; font-size: 13px; color: var(--text-sub);">
+            No acute physical trauma or major clinical pathologies detected. Maintain standard routine monitoring.
+          </div>
+        `;
+      } else {
+        conditionsHtml = conditions.slice(0, 5).map((c, idx) => {
+          const rank = c.rank || (idx + 1);
+          const probNum = typeof c.probability === "number" ? c.probability : (parseFloat(c.probability) || 50);
+          const probDisp = c.probability_display || Math.round(probNum) + "%";
+
+          let barColor = "var(--brand-teal)";
+          let barBg = "#E0F2FE";
+          let textColor = "var(--brand-teal-dark)";
+
+          if (probNum >= 75) {
+            barColor = "var(--coral-red)";
+            barBg = "#FEE2E2";
+            textColor = "#B91C1C";
+          } else if (probNum >= 50) {
+            barColor = "#D97706";
+            barBg = "#FEF3C7";
+            textColor = "#B45309";
+          }
+
+          const signsList = (c.matched_signs || []).join(", ");
+          const areas = (c.anatomical_areas || []).join(", ");
+          const badgeClass = typeof getBadgeClass === "function" ? getBadgeClass(c.category) : "badge-trauma";
+
+          return `
+            <div class="condition-card" style="border-left: 4px solid ${barColor};">
+              <div class="condition-header">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                  <span style="background: ${barColor}; color: #FFFFFF; font-weight: 800; font-size: 12px; width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    #${rank}
+                  </span>
+                  <div>
+                    <div class="condition-name" style="font-size: 16px;">${c.name}</div>
+                    <div style="display: flex; gap: 6px; align-items: center; margin-top: 3px;">
+                      <span class="pathology-badge ${badgeClass}" style="font-size: 10px; padding: 2px 8px;">${c.category}</span>
+                      <span style="font-size: 11px; font-weight: 600; color: ${textColor};">${c.urgency || ''}</span>
+                    </div>
+                  </div>
+                </div>
+                <div style="text-align: right;">
+                  <div style="font-size: 18px; font-weight: 800; color: ${textColor};">${probDisp}</div>
+                  <div style="font-size: 10px; color: var(--text-sub); text-transform: uppercase; font-weight: 700;">Probability</div>
+                </div>
+              </div>
+
+              <!-- Probability progress bar -->
+              <div style="margin: 10px 0 12px 0;">
+                <div style="background: #E2E8F0; height: 8px; border-radius: 4px; overflow: hidden;">
+                  <div style="background: ${barColor}; width: ${Math.min(100, Math.max(5, probNum))}%; height: 100%; border-radius: 4px;"></div>
+                </div>
+              </div>
+
+              <div class="whats-wrong-box" style="margin-bottom: 8px;">
+                <div class="whats-wrong-label">Clinical Pathology Assessment</div>
+                <div class="whats-wrong-text">${c.whats_wrong}</div>
+              </div>
+
+              ${areas ? `<div style="font-size: 12px; color: var(--text-muted); margin-bottom: 4px;"><strong>Target Anatomical Areas:</strong> ${areas}</div>` : ""}
+              ${signsList ? `<div style="font-size: 11px; color: var(--text-sub); margin-bottom: 6px;"><strong>Indicative Field Signs:</strong> ${signsList}</div>` : ""}
+
+              ${c.next_steps && c.next_steps.immediate_field ? `
+                <div style="background: #F8FAFC; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 8px 10px; font-size: 11px; color: var(--text-main); margin-top: 6px;">
+                  <strong style="color: var(--brand-teal-dark);">Immediate Action:</strong> ${c.next_steps.immediate_field}
+                </div>
+              ` : ""}
+            </div>
+          `;
+        }).join("");
+      }
+
+      // Next steps protocols
+      const steps = data.consolidated_next_steps || {};
+      const stepField = (steps.immediate_field || []).join(" ") || "Deploy field tracking team to evaluate tiger mobility and establish safety perimeter.";
+      const stepVet = (steps.veterinary_treatment || []).join(" ") || "Prepare veterinary intervention kit: chemical immobilization, wound debridement, broad-spectrum antibiotics, and analgesia.";
+      const stepDiag = (steps.diagnostics || []).join(" ") || "Conduct physical palpation, portable radiography, and laboratory blood smears/PCR as indicated.";
+      const stepMonitor = (steps.monitoring || []).join(" ") || "Position camera traps at nearby waterholes to verify post-treatment recovery and territory retention.";
+
+      container.innerHTML = `
+        <div class="status-banner ${bannerClass}">
+          <div>
+            <div class="banner-status-title">${status}</div>
+            <div class="banner-summary-text">${summary}</div>
+          </div>
+          <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+            <span class="urgency-badge ${badgeClass}">${urgency}</span>
+            <button type="button" class="btn-action-secondary" style="padding: 6px 14px; font-size: 12px; background: #FFFFFF; font-weight: 600;" onclick="renewAnalysis()">Renew Analysis</button>
+          </div>
+        </div>
+
+        ${photoSectionHtml}
+        ${symSectionHtml}
+
+        <div style="margin-bottom: 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: var(--text-main); margin-bottom: 4px;">Top 5 Possible Diseases &amp; Injuries (Ranked Probabilities)</div><div style="font-size: 12px; color: var(--text-sub); margin-bottom: 12px;">Ranked differential diagnoses calculated across all 165 catalogued conditions using multimodal photographic evidence and clinical indicative signs.</div>
+          ${conditionsHtml}
+        </div>
+
+        <div>
+          <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">Actionable Next Steps and Veterinary Protocols</div>
+          <div class="next-steps-grid">
+            <div class="protocol-step-card">
+              <div class="protocol-title" style="color: var(--brand-teal-dark);">1. Immediate Field Action</div>
+              <div class="protocol-desc">${stepField}</div>
+            </div>
+            <div class="protocol-step-card">
+              <div class="protocol-title" style="color: var(--coral-red);">2. Veterinary Treatment</div>
+              <div class="protocol-desc">${stepVet}</div>
+            </div>
+            <div class="protocol-step-card">
+              <div class="protocol-title" style="color: #4338CA;">3. Diagnostic Confirmation</div>
+              <div class="protocol-desc">${stepDiag}</div>
+            </div>
+            <div class="protocol-step-card">
+              <div class="protocol-title" style="color: var(--brand-green-dark);">4. Territory Monitoring</div>
+              <div class="protocol-desc">${stepMonitor}</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 22px; display: flex; justify-content: flex-end; gap: 10px; flex-wrap: wrap;">
+          <button type="button" class="btn-action-primary" onclick="renewAnalysis(); if (currentInputMode === 'photo' || currentInputMode === 'combined') { document.getElementById('check-file-input').click(); }">
+            Put Next Picture / New Analysis
+          </button>
+          <button type="button" class="btn-action-secondary" onclick="renewAnalysis();">
+            Renew Analysis (Clear Results)
+          </button>
+        </div>
+      `;
+
+      container.scrollIntoView({ behavior: "smooth" });
+    }
+
+    // TIGER INJURY CHECKER & MULTI-SOURCE INPUT MODES
+    const WHATSAPP_PRESETS = {
+      combat: "Ranger Rajesh: Sector 4 waterhole, adult male tiger limping heavily on left forelimb, fresh deep puncture wounds and bleeding from neck, possible fight with territorial rival",
+      snare: "Urgent dispatch from Beat 3: Found adult tigress dragging hind leg, wire snare cable embedded tightly in paw pad with swelling and bleeding tracks",
+      quills: "Patrol team 2: Tiger spotted sitting near nullah with facial swelling, multiple porcupine quills deeply embedded in lips and forepaw, unable to eat",
+      distemper: "Alert: Sub-adult tiger showing abnormal loss of fear of patrol vehicle, stumbling gait, head tremors, involuntary muscle twitches, and nasal discharge",
+      mange: "Field sighting: Emaciated tiger with severe patchy hair loss on flanks, thick crusty skin lesions, and continuous scratching against tree trunks",
+      dental: "Waterhole observation: Tiger drooling heavily with facial asymmetry, left upper canine broken at gumline, dark swelling on lower jaw"
+    };
+
+    function setInputMode(mode) {
+      currentInputMode = mode;
+      document.querySelectorAll(".mode-pill").forEach(p => p.classList.remove("active"));
+      const pill = document.getElementById("pill-" + mode);
+      if (pill) pill.classList.add("active");
+
+      const photoSec = document.getElementById("section-photo");
+      const symptomsSec = document.getElementById("section-symptoms");
+      const voiceSec = document.getElementById("section-voice");
+      const whatsappSec = document.getElementById("section-whatsapp");
+      const submitBtn = document.getElementById("btn-submit-assessment");
+
+      // Hide all
+      photoSec.style.display = "none";
+      symptomsSec.style.display = "none";
+      voiceSec.style.display = "none";
+      whatsappSec.style.display = "none";
+
+      if (mode === "photo") {
+        photoSec.style.display = "block";
+        submitBtn.textContent = "Assess Photograph";
+      } else if (mode === "symptoms") {
+        symptomsSec.style.display = "block";
+        submitBtn.textContent = "Analyze Clinical Symptoms";
+      } else if (mode === "voice") {
+        voiceSec.style.display = "block";
+        submitBtn.textContent = "Analyze Voice Dispatch";
+      } else if (mode === "whatsapp") {
+        whatsappSec.style.display = "block";
+        submitBtn.textContent = "Analyze WhatsApp Report";
+      } else if (mode === "combined") {
+        photoSec.style.display = "block";
+        symptomsSec.style.display = "block";
+        voiceSec.style.display = "block";
+        whatsappSec.style.display = "block";
+        submitBtn.textContent = "Run Multi-Modal Assessment";
+      }
+    }
+
+    function initDropzone() {
+      const dz = document.getElementById("check-dropzone");
+      if (!dz) return;
+      ["dragenter", "dragover"].forEach(name => {
+        dz.addEventListener(name, (e) => { e.preventDefault(); dz.classList.add("dragover"); });
+      });
+      ["dragleave", "drop"].forEach(name => {
+        dz.addEventListener(name, (e) => { e.preventDefault(); dz.classList.remove("dragover"); });
+      });
+      dz.addEventListener("drop", (e) => {
+        if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+          handlePhotoSelect(e.dataTransfer.files);
+        }
+      });
+    }
+
+    function handlePhotoSelect(files) {
+      if (!files || files.length === 0) return;
+      const file = files[0];
+      if (file.size > 5 * 1024 * 1024) {
+        alert("Photograph exceeds the 5 MB maximum size limit.");
+        return;
+      }
+      selectedPhoto = file;
+      document.getElementById("photo-preview-filename").textContent = file.name;
+      document.getElementById("photo-preview-filesize").textContent = Math.round(file.size / 1000) + " KB";
+
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        document.getElementById("photo-preview-img").src = e.target.result;
+        document.getElementById("check-dropzone").style.display = "none";
+        document.getElementById("photo-preview-box").style.display = "flex";
+      };
+      reader.readAsDataURL(file);
+
+      const panel = document.getElementById("diagnostic-results-panel");
+      if (panel) panel.innerHTML = "";
+    }
+
+    function renewAnalysis() {
+
+      // 1. Remove previous analysis results completely
+
+      const panel = document.getElementById("diagnostic-results-panel");
+
+      if (panel) {
+
+        panel.innerHTML = "";
+
+      }
+
+
+
+      // 2. Clear photo selection and preview
+
+      resetPhotoSelect();
+
+
+
+      // 3. Clear symptoms text and tag selections
+
+      const symptomsInput = document.getElementById("symptoms-input");
+
+      if (symptomsInput) symptomsInput.value = "";
+
+      document.querySelectorAll("#section-symptoms .symptom-tag").forEach(tag => tag.classList.remove("selected"));
+
+
+
+      // 4. Clear voice transcript and stop recording if active
+
+      const voiceTranscript = document.getElementById("voice-transcript");
+
+      if (voiceTranscript) voiceTranscript.value = "";
+
+      if (typeof isRecording !== "undefined" && isRecording) {
+
+        toggleVoiceRecording();
+
+      }
+
+
+
+      // 5. Clear WhatsApp input
+
+      const whatsappInput = document.getElementById("whatsapp-input");
+
+      if (whatsappInput) whatsappInput.value = "";
+
+
+
+      // 6. Reset submit button
+
+      const submitBtn = document.getElementById("btn-submit-assessment");
+
+      if (submitBtn) {
+
+        submitBtn.disabled = false;
+
+        setInputMode(currentInputMode);
+
+      }
+
+
+
+      // 7. Scroll smoothly to top of form
+
+      document.getElementById("checker-form")?.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    }
+
+
+
+    function renewAnalysis() {
+      // 1. Remove previous analysis results completely
+      const panel = document.getElementById("diagnostic-results-panel");
+      if (panel) {
+        panel.innerHTML = "";
+      }
+
+      // 2. Clear photo selection and preview
+      resetPhotoSelect();
+
+      // 3. Clear symptoms text and tag selections
+      const symptomsInput = document.getElementById("symptoms-input");
+      if (symptomsInput) symptomsInput.value = "";
+      document.querySelectorAll("#section-symptoms .symptom-tag").forEach(tag => tag.classList.remove("selected"));
+
+      // 4. Clear voice transcript and stop recording if active
+      const voiceTranscript = document.getElementById("voice-transcript");
+      if (voiceTranscript) voiceTranscript.value = "";
+      if (typeof isRecording !== "undefined" && isRecording) {
+        toggleVoiceRecording();
+      }
+
+      // 5. Clear WhatsApp input
+      const whatsappInput = document.getElementById("whatsapp-input");
+      if (whatsappInput) whatsappInput.value = "";
+
+      // 6. Reset submit button
+      const submitBtn = document.getElementById("btn-submit-assessment");
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        setInputMode(currentInputMode);
+      }
+
+      // 7. Scroll smoothly to top of form
+      document.getElementById("checker-form")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function resetPhotoSelect() {
+      selectedPhoto = null;
+      const fileInput = document.getElementById("check-file-input");
+      if (fileInput) fileInput.value = "";
+      document.getElementById("photo-preview-img").src = "";
+      document.getElementById("photo-preview-filename").textContent = "";
+      document.getElementById("photo-preview-filesize").textContent = "";
+      document.getElementById("photo-preview-box").style.display = "none";
+      document.getElementById("check-dropzone").style.display = "flex";
+    }
+
+    function toggleSymptomTag(el, tagText) {
+      el.classList.toggle("selected");
+      const active = [];
+      document.querySelectorAll("#section-symptoms .symptom-tag.selected").forEach(t => active.push(t.textContent.trim()));
+      document.getElementById("symptoms-input").value = active.join(", ");
+    }
+
+    // VOICE DISPATCH (SPEECH RECOGNITION)
+    let recognition = null;
+    let isRecording = false;
+
+    function toggleVoiceRecording() {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (!SpeechRecognition) {
+        alert("Live speech-to-text recording is supported in Chrome, Edge, and modern browsers. You can also type or use the sample dispatch buttons.");
+        return;
+      }
+      const btn = document.getElementById("btn-voice-record");
+      const statusEl = document.getElementById("voice-status-text");
+
+      if (!recognition) {
+        recognition = new SpeechRecognition();
+        recognition.continuous = true;
+        recognition.interimResults = true;
+        recognition.lang = "en-US";
+
+        recognition.onresult = (event) => {
+          let textSpoken = "";
+          for (let i = event.resultIndex; i < event.results.length; ++i) {
+            if (event.results[i].isFinal) {
+              textSpoken += event.results[i][0].transcript + " ";
+            }
+          }
+          if (textSpoken) {
+            const txtArea = document.getElementById("voice-transcript");
+            txtArea.value = (txtArea.value + " " + textSpoken).trim();
+          }
+        };
+
+        recognition.onerror = (e) => {
+          console.warn("Speech recognition notice:", e);
+          stopVoiceRecording();
+        };
+
+        recognition.onend = () => {
+          stopVoiceRecording();
+        };
+      }
+
+      if (!isRecording) {
+        try {
+          recognition.start();
+          isRecording = true;
+          btn.classList.add("recording");
+          btn.textContent = "Stop Recording";
+          statusEl.textContent = "Listening... Speak your observation clearly.";
+        } catch (err) {
+          console.warn(err);
+        }
+      } else {
+        recognition.stop();
+        stopVoiceRecording();
+      }
+    }
+
+    function stopVoiceRecording() {
+      isRecording = false;
+      const btn = document.getElementById("btn-voice-record");
+      if (btn) {
+        btn.classList.remove("recording");
+        btn.textContent = "Start Voice Recording";
+      }
+      const statusEl = document.getElementById("voice-status-text");
+      if (statusEl) statusEl.textContent = "Recording paused. Review transcript below.";
+    }
+
+    function insertVoiceSample(text) {
+      document.getElementById("voice-transcript").value = text;
+    }
+
+    function insertWhatsAppPreset(key) {
+      const msg = WHATSAPP_PRESETS[key];
+      if (msg) {
+        document.getElementById("whatsapp-input").value = msg;
+      }
+    }
+
+    async function submitTigerAssessment() {
+      const symptomsVal = document.getElementById("symptoms-input").value.trim();
+      const voiceVal = document.getElementById("voice-transcript").value.trim();
+      const whatsappVal = document.getElementById("whatsapp-input").value.trim();
+      const hasPhoto = selectedPhoto !== null;
+
+      let payloadSymptoms = "";
+
+      if (currentInputMode === "photo") {
+        if (!hasPhoto) {
+          alert("Please select or drop a tiger photograph first.");
+          return;
+        }
+      } else if (currentInputMode === "symptoms") {
+        if (!symptomsVal) {
+          alert("Please enter or select at least one clinical sign.");
+          return;
+        }
+        payloadSymptoms = symptomsVal;
+      } else if (currentInputMode === "voice") {
+        if (!voiceVal) {
+          alert("Please record voice or select a spoken dispatch sample.");
+          return;
+        }
+        payloadSymptoms = voiceVal;
+      } else if (currentInputMode === "whatsapp") {
+        if (!whatsappVal) {
+          alert("Please paste a WhatsApp message or select a preset.");
+          return;
+        }
+        payloadSymptoms = whatsappVal;
+      } else if (currentInputMode === "combined") {
+        const textParts = [symptomsVal, voiceVal, whatsappVal].filter(Boolean);
+        payloadSymptoms = textParts.join(". ");
+        if (!hasPhoto && !payloadSymptoms) {
+          alert("Please provide at least a photograph, clinical signs, voice audio, or message.");
+          return;
+        }
+      }
+
+      const btn = document.getElementById("btn-submit-assessment");
+      const originalText = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = "Analyzing Health Indicators...";
+
+      try {
+        const formData = new FormData();
+        if ((currentInputMode === "photo" || currentInputMode === "combined") && hasPhoto) {
+          formData.append("photo", selectedPhoto);
+        }
+        if (payloadSymptoms) {
+          formData.append("symptoms", payloadSymptoms);
+        }
+        formData.append("species", "Panthera tigris");
+
+        const res = await fetch("/assess", {
+          method: "POST",
+          body: formData
+        });
+
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          throw new Error(err.detail || "Assessment failed");
+        }
+
+        const data = await res.json();
+        renderDiagnosticCard("diagnostic-results-panel", data);
+        document.getElementById("diagnostic-results-panel").scrollIntoView({ behavior: "smooth", block: "nearest" });
+      } catch (err) {
+        alert("Diagnostic error: " + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = originalText;
+      }
+    }
+
+    // CLINICAL REFERENCE LOGIC
+    function getBadgeClass(cat) {
+      const c = (cat || "").toLowerCase();
+      if (c.includes("trauma") || c.includes("wound") || c.includes("fracture") || c.includes("snare")) return "badge-trauma";
+      if (c.includes("viral") || c.includes("infectious")) return "badge-viral";
+      if (c.includes("bacter")) return "badge-bacterial";
+      if (c.includes("parasit")) return "badge-parasitic";
+      if (c.includes("metabolic") || c.includes("nutrit")) return "badge-metabolic";
+      if (c.includes("dental") || c.includes("oral")) return "badge-dental";
+      if (c.includes("ocular") || c.includes("eye")) return "badge-ocular";
+      if (c.includes("environ") || c.includes("toxic")) return "badge-environmental";
+      if (c.includes("protozo")) return "badge-protozoan";
+      return "badge-chronic";
+    }
+
+    function renderPathologyLibrary(items) {
+      const container = document.getElementById("pathology-cards-container");
+      if (!container) return;
+
+      const list = items || PATHOLOGY_LIBRARY;
+      if (list.length === 0) {
+        container.innerHTML = '<div style="color: var(--text-sub); padding: 24px;">No conditions match your search query.</div>';
+        return;
+      }
+
+      container.innerHTML = `
+        <div style="font-size: 13px; color: var(--text-sub); margin-bottom: 12px; font-weight: 600;">
+          Showing ${list.length} catalogued conditions and clinical pathologies
+        </div>
+        <div class="pathology-grid">
+          ${list.map(item => {
+            const badgeClass = getBadgeClass(item.category);
+            const steps = item.next_steps || {};
+            const stepField = steps.immediate_field || "Deploy monitoring team; evaluate locomotion and safety perimeter.";
+            const stepVet = steps.veterinary_treatment || "Chemical immobilization under veterinary supervision; administered indicated systemic therapeutics.";
+            const stepDiag = steps.diagnostics || "Clinical examination, digital radiography, and laboratory confirmatory testing.";
+            const stepMonitor = steps.monitoring || "Intensive camera-trap and telemetry monitoring post-intervention.";
+            const safeSigns = (item.signs || "").replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+            const safeId = (item.id || "").replace(/[^a-zA-Z0-9_-]/g, "_");
+
+            return `
+              <div class="pathology-card">
+                <div>
+                  <div class="pathology-header">
+                    <div>
+                      <span class="pathology-name">${item.name}</span>
+                      ${item.num ? `<span style="font-size: 11px; color: var(--text-sub); margin-left: 6px;">#${item.num}</span>` : ""}
+                    </div>
+                    <span class="pathology-badge ${badgeClass}">${item.category}</span>
+                  </div>
+                  <div class="pathology-desc">${item.desc}</div>
+                  <div class="pathology-signs-label">Characteristic Field Signs</div>
+                  <div class="pathology-signs" style="background: #F8FAFC; padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); font-size: 12px; color: var(--text-main); margin-bottom: 10px;">
+                    ${item.signs}
+                  </div>
+
+                  <div class="pathology-detail-drawer" id="drawer-${safeId}">
+                    <div style="font-weight: 700; color: var(--brand-teal-dark); margin-bottom: 6px;">Actionable Field &amp; Veterinary Protocols:</div>
+                    <div style="margin-bottom: 6px; font-size: 12px;"><strong>1. Immediate Field Action:</strong> ${stepField}</div>
+                    <div style="margin-bottom: 6px; font-size: 12px;"><strong>2. Veterinary Treatment:</strong> ${stepVet}</div>
+                    <div style="margin-bottom: 6px; font-size: 12px;"><strong>3. Diagnostic Confirmation:</strong> ${stepDiag}</div>
+                    <div style="margin-bottom: 6px; font-size: 12px;"><strong>4. Territory Monitoring:</strong> ${stepMonitor}</div>
+                    <div style="margin-top: 8px; font-size: 11px; color: var(--text-sub); border-top: 1px dashed var(--border-color); padding-top: 6px;">
+                      <strong>Urgency Rating:</strong> <span style="font-weight: 700; color: ${item.urgency && item.urgency.includes('Emergency') ? 'var(--coral-red)' : (item.urgency && item.urgency.includes('High') ? '#D97706' : 'var(--brand-teal-dark)')};">${item.urgency || 'Moderate Concern'}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px;">
+                  <button type="button" class="btn-action-primary" style="padding: 7px 16px; font-size: 12px;" onclick="applyPathologySigns('${safeSigns}')">
+                    Assess Condition in Checker
+                  </button>
+                  <button type="button" class="btn-action-secondary" style="padding: 7px 14px; font-size: 12px;" onclick="togglePathologyDetails('${safeId}')">
+                    View Protocols &amp; Action Steps
+                  </button>
+                </div>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `;
+    }
+
+    function togglePathologyDetails(id) {
+      const drawer = document.getElementById("drawer-" + id);
+      if (drawer) drawer.classList.toggle("open");
+    }
+
+    function filterPathologies() {
+      const q = (document.getElementById("pathology-search-input")?.value || "").toLowerCase().trim();
+      if (!q) {
+        renderPathologyLibrary(PATHOLOGY_LIBRARY);
+        return;
+      }
+      const filtered = PATHOLOGY_LIBRARY.filter(item => {
+        return (item.name || "").toLowerCase().includes(q) ||
+               (item.category || "").toLowerCase().includes(q) ||
+               (item.desc || "").toLowerCase().includes(q) ||
+               (item.signs || "").toLowerCase().includes(q);
+      });
+      renderPathologyLibrary(filtered);
+    }
+
+    function applyPathologySigns(signsStr) {
+      switchTab("checker");
+      setInputMode("symptoms");
+      document.getElementById("symptoms-input").value = signsStr;
+
+      // Select matching tags
+      const signsList = signsStr.split(",").map(s => s.trim().toLowerCase());
+      document.querySelectorAll("#section-symptoms .symptom-tag").forEach(tag => {
+        const text = tag.textContent.trim().toLowerCase();
+        if (signsList.some(s => s === text || text.includes(s) || s.includes(text))) {
+          tag.classList.add("selected");
+        } else {
+          tag.classList.remove("selected");
+        }
+      });
+
+      // Submit immediately
+      submitTigerAssessment();
+    }
+
+  </script>
+</body>
+</html>

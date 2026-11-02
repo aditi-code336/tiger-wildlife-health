@@ -1,0 +1,85 @@
+{
+  "source": "World Organisation for Animal Health (WOAH / WAHIS) & National Disease Surveillance",
+  "extracted_at": "2026-11-02T05:55:43Z",
+  "surveillance_species": "Panthera tigris (Bengal Tiger, Siberian Tiger, Indochinese Tiger)",
+  "official_disease_events": [
+    {
+      "event_id": "WOAH-2023-CDV-01",
+      "disease": "Canine Distemper Virus (CDV)",
+      "pathogen": "Morbillivirus (Paramyxoviridae)",
+      "location": "Pilibhit & Dudhwa Tiger Reserves, Uttar Pradesh, India",
+      "landscape": "Shivalik Hills and Gangetic Plains",
+      "first_detected": "2020-03-15",
+      "status": "Resolved / Ring Vaccination Active",
+      "affected_animals": 6,
+      "mortality": 4,
+      "clinical_manifestation": "Myoclonus (muscle twitching), respiratory distress, abnormal fearlessness toward humans, ataxia",
+      "control_measures": "Buffer zone domestic dog vaccination, quarantine of stray canines, contact tracking"
+    },
+    {
+      "event_id": "WOAH-2022-BTB-04",
+      "disease": "Bovine Tuberculosis (bTB)",
+      "pathogen": "Mycobacterium bovis",
+      "location": "Mudumalai Tiger Reserve, Tamil Nadu, India",
+      "landscape": "Western Ghats",
+      "first_detected": "2021-11-02",
+      "status": "Active Periodic Screening",
+      "affected_animals": 3,
+      "mortality": 2,
+      "clinical_manifestation": "Progressive emaciation, pulmonary granulomas, chronic coughing, lethargy",
+      "control_measures": "Fringe livestock tuberculin testing, carcass safe incineration, grazing restrictions in core buffer"
+    },
+    {
+      "event_id": "WOAH-2023-TRYP-02",
+      "disease": "Trypanosomiasis (Surra)",
+      "pathogen": "Trypanosoma evansi",
+      "location": "Ranthambhore Tiger Reserve, Rajasthan, India",
+      "landscape": "Central India & Eastern Ghats",
+      "first_detected": "2022-08-10",
+      "status": "Controlled",
+      "affected_animals": 2,
+      "mortality": 1,
+      "clinical_manifestation": "Intermittent high fever, severe anemia, subcutaneous edema, bilateral corneal opacity",
+      "control_measures": "Vector fly control around waterholes, prophylactic diminazene diaceturate in monitored individuals"
+    },
+    {
+      "event_id": "WOAH-2024-HPAI-07",
+      "disease": "Highly Pathogenic Avian Influenza (HPAI)",
+      "pathogen": "Influenza A virus subtype H5N1",
+      "location": "Captive and Rescue Centers / Bordering Wild Sanctuaries",
+      "landscape": "Multi-region Surveillance",
+      "first_detected": "2024-01-20",
+      "status": "Active High Vigilance",
+      "affected_animals": 14,
+      "mortality": 12,
+      "clinical_manifestation": "Hyperacute severe hemorrhagic pneumonia, neurologic signs, acute recumbency",
+      "control_measures": "Raw poultry feeding ban, migratory waterbird carcass containment, biosecurity cordons"
+    },
+    {
+      "event_id": "WOAH-2021-RAB-03",
+      "disease": "Rabies",
+      "pathogen": "Lyssavirus (Rhabdoviridae)",
+      "location": "Central India Fringe Forest Divisions",
+      "landscape": "Central Indian Landscape",
+      "first_detected": "2021-06-12",
+      "status": "Endemic Alert",
+      "affected_animals": 1,
+      "mortality": 1,
+      "clinical_manifestation": "Hyper-aggression, unprovoked attacks, hyper-salivation, hydrophobia, paralysis",
+      "control_measures": "Rapid response darting team notification, post-exposure human prophylaxis, buffer canine vaccination"
+    },
+    {
+      "event_id": "WOAH-2022-FPV-05",
+      "disease": "Feline Panleukopenia (FPV)",
+      "pathogen": "Carnivore protoparvovirus 1",
+      "location": "Kaziranga & Corbett Buffer Zones",
+      "landscape": "North East Hills & Shivalik Plains",
+      "first_detected": "2022-04-18",
+      "status": "Monitored",
+      "affected_animals": 5,
+      "mortality": 3,
+      "clinical_manifestation": "Severe bloody diarrhea, acute dehydration, profound leukopenia, high cub mortality",
+      "control_measures": "Disinfection of water troughs, feral feline deterrents"
+    }
+  ]
+}

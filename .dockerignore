@@ -1,0 +1,28 @@
+# Git
+.git/
+.gitignore
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+
+# Scratch and intermediate scripts
+scratch/
+tests/
+*.log
+
+# Large reference documents (not needed in container runtime)
+Illustrative_profile_tiger_reserves.pdf
+status_of_tiger-copredators-2022.pdf
+
+# Raw training photos (container uses trained models/photo_nn.npz)
+data/photos/
+data/training_photos/
+data/api_data/
+data/dataset_2000_cache.npz
+data/fontlist-v3.11.0.json

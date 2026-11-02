@@ -1,0 +1,32 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+
+# Scratch and intermediate scripts
+scratch/
+*.log
+*.tmp
+
+# Large reference PDF publications (downloaded out-of-band)
+Illustrative_profile_tiger_reserves.pdf
+status_of_tiger-copredators-2022.pdf
+
+# Raw multi-gigabyte training photos (model weights are already trained and tracked in models/)
+data/photos/
+data/training_photos/
+data/dataset_2000_cache.npz
+data/fontlist-v3.11.0.json
+
+# Whitelist tracked deployment assets
+!data/prepared_data/
+!data/predictions.db
+!data/tiger_reserves_ntca.json
+!data/photo_cost_plot.png
+!models/photo_nn.npz
+!model.joblib

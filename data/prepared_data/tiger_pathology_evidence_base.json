@@ -1,0 +1,820 @@
+{
+  "total_evidence_citations": 67,
+  "citations": [
+    {
+      "source": "Europe PMC",
+      "id": "42371188",
+      "title": "Molecular epidemiological investigation of viruses in Amur tigers in Northeast China.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1007/s00705-026-06644-y",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)",
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41494744",
+      "title": "Molecular characterisation and histopathological analysis of canine distemper virus in a Malayan tiger (&lt;i&gt;Panthera tigris jacksoni&lt;/i&gt;).",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.4142/jvs.25092",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "PPR1292301",
+      "title": "Evaluation of Ante-Mortem Sampling Matrices for qPCR Detection of Canine Distemper Virus",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.20944/preprints202607.2323.v1",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42251375",
+      "title": "Seroprevalence of canine distemper in free-roaming dogs in buffer zone of Bardiya National Park, Nepal.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1186/s12917-026-05612-7",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "40638173",
+      "title": "MOLECULAR AND IMMUNOHISTOCHEMICAL ANALYSIS OF CANINE DISTEMPER VIRUS INFECTION IN BIG CATS IN CENTRAL INDIA.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1638/2022-0002",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "PPR1155382",
+      "title": "Molecular Epidemiological Investigation of Viruses in Captive and Wild Amur Tigers in Northeast China",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.21203/rs.3.rs-8827696/v1",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41600739",
+      "title": "Preliminary Study on the Development of a Transmission Model for Canine Distemper Virus in Wildlife Populations Using Heat Mapping and the Basic Reproduction Number.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.3390/vetsci13010083",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42401952",
+      "title": "Investigating the evolution of the Arctic lineage of canine distemper virus circulating in Italy.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1186/s13567-026-01801-2",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "40453944",
+      "title": "Preliminary study of canine distemper virus transmission from small mammals to Malayan tiger at Kampung Besul Lama, Terengganu, Malaysia.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.14202/vetworld.2025.791-798",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42475335",
+      "title": "Occurrence and Risk Factors of Toxoplasma gondii Infection in Tigers (Panthera tigris) in Thailand: Influence of Age and Sex.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1002/vms3.71114",
+      "pathology_categories": [
+        "Physical Trauma & Wounds",
+        "Blood-Borne & Protozoan Parasites"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42108251",
+      "title": "Diversity of fecal viromes and zoonotic risk assessment in captive wild felids using viral metagenomics.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1038/s41598-026-52077-7",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "39856666",
+      "title": "Canine distemper outbreak and laryngeal paralysis in captive tigers (Panthera tigris).",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1186/s12917-025-04490-9",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "PPR929230",
+      "title": "Molecular characterisation and histopathological analysis of canine distemper virus in a Malayan tiger (Panthera tigris jacksoni)",
+      "journal": "nan",
+      "year": "2024.0",
+      "doi": "10.21203/rs.3.rs-5032158/v1",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "40245051",
+      "title": "Quantitative risk assessment and interventional recommendations for preventing canine distemper virus infection in captive tigers at selected wildlife stations in Thailand.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1371/journal.pone.0320657",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)",
+        "Mange & Ectoparasites"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42494548",
+      "title": "Molecular detection of shared pathogens in red foxes (&lt;i&gt;Vulpes vulpes&lt;/i&gt;) from farming habitats in northwestern Spain.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1016/j.onehlt.2026.101519",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42278081",
+      "title": "Glaucoma in a Siberian Tiger (&lt;i&gt;Panthera tigris altaica&lt;/i&gt;) Maintained Under Human Care: A Case Report.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.3390/ani16111647",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41012577",
+      "title": "Global Phylogenetic Analysis of the CDV Hemagglutinin Gene Reveals Positive Selection on Key Receptor-Binding Sites.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.3390/v17091149",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41362772",
+      "title": "Impacts of infectious diseases on movement metrics in a large carnivore: Highly pathogenic avian influenza, leptospirosis, and pumas.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1016/j.isci.2025.113810",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41926262",
+      "title": "PHOTODYNAMIC THERAPY WITH INFRACYANINE GREEN (EMUNDO&lt;sup&gt;®&lt;/sup&gt;) FOLLOWING SURGICAL EXCISION OF MULTIPLE CUTANEOUS MELANOCYTIC TUMORS IN A WHITE BENGAL HYBRID TIGER (&lt;i&gt;PANTHERA TIGRIS&lt;/i&gt; CROSS).",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1638/2025-0066",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "39313099",
+      "title": "Phylogenetic analysis linked fatal neurologic disease in leopards (Panthera pardus) to Asia-5 lineage of canine distemper virus in Nepal.",
+      "journal": "nan",
+      "year": "2024.0",
+      "doi": "10.1016/j.virusres.2024.199463",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)",
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41828965",
+      "title": "Inflammatory Mammary Carcinoma in a Captive Bengal Tiger (&lt;i&gt;Panthera tigris tigris&lt;/i&gt;) with Lymph Node and Pulmonary Metastases.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.3390/ani16050757",
+      "pathology_categories": [
+        "Mange & Ectoparasites"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "40855483",
+      "title": "Molecular epidemiology and emerging genotypes of canine distemper virus in Istanbul, Türkiye.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1186/s12917-025-04963-x",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42484233",
+      "title": "Coinfection with Trypanosoma evansi and Hepatozoon felis in a free-ranging jaguar (Panthera onca) in the Pantanal biome, Brazil.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1590/s1984-29612026033",
+      "pathology_categories": [
+        "Blood-Borne & Protozoan Parasites"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "40070449",
+      "title": "Molecular detection and characterization of haemoparasites in captive tigers (&lt;i&gt;Panthera tigris&lt;/i&gt;) from Thailand.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1016/j.crpvbd.2025.100249",
+      "pathology_categories": [
+        "Blood-Borne & Protozoan Parasites"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "PPR780008",
+      "title": "Canine distemper outbreak and laryngeal paralysis in captive tigers (Panthera tigris)",
+      "journal": "nan",
+      "year": "2023.0",
+      "doi": "10.21203/rs.3.rs-3734950/v1",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "40302754",
+      "title": "Geographical Distribution of Carnivore Hosts and Genotypes of Canine Distemper Virus (CDV) Worldwide: A Scoping Review and Spatial Meta-Analysis.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1155/tbed/6632068",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41793260",
+      "title": "Association of Haematological Parameters With TLR Genes in Healthy and Distemper-Infected Dogs Haematology and TLRs in Distemper.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1002/vms3.70867",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42851083",
+      "title": "Genetic Diversity and Biological Characteristics of a Novel Feline Calicivirus Strain Isolated From Zoo-Captive South China Tiger (Panthera tigris amoyensis).",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1155/tbed/4900253",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42376383",
+      "title": "Identification of ticks from conflict Sumatran tigers ( &lt;i&gt;Panthera tigris sumatrae&lt;/i&gt; ) in Bukittinggi, West Sumatra, Indonesia.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.5455/ovj.2026.v16.i2.45",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "39592389",
+      "title": "Concurrent Rabies and Canine Distemper Outbreaks and Infection in Endangered Ethiopian Wolves.",
+      "journal": "nan",
+      "year": "2024.0",
+      "doi": "10.3201/eid3012.240432",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)",
+        "Rabies"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42032444",
+      "title": "Molecular Detection of Toxoplasma gondii in Enclosures of African Primates (Papio papio and Papio hamadryas) at the Municipal Zoo of Bauru, São Paulo State, Brazil.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1111/jmp.70077",
+      "pathology_categories": [
+        "Blood-Borne & Protozoan Parasites"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "38649415",
+      "title": "Snapshot study of canine distemper virus in Bangladesh with on-site PCR detection and nanopore sequencing.",
+      "journal": "nan",
+      "year": "2024.0",
+      "doi": "10.1038/s41598-024-59343-6",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42943495",
+      "title": "Aichivirus a Infection Associated with Severe Enteric and Respiratory Disease in a Captive White Lion (&lt;i&gt;Panthera leo&lt;/i&gt;).",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.3390/microorganisms14102256",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42609406",
+      "title": "Tigers in the Neighborhood: Factors Associated With Fatal Tiger Attacks in a Human-Dominated Landscape, Nepal.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1002/ece3.74206",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "39460307",
+      "title": "Evaluation of the Safety and Immunogenicity of a Multiple Epitope Polypeptide from Canine Distemper Virus (CDV) in Mice.",
+      "journal": "nan",
+      "year": "2024.0",
+      "doi": "10.3390/vaccines12101140",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "39928695",
+      "title": "Pathology and parasitology of free-ranging coyotes from Tennessee and South Carolina.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1371/journal.pone.0318645",
+      "pathology_categories": [
+        "Mange & Ectoparasites",
+        "Rabies"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42349006",
+      "title": "Pathological findings in 61 free-ranging leopards (Panthera pardus) from the Greater Kruger National Park, South Africa. Part Two: non-parasitic conditions.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1016/j.jcpa.2026.04.010",
+      "pathology_categories": [
+        "Bovine Tuberculosis (bTB)",
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41595465",
+      "title": "Molecular Tools for qPCR Identification and STR-Based Individual Identification of &lt;i&gt;Panthera pardus&lt;/i&gt; (Linnaeus, 1758).",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.3390/genes17010045",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41164342",
+      "title": "Individual variation within parasite communities of endangered African lions.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1098/rsos.250501",
+      "pathology_categories": [
+        "Physical Trauma & Wounds",
+        "Blood-Borne & Protozoan Parasites"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42461893",
+      "title": "Behavior of wild tigers in captivity at the Central Zoo, Nepal.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1371/journal.pone.0353056",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "36881515",
+      "title": "Addressing the impact of canine distemper spreading on an isolated tiger population in northeast Asia.",
+      "journal": "nan",
+      "year": "2023.0",
+      "doi": "10.1111/1749-4877.12712",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41065690",
+      "title": "DENTAL AND ORAL PATHOLOGY IN TIGERS (&lt;i&gt;PANTHERA TIGRIS&lt;/i&gt;) BASED ON ORAL EXAMINATION AND COMPUTED TOMOGRAPHY.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1638/2024-0100",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "39565538",
+      "title": "Field-Based cDNA-Biosensor for Accurate Detection of Canine Distemper Virus in Tissue Samples.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1007/s12010-024-05088-x",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)",
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "36839475",
+      "title": "Canine Distemper Virus in Tigers <i>(Panthera tigris)</i> and Leopards <i>(P. pardus)</i> in Nepal.",
+      "journal": "nan",
+      "year": "2023.0",
+      "doi": "10.3390/pathogens12020203",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "38768711",
+      "title": "First complete genomic sequence analysis of canine distemper virus in wild boar.",
+      "journal": "nan",
+      "year": "2024.0",
+      "doi": "10.1016/j.virs.2024.05.004",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42466080",
+      "title": "Human-Tiger Conflict in and Around Chitwan-Parsa National Parks: Status, Trends, Contributing Factors, Mitigation Strategies, and Community Perceptions.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1002/ece3.73920",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42816860",
+      "title": "LeishVet update and current recommendations on feline leishmaniosis.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1186/s13071-026-07642-4",
+      "pathology_categories": [
+        "Mange & Ectoparasites"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41408541",
+      "title": "Intestinal mucormycosis in a captive tiger.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1177/10406387251401190",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "39911264",
+      "title": "Zoonotic risks and conservation challenges: Gastrointestinal parasites in wild mammals of Chitwan National Park, Nepal.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.1016/j.ijppaw.2025.101041",
+      "pathology_categories": [
+        "Blood-Borne & Protozoan Parasites"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "41777568",
+      "title": "A first case of &lt;i&gt;Hepatozoon&lt;/i&gt; infection in a wild Amami rabbit (&lt;i&gt;Pentalagus furnessi&lt;/i&gt;) in Tokunoshima Island, Japan.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1016/j.ijppaw.2026.101209",
+      "pathology_categories": [
+        "Physical Trauma & Wounds",
+        "Blood-Borne & Protozoan Parasites"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "40572315",
+      "title": "Preliminary Insights into the Gut Microbiota of Captive Tigers in Republic of Korea: Influence of Geographic and Individual Variation.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.3390/microorganisms13061427",
+      "pathology_categories": [
+        "Mange & Ectoparasites"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "36848365",
+      "title": "Seroprevalence of canine distemper virus (CDV) in the free-roaming dog (Canis familiaris) population surrounding Chitwan National Park, Nepal.",
+      "journal": "nan",
+      "year": "2023.0",
+      "doi": "10.1371/journal.pone.0281542",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "40573404",
+      "title": "Canine Distemper Virus in Mexico: A Risk Factor for Wildlife.",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.3390/v17060813",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42550452",
+      "title": "Death by lion (Panthera leo): injury patterns and forensic perspectives of large feline attacks.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1007/s12024-026-01332-4",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "42034677",
+      "title": "A multi-scale ensemble machine learning framework for assessing human-elephant conflict in the Brahmaputra flood plain.",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.1038/s41598-026-48970-w",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "PPR1193689",
+      "title": "Camera trap distance sampling for density estimation of tiger prey in a Sumatran ecosystem restoration concession",
+      "journal": "nan",
+      "year": "2025.0",
+      "doi": "10.22541/au.176338727.74234303/v1",
+      "pathology_categories": [
+        "Mange & Ectoparasites"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "PPR1307203",
+      "title": "Aichivirus A Infection Associated with Severe Enteric and Respiratory Disease in a Captive White Lion (<em>Panthera leo</em>)",
+      "journal": "nan",
+      "year": "2026.0",
+      "doi": "10.20944/preprints202608.1971.v1",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "PPR851085",
+      "title": "Label Free Electrochemical cDNA-Biosensor for Selective and Sensitive Detection of Canine Distemper Virus in Biological Samples",
+      "journal": "nan",
+      "year": "2024.0",
+      "doi": "10.21203/rs.3.rs-4257914/v1",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)",
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "High"
+    },
+    {
+      "source": "Europe PMC",
+      "id": "37280624",
+      "title": "Phylogenetic characterization of canine distemper virus from stray dogs in Kathmandu Valley.",
+      "journal": "nan",
+      "year": "2023.0",
+      "doi": "10.1186/s12985-023-02071-6",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "PubMed",
+      "id": "42810737",
+      "title": "'Once Bitten': A Case of Tetanus Following Snakebite in Australia.",
+      "journal": "Med J Aust",
+      "year": "2026",
+      "doi": "10.5694/mja2.70308",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "PubMed",
+      "id": "42749341",
+      "title": "Stroke due to penetrating neck injury inflicted by tiger attack.",
+      "journal": "BMJ Case Rep",
+      "year": "2026",
+      "doi": "10.1136/bcr-2026-272728",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "PubMed",
+      "id": "41058441",
+      "title": "The tiger salamander as a promising alternative model organism to the axolotl for fracture healing and regenerative biology research.",
+      "journal": "Anat Rec (Hoboken)",
+      "year": "2026",
+      "doi": "10.1002/ar.70060",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "PubMed",
+      "id": "42466228",
+      "title": "Unmasking The Tiger Man: When Eosinophilic Myositis Mimics Sarcoidosis.",
+      "journal": "Eur J Case Rep Intern Med",
+      "year": "2026",
+      "doi": "10.12890/2026_007105",
+      "pathology_categories": [
+        "Mange & Ectoparasites"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "PubMed",
+      "id": "42347739",
+      "title": "A Protein Fibril and Carboxylated Cellulose Nanofibril Gel Enhances Quercetin Delivery for Intestinal Barrier Protection in DSS-Induced Intestinal Barrier Injury.",
+      "journal": "J Agric Food Chem",
+      "year": "2026",
+      "doi": "10.1021/acs.jafc.6c06491",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "PubMed",
+      "id": "41494744",
+      "title": "Molecular characterisation and histopathological analysis of canine distemper virus in a Malayan tiger (Panthera tigris jacksoni).",
+      "journal": "J Vet Sci",
+      "year": "2026",
+      "doi": "10.4142/jvs.25092",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "PubMed",
+      "id": "40638173",
+      "title": "MOLECULAR AND IMMUNOHISTOCHEMICAL ANALYSIS OF CANINE DISTEMPER VIRUS INFECTION IN BIG CATS IN CENTRAL INDIA.",
+      "journal": "J Zoo Wildl Med",
+      "year": "2025",
+      "doi": "10.1638/2022-0002",
+      "pathology_categories": [
+        "Canine Distemper Virus (CDV)"
+      ],
+      "relevance": "Standard"
+    },
+    {
+      "source": "PubMed",
+      "id": "40417362",
+      "title": "Case Report: Shark bite resulting in a urethral obstruction and urinary tract-body wall fistula in a bottlenose dolphin (Tursiops truncatus) in Sarasota Bay, Florida.",
+      "journal": "Front Vet Sci",
+      "year": "2025",
+      "doi": "10.3389/fvets.2025.1551129",
+      "pathology_categories": [
+        "Physical Trauma & Wounds"
+      ],
+      "relevance": "Standard"
+    }
+  ]
+}

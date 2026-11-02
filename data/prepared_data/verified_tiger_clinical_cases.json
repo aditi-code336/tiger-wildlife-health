@@ -1,0 +1,134 @@
+{
+  "total_verified_cases": 9,
+  "cases": [
+    {
+      "case_id": "TC-2023-01",
+      "category": "Physical Injury",
+      "condition": "Territorial Combat Trauma",
+      "observed_symptoms": [
+        "deep puncture wounds",
+        "cuts or bleeding",
+        "swelling on leg",
+        "limping"
+      ],
+      "urgency": "Immediate Emergency Response",
+      "field_action": "Deploy rapid response tracking team and veterinary darting unit",
+      "veterinary_treatment": "Systemic long-acting antibiotics, surgical wound lavage, NSAID analgesia",
+      "confirmed_pathology": "Severe muscular lacerations and puncture wounds with secondary bacterial cellulitis"
+    },
+    {
+      "case_id": "TC-2023-02",
+      "category": "Human Conflict / Poaching",
+      "condition": "Wire Snare Trauma",
+      "observed_symptoms": [
+        "snare or wire injury",
+        "severe limp or foot dragging",
+        "bloody paw prints",
+        "swelling on leg"
+      ],
+      "urgency": "Immediate Emergency Response",
+      "field_action": "Emergency chemical immobilization to remove wire snare and prevent ischemic necrosis",
+      "veterinary_treatment": "Surgical snare extraction, tissue debridement, distal limb perfusion assessment",
+      "confirmed_pathology": "Circumferential wire constriction with digital ischemia and deep tendon laceration"
+    },
+    {
+      "case_id": "TC-2022-03",
+      "category": "Infectious Disease",
+      "condition": "Canine Distemper Virus (CDV)",
+      "observed_symptoms": [
+        "muscle twitches or spasms",
+        "abnormal loss of fear of humans",
+        "nasal discharge",
+        "ataxia or staggering",
+        "fever"
+      ],
+      "urgency": "High Priority Field Intervention",
+      "field_action": "Strict isolation, quarantine containment, buffer domestic dog ring-vaccination",
+      "veterinary_treatment": "Intensive supportive care, anticonvulsants, neuroprotective vitamins, broad-spectrum cover",
+      "confirmed_pathology": "Morbillivirus demyelinating leukoencephalitis with respiratory involvement"
+    },
+    {
+      "case_id": "TC-2023-04",
+      "category": "Parasitic Infestation",
+      "condition": "Sarcoptic Mange",
+      "observed_symptoms": [
+        "patchy hair loss or alopecia",
+        "crusty or scaly skin lesions",
+        "frequent scratching or biting fur"
+      ],
+      "urgency": "Moderate Concern",
+      "field_action": "Camera trap surveillance of affected individual; assess need for remote dart-administered macrocyclic lactones",
+      "veterinary_treatment": "Ivermectin or moxidectin darting, topical or systemic antipruritics",
+      "confirmed_pathology": "Sarcoptes scabiei var. canis hyperkeratotic crusting and pruritic alopecia"
+    },
+    {
+      "case_id": "TC-2022-05",
+      "category": "Chronic Bacterial Disease",
+      "condition": "Bovine Tuberculosis (bTB)",
+      "observed_symptoms": [
+        "progressive wasting or prominent ribs",
+        "chronic coughing",
+        "extreme lethargy",
+        "sunken flanks"
+      ],
+      "urgency": "High Priority Field Intervention",
+      "field_action": "Capture and transfer to high-containment quarantine; screening of surrounding cattle populations",
+      "veterinary_treatment": "Supportive euthanasia or strict isolation under national wildlife disease guidelines",
+      "confirmed_pathology": "Mycobacterium bovis granulomatous pulmonary and thoracic lymphadenopathy"
+    },
+    {
+      "case_id": "TC-2024-06",
+      "category": "Dental Trauma",
+      "condition": "Broken Canine Tooth & Jaw Abscess",
+      "observed_symptoms": [
+        "broken or missing canines",
+        "facial swelling or lump",
+        "difficulty chewing or drooling"
+      ],
+      "urgency": "High Priority Field Intervention",
+      "field_action": "Assess hunting capacity; deploy field team to monitor prey kill frequency",
+      "veterinary_treatment": "Chemical immobilization, dental radiography, endodontic therapy or extraction, antibiotics",
+      "confirmed_pathology": "Complicated crown fracture with pulp exposure and periapical abscess"
+    },
+    {
+      "case_id": "TC-2023-07",
+      "category": "Quill Encounter",
+      "condition": "Porcupine Quill Penetration",
+      "observed_symptoms": [
+        "porcupine quills embedded",
+        "facial swelling or lump",
+        "reluctance to hunt"
+      ],
+      "urgency": "High Priority Field Intervention",
+      "field_action": "Immediate field sedation to remove barbed quills before retrograde migration into vital organs",
+      "veterinary_treatment": "Careful extraction of all quills, surgical exploration of tracts, antimicrobial flush",
+      "confirmed_pathology": "Deep retrograde porcupine quill penetration in muzzle and forepaws"
+    },
+    {
+      "case_id": "TC-2024-08",
+      "category": "Blood-Borne Parasite",
+      "condition": "Trypanosomiasis (Surra)",
+      "observed_symptoms": [
+        "fever",
+        "pale gums or anemia",
+        "jaundice",
+        "extreme lethargy",
+        "cloudy eyes or corneal opacity"
+      ],
+      "urgency": "High Priority Field Intervention",
+      "field_action": "Blood smear confirmation via remote capture or field darting; fly control at nearby waterholes",
+      "veterinary_treatment": "Diminazene diaceturate or quinapyramine administration, fluid therapy, hematinics",
+      "confirmed_pathology": "Trypanosoma evansi parasitemia with intravascular hemolysis and hepatosplenomegaly"
+    },
+    {
+      "case_id": "TC-2023-09",
+      "category": "Normal Field Baseline",
+      "condition": "Healthy Tiger at Rest",
+      "observed_symptoms": [],
+      "urgency": "Routine Monitoring",
+      "field_action": "Log in camera trap identification database; maintain routine territorial patrol",
+      "veterinary_treatment": "No medical intervention indicated",
+      "confirmed_pathology": "Healthy adult Panthera tigris in prime body condition"
+    }
+  ]
+}

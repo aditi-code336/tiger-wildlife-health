@@ -1,0 +1,909 @@
+{
+  "total_reserves": 53,
+  "source": "National Tiger Conservation Authority (NTCA) & Wildlife Institute of India (WII) 2022-2023",
+  "national_tiger_estimate_2022": 3682,
+  "minimum_tigers_counted_2022": 3167,
+  "reserves": [
+    {
+      "id": 1,
+      "name": "Nagarjunsagar Srisailam Tiger Reserve",
+      "state": "Andhra Pradesh",
+      "district": "Forest Division",
+      "coordinates": null,
+      "area_sq_km": null,
+      "notification_year": null,
+      "population_2018": null,
+      "population_2022": 63,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Kamlang Tiger Reserve",
+      "state": "Arunachal Pradesh",
+      "district": "Lohit",
+      "coordinates": "27\u00b040\u203200\u2033N, 96\u00b026\u203200\u2033E",
+      "area_sq_km": 783.0,
+      "notification_year": "2016-2017",
+      "population_2018": 4,
+      "population_2022": 1,
+      "landscape": "North East Hills and Brahmaputra Floodplains",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Namdapha Tiger Reserve",
+      "state": "Arunachal Pradesh",
+      "district": "Changlang",
+      "coordinates": "27.4455\u00b0 N, 96.5358\u00b0 E",
+      "area_sq_km": 2052.82,
+      "notification_year": "1982- 1983",
+      "population_2018": 11,
+      "population_2022": 1,
+      "landscape": "North East Hills and Brahmaputra Floodplains",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Pakke Tiger Reserve",
+      "state": "Arunachal Pradesh",
+      "district": "East Kameng",
+      "coordinates": "27.0984\u00b0 N, 92.8178\u00b0 E",
+      "area_sq_km": 1198.45,
+      "notification_year": "1999-2000",
+      "population_2018": 3,
+      "population_2022": 6,
+      "landscape": "North East Hills and Brahmaputra Floodplains",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Kaziranga Tiger Reserve",
+      "state": "Assam",
+      "district": "Golaghat, Nagaon and Sonitpur",
+      "coordinates": "26.5775\u00b0 N, 93.1711\u00b0 E",
+      "area_sq_km": 1173.58,
+      "notification_year": "2008-2009",
+      "population_2018": 104,
+      "population_2022": 104,
+      "landscape": "North East Hills and Brahmaputra Floodplains",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Manas Tiger Reserve",
+      "state": "Assam",
+      "district": "Baksa, Chirang, Kokrajhar and Udalguri",
+      "coordinates": "26\u00b043\u2032N, 90\u00b056\u2032E",
+      "area_sq_km": 2837.1,
+      "notification_year": "1973-1974",
+      "population_2018": 31,
+      "population_2022": 38,
+      "landscape": "North East Hills and Brahmaputra Floodplains",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Nameri Tiger Reserve",
+      "state": "Assam",
+      "district": "Sonitpur",
+      "coordinates": "26.9324\u00b0 N, 92.8772\u00b0 E",
+      "area_sq_km": 464.0,
+      "notification_year": "1999-2000",
+      "population_2018": 3,
+      "population_2022": 3,
+      "landscape": "North East Hills and Brahmaputra Floodplains",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Orang Tiger Reserve",
+      "state": "Assam",
+      "district": "Darrang and Sonitpur",
+      "coordinates": "26.5568148\u00b0N, 92.3279016\u00b0E",
+      "area_sq_km": 492.46,
+      "notification_year": "2016",
+      "population_2018": 21,
+      "population_2022": 28,
+      "landscape": "North East Hills and Brahmaputra Floodplains",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Valmiki Tiger Reserve",
+      "state": "Bihar",
+      "district": "Champaran",
+      "coordinates": "27\u00b010\u2019 N, 83\u00b050\u2019 E",
+      "area_sq_km": 899.38,
+      "notification_year": "1989-1990",
+      "population_2018": 32,
+      "population_2022": 54,
+      "landscape": "Shivalik Hills and Gangetic Plains",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "High"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Achanakmar Tiger Reserve",
+      "state": "Chhattisgarh",
+      "district": "Bilaspur",
+      "coordinates": "22.5052\u00b0 N, 81.7787\u00b0 E",
+      "area_sq_km": 914.01,
+      "notification_year": "2008-2009",
+      "population_2018": 5,
+      "population_2022": 5,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Indravati Tiger Reserve",
+      "state": "Chhattisgarh",
+      "district": "Dantewada, Bijapur, Bastar",
+      "coordinates": "18\u00b051\u2019 N, 80\u00b016\u2019 E",
+      "area_sq_km": 2799.07,
+      "notification_year": "1982-1983",
+      "population_2018": 3,
+      "population_2022": 1,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Udanti-Sitanadi Tiger Reserve",
+      "state": "Chhattisgarh",
+      "district": "Raipur, Gariaband and Dhamtari",
+      "coordinates": "19\u00b055\u2019 N, 80\u00b030\u2019 E",
+      "area_sq_km": 1842.54,
+      "notification_year": "2008-2009",
+      "population_2018": 1,
+      "population_2022": 1,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Palamau Tiger Reserve",
+      "state": "Jharkhand",
+      "district": "Latehar and Garhwa",
+      "coordinates": "23.6850\u00b0 N, 84.2353\u00b0 E",
+      "area_sq_km": 1129.93,
+      "notification_year": "1973-1974",
+      "population_2018": 2018,
+      "population_2022": 1,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Bandipur Tiger Reserve",
+      "state": "Karnataka",
+      "district": "Mysore and Chamarajanagar",
+      "coordinates": "11.7788\u00b0 N, 76.4647\u00b0 E",
+      "area_sq_km": 1456.3,
+      "notification_year": "1973-1974",
+      "population_2018": 126,
+      "population_2022": 150,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Bhadra Tiger Reserve",
+      "state": "Karnataka",
+      "district": "Chikkamagalur, Shimoga",
+      "coordinates": "13.6949\u00b0 N, 75.6352\u00b0 E",
+      "area_sq_km": 1064.29,
+      "notification_year": "1994-1995",
+      "population_2018": 30,
+      "population_2022": 28,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "High"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Biligiri Ranganatha Temple Tiger Reserve",
+      "state": "Karnataka",
+      "district": "Chamarajanagar",
+      "coordinates": "11\u00b043\u2019 N, 77\u00b001\u2019 E",
+      "area_sq_km": 574.82,
+      "notification_year": "2010-2011",
+      "population_2018": 52,
+      "population_2022": 39,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Dandeli-Anshi (Kali) Tiger Reserve",
+      "state": "Karnataka",
+      "district": "Uttara Kannada",
+      "coordinates": "14.9981\u00b0 N, 74.3587\u00b0 E",
+      "area_sq_km": 1097.51,
+      "notification_year": "2008-2009",
+      "population_2018": 4,
+      "population_2022": 8,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Nagarahole Tiger Reserve",
+      "state": "India",
+      "district": "Forest Division",
+      "coordinates": null,
+      "area_sq_km": null,
+      "notification_year": null,
+      "population_2018": null,
+      "population_2022": 149,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Parambikulam Tiger Reserve",
+      "state": "Kerala",
+      "district": "Palakkad, Thrissur",
+      "coordinates": "10\u00b020\u2019 N, 76\u00b035\u2019 E",
+      "area_sq_km": 643.66,
+      "notification_year": "2008-2009",
+      "population_2018": 26,
+      "population_2022": 31,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Periyar Tiger Reserve",
+      "state": "Kerala",
+      "district": "Idukki, Pathanamthitta, Kottayam",
+      "coordinates": "9\u00b017\u201956.04\u201d N, 76\u00b056\u201912.12\u201d E",
+      "area_sq_km": 925.0,
+      "notification_year": "1978-1979",
+      "population_2018": 26,
+      "population_2022": 30,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Bandhavgarh Tiger Reserve",
+      "state": "Madhya Pradesh",
+      "district": "Umaria and Katni",
+      "coordinates": "23\u00b027\u2019 N, 80\u00b044\u2019 E",
+      "area_sq_km": 1536.93,
+      "notification_year": "1993-1994",
+      "population_2018": 104,
+      "population_2022": 135,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "High"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Kanha Tiger Reserve",
+      "state": "Madhya Pradesh",
+      "district": "Mandla and Balaghat",
+      "coordinates": "22\u00b0 1' 5\" N, 80\u00b0 26' 10\"E",
+      "area_sq_km": 2051.79,
+      "notification_year": "1973-1974",
+      "population_2018": 88,
+      "population_2022": 105,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Panna Tiger Reserve",
+      "state": "Madhya Pradesh",
+      "district": "Panna and Chhatarpur",
+      "coordinates": "24\u00b017\u2019 N, 79\u00b030\u2019 E",
+      "area_sq_km": 1598.1,
+      "notification_year": "1993-1994",
+      "population_2018": 25,
+      "population_2022": 55,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Pench Tiger Reserve",
+      "state": "Madhya Pradesh",
+      "district": "Seoni, Chhindwara",
+      "coordinates": "21\u00b038\u201955 N, 79\u00b008\u201951\u201d E",
+      "area_sq_km": 1179.63,
+      "notification_year": "1992-1993",
+      "population_2018": 61,
+      "population_2022": 61,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Sanjay-Dubri Tiger Reserve",
+      "state": "Madhya Pradesh",
+      "district": "Sidhi, Shahdol",
+      "coordinates": "23\u00b048\u201924\u201d N, 81\u00b028\u201930\u201d E",
+      "area_sq_km": 1674.5,
+      "notification_year": "2008-2009",
+      "population_2018": 5,
+      "population_2022": 16,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Satpura Tiger Reserve",
+      "state": "Madhya Pradesh",
+      "district": "Hoshangabad",
+      "coordinates": "22\u00b019\u2019 N, 77\u00b053\u2019 E",
+      "area_sq_km": 2133.3,
+      "notification_year": "1999-2000",
+      "population_2018": 40,
+      "population_2022": 48,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Bor Tiger Reserve",
+      "state": "Maharashtra",
+      "district": "Nagpur, Wardha",
+      "coordinates": "20\u00b058\u203239\u2033 N, 78\u00b040\u203233\u2033 E",
+      "area_sq_km": 138.12,
+      "notification_year": "2014",
+      "population_2018": 6,
+      "population_2022": 57,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Melghat Tiger Reserve",
+      "state": "Maharashtra",
+      "district": "Amravati, Buldhana and Akola",
+      "coordinates": "21.4060\u00b0 N, 77.1485\u00b0 E",
+      "area_sq_km": 2768.52,
+      "notification_year": "1973-1974",
+      "population_2018": 46,
+      "population_2022": 57,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Nawegaon-Nagzira Tiger Reserve",
+      "state": "Maharashtra",
+      "district": "Gondia and Bhandara",
+      "coordinates": "20\u00b0 56\u2032 0\u2033 N, 80\u00b0 10\u2032 0\u2033 E",
+      "area_sq_km": 1894.94,
+      "notification_year": "2013-2014",
+      "population_2018": 6,
+      "population_2022": 11,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Pench Tiger Reserve",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "coordinates": "21\u00b004\u201915\u201d N, 79\u00b004\u201910\u201d E",
+      "area_sq_km": 741.22,
+      "notification_year": "1998-1999",
+      "population_2018": 53,
+      "population_2022": 53,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Sahyadri Tiger Reserve",
+      "state": "Maharashtra",
+      "district": "Satara, Sangli, Kolhapur and Ratnagiri",
+      "coordinates": "16\u00b058\u2019 N, 73\u00b033\u2019 E",
+      "area_sq_km": 1165.57,
+      "notification_year": "2009-2010",
+      "population_2018": 3,
+      "population_2022": 0,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Tadoba-Andhari Tiger Reserve",
+      "state": "Maharashtra",
+      "district": "Umaria and Katni",
+      "coordinates": "23\u00b027\u2019 N, 80\u00b044\u2019 E",
+      "area_sq_km": 1598.1,
+      "notification_year": "1993-1994",
+      "population_2018": 83,
+      "population_2022": 115,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Dampa Tiger Reserve",
+      "state": "Mizoram",
+      "district": "Mamit",
+      "coordinates": "23\u00b020\u201955\u201d N, 92\u00b016\u201908\u201d E",
+      "area_sq_km": 988.0,
+      "notification_year": "1994-1995",
+      "population_2018": 2018,
+      "population_2022": 0,
+      "landscape": "North East Hills and Brahmaputra Floodplains",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Satkosia Tiger Reserve",
+      "state": "Odisha",
+      "district": "Angul, Cuttack, Boudh and Nayagarh",
+      "coordinates": "20\u00b025\u201912\u201d N, 84\u00b040\u201920\u201d E",
+      "area_sq_km": 963.87,
+      "notification_year": "2008-2009",
+      "population_2018": 1,
+      "population_2022": 0,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Similipal Tiger Reserve",
+      "state": "Odisha",
+      "district": "Mayurbhanj",
+      "coordinates": "22\u00b0 34\u2019 N,  87\u00b0 10\u2019 E",
+      "area_sq_km": 2750.0,
+      "notification_year": "1973-1974",
+      "population_2018": 8,
+      "population_2022": 16,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Mukandra Hills Tiger Reserve",
+      "state": "Rajasthan",
+      "district": "Kota, Budi, Chittorgarh, Jhalawar",
+      "coordinates": "24\u00b038\u2019 N, 75\u00b026\u2019 E",
+      "area_sq_km": 759.99,
+      "notification_year": "2013-2014",
+      "population_2018": 1,
+      "population_2022": 1,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Ramgarh Vishdhari Tiger Reserve",
+      "state": "Rajasthan",
+      "district": "Bindi",
+      "coordinates": "25\u00b0 59\u20190\u201d N, 75\u00b019\u20190\u201d E",
+      "area_sq_km": 1501.89,
+      "notification_year": "2022",
+      "population_2018": null,
+      "population_2022": 1,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Ranthambore Tiger Reserve",
+      "state": "India",
+      "district": "Forest Division",
+      "coordinates": null,
+      "area_sq_km": null,
+      "notification_year": null,
+      "population_2018": null,
+      "population_2022": 57,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Sariska Tiger Reserve",
+      "state": "Rajasthan",
+      "district": "Alwar",
+      "coordinates": "27\u00b038\u201955\u201d N, 76\u00b032\u201931\u201d E",
+      "area_sq_km": 1213.34,
+      "notification_year": "1978-1979",
+      "population_2018": 11,
+      "population_2022": 19,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Anamalai Tiger Reserve",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore, Tiruppur, Dindigul",
+      "coordinates": "10\u00b013.2\u2019 N, 76\u00b049.3\u2019 E",
+      "area_sq_km": 1479.87,
+      "notification_year": "2008-2009",
+      "population_2018": 20,
+      "population_2022": 26,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Kalakad-Mundanthurai Tiger Reserve",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "coordinates": "8.6883\u00b0 N, 77.3095\u00b0 E",
+      "area_sq_km": 1601.45,
+      "notification_year": "1988-1989",
+      "population_2018": 7,
+      "population_2022": 5,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "High"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Mudumalai Tiger Reserve",
+      "state": "Tamil Nadu",
+      "district": "Nilgiri",
+      "coordinates": "11\u00b031\u201954.9\u201d N, 76\u00b021\u201928.9\u201d E",
+      "area_sq_km": 688.59,
+      "notification_year": "2008-2009",
+      "population_2018": 103,
+      "population_2022": 114,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Sathyamangalam Tiger Reserve",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "coordinates": "11\u00b029\u201915\u201d N, 76\u00b050\u2019 E",
+      "area_sq_km": 1408.4,
+      "notification_year": "2013-2014",
+      "population_2018": 83,
+      "population_2022": 85,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Srivilliputhur Megamalai Tiger Reserve",
+      "state": "Tamil Nadu",
+      "district": "Virudhunagar, Madurai and Theni.",
+      "coordinates": "9.5904\u00b0 N, 77.4321\u00b0 E",
+      "area_sq_km": 1016.57,
+      "notification_year": "2020-2021",
+      "population_2018": 19,
+      "population_2022": 12,
+      "landscape": "Western Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Amrabad Tiger Reserve",
+      "state": "Telangana",
+      "district": "Mahabubnagar, Nalgoda",
+      "coordinates": "16.3557\u00b0 N, 78.8335\u00b0 E",
+      "area_sq_km": 2611.39,
+      "notification_year": "2014-2015",
+      "population_2018": 7,
+      "population_2022": 21,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Kawal Tiger Reserve",
+      "state": "Telangana",
+      "district": "Adilabad",
+      "coordinates": "18\u00b059\u2019 N, 79\u00b015\u2019 E",
+      "area_sq_km": 2015.44,
+      "notification_year": "2012-2013",
+      "population_2018": 1,
+      "population_2022": 0,
+      "landscape": "Central Indian Landscape and Eastern Ghats",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Dudhwa Tiger Reserve",
+      "state": "Uttar Pradesh",
+      "district": "Lakhimpur-Kheri",
+      "coordinates": "28\u00b0 N to 28\u00b042\u2019 N, 80\u00b0 E to 81\u00b019\u2019 E",
+      "area_sq_km": 2201.77,
+      "notification_year": "1987-1988",
+      "population_2018": 82,
+      "population_2022": 153,
+      "landscape": "Shivalik Hills and Gangetic Plains",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Pilibhit Tiger Reserve",
+      "state": "Uttar Pradesh",
+      "district": "Pilibhit, Shahjehanpur",
+      "coordinates": "Latitude: 28\u00b08\u201900\u201d N, 79\u00b053\u201902\u201d E",
+      "area_sq_km": 730.24,
+      "notification_year": "2014",
+      "population_2018": 57,
+      "population_2022": 63,
+      "landscape": "Shivalik Hills and Gangetic Plains",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Ranipur Tiger Reserve",
+      "state": "Uttar Pradesh",
+      "district": "Chitrakoot",
+      "coordinates": "25.2513\u00b0 N, 79.0617\u00b0 E",
+      "area_sq_km": 529.36,
+      "notification_year": "2022-2023",
+      "population_2018": 3,
+      "population_2022": 1,
+      "landscape": "Shivalik Hills and Gangetic Plains",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Corbett Tiger Reserve",
+      "state": "Uttarakhand",
+      "district": "Pauri and Nainital",
+      "coordinates": "29.5300\u00b0 N, 78.7747\u00b0 E",
+      "area_sq_km": 520.86,
+      "notification_year": "1973-1974",
+      "population_2018": 231,
+      "population_2022": 319,
+      "landscape": "Shivalik Hills and Gangetic Plains",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Rajaji Tiger Reserve",
+      "state": "Uttarakhand",
+      "district": "Haridwar, Pauri Garhwal and Dehradun",
+      "coordinates": "30\u00b003\u203229\u2033N, 78\u00b010\u203222\u2033E",
+      "area_sq_km": 1075.17,
+      "notification_year": "2015",
+      "population_2018": 38,
+      "population_2022": 43,
+      "landscape": "Shivalik Hills and Gangetic Plains",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 52,
+      "name": "Buxa Tiger Reserve",
+      "state": "West Bengal",
+      "district": "Jalpaiguri",
+      "coordinates": "26\u00b030\u2019 N, 89\u00b020\u2019 E",
+      "area_sq_km": 757.9,
+      "notification_year": "1982-1983",
+      "population_2018": 2018,
+      "population_2022": 1,
+      "landscape": "North East Hills and Brahmaputra Floodplains",
+      "threat_profile": {
+        "poaching_risk": "High",
+        "human_conflict_risk": "Moderate",
+        "canine_distemper_risk": "Moderate"
+      }
+    },
+    {
+      "id": 53,
+      "name": "Sundarbans Tiger Reserve",
+      "state": "West Bengal",
+      "district": "South 24 Parganas",
+      "coordinates": "21.9497 N, 88.8999 E",
+      "area_sq_km": 2585.0,
+      "notification_year": "1973-1974",
+      "population_2018": 88,
+      "population_2022": 100,
+      "landscape": "Sundarbans",
+      "threat_profile": {
+        "poaching_risk": "Moderate",
+        "human_conflict_risk": "High",
+        "canine_distemper_risk": "Moderate"
+      }
+    }
+  ]
+}
