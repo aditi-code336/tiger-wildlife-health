@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: tiger-wildlife-health
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: "8001"
+      - key: PYTHONUNBUFFERED
+        value: "1"

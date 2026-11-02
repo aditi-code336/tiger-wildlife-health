@@ -18,7 +18,7 @@ COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application backend, frontend, models, and metadata
-COPY app.py index.html tiger_diagnostics.py train_photo_nn.py preprocess.py /app/
+COPY app.py index.html tiger_diagnostics.py train_photo_nn.py preprocess.py model.joblib /app/
 COPY models/ /app/models/
 COPY data/prepared_data/ /app/data/prepared_data/
 COPY data/predictions.db /app/data/predictions.db
@@ -29,7 +29,7 @@ EXPOSE 8001
 
 # Container healthcheck
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
-    CMD curl -f http://localhost:8001/health || exit 1
+    CMD curl -f http://localhost:${PORT:-8001}/health || exit 1
 
-# Start Uvicorn server
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8001"]
+# Start Uvicorn server (respects $PORT environment variable on Render, Hugging Face, or local docker)
+CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port ${PORT:-8001}"]
